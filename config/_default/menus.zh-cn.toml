@@ -1,0 +1,39 @@
+[[main]]
+name = "文章"
+weight = 10
+
+[[main]]
+  parent = "文章"
+  name = "所有文章"
+  pageRef = "posts"
+  weight = 101
+
+[[main]]
+  parent = "文章"
+  name = "主题系列"
+  pageRef = "topics"
+  weight = 102
+
+
+[[main]]
+parent = "文章"
+name = "标签"
+pageRef = "tags"
+wegiht = 103
+
+[[main]]
+  name = "分类"
+  weight = 11
+
+[[main]]
+  parent = "分类"
+  pageRef = "categories/技术"
+  name = "技术"
+  weight = 111
+
+
+[[main]]
+name = "Github"
+pre = 'github'
+url = 'https://github.com/uberate'
+weight = 50 
