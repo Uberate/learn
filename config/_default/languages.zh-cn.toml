@@ -2,12 +2,12 @@
 
 
 [params.author]
-  name = "Your name here???"
-  email = "youremail@example.com"
+  name = "ub(s)erate"
+# email = "youremail@example.com"
   image = "img/author_icon.jpeg"
   imageQuality = 96
-  headline = "I'm only human"
-  bio = "A little bit about you"
+# headline = "I'm only human"
+# bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },

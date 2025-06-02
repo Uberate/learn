@@ -1,0 +1,59 @@
+{{ $url := .Get "url" }}
+{{ $fullUrl := printf "https://raw.githubusercontent.com/uberate/learn/main/%s" $url }}
+{{ $type := .Get "type" | default (path.Ext $url | strings.TrimPrefix ".") }}
+{{ $startLine := .Get "startLine" | default 1 | int }}
+{{ $startLine = sub $startLine 1 }}
+{{ $endLine := .Get "endLine" | default -1 | int }}
+{{ $selectedLines := slice -}}
+
+
+
+
+{{/*  <a href="{{ $fullUrl}}" style="color: grey; font-size: 12px;"> Github: {{$fullUrl}} </a>  */}}
+{{ if hugo.IsProduction }}
+{{ with resources.GetRemote (urls.Parse $fullUrl) }}
+{{ $lines := split .Content "\n" }}
+{{ $totalLine := $lines | len }}
+
+{{ if ne $endLine -1 }}
+{{ $endLine = math.Min $endLine $totalLine }}
+{{ else }}
+{{ $endLine = $totalLine }}
+{{ end }}
+
+{{ if gt $startLine $endLine }}
+{{ errorf "Code Importer Shortcode - startLine is greater than endLine" . }}
+{{ end }}
+
+{{ $selectedLines := first $endLine $lines }}
+{{ $selectedLines = after $startLine $selectedLines }}
+{{ $codeBlock := printf "```%s\n%s\n```" $type (delimit $selectedLines "\n") }}
+{{ $codeBlock | markdownify }}
+{{ else }}
+{{ errorf "Code Importer Shortcode - Unable to get remote resource" . }}
+{{ end }}
+
+{{ else }}
+
+{{ with readFile $url}}
+{{ $lines := split . "\n" }}
+{{ $totalLine := $lines | len }}
+
+{{ if ne $endLine -1 }}
+{{ $endLine = math.Min $endLine $totalLine }}
+{{ else }}
+{{ $endLine = $totalLine }}
+{{ end }}
+
+{{ if gt $startLine $endLine }}
+{{ errorf "Code Importer Shortcode - startLine is greater than endLine" . }}
+{{ end }}
+
+{{ $selectedLines := first $endLine $lines }}
+{{ $selectedLines = after $startLine $selectedLines }}
+{{ $codeBlock := printf "```%s\n%s\n```" $type (delimit $selectedLines "\n") }}
+{{ $codeBlock | markdownify }}
+{{ else }}
+{{ errorf "Code Importer Shortcode - Unable to get remote resource" . }}
+{{ end }}
+{{ end }}
