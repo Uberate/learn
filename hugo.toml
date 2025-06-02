@@ -18,6 +18,7 @@ enableCodeCopy = true
 [params.article]
 showBreadcrumbs = true
 showTaxonomies = true
+showTableOfContents = true
 
 [params.homepage]
 layout = "card"
