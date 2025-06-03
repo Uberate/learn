@@ -3,15 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-06-03T22:38:02+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/tech/network/base/</loc>
+    <lastmod>2025-06-03T22:38:02+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-03T00:08:00+08:00</lastmod>
+    <lastmod>2025-06-03T00:23:50+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/posts/ln/go/channel/</loc>
-    <lastmod>2025-06-03T00:18:15+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-06-03T00:18:15+08:00</lastmod>
   </url>
 </urlset>

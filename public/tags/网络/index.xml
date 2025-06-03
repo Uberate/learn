@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网络 on Learn / Ub(s)erate</title>
+    <link>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C/</link>
+    <description>Recent content in 网络 on Learn / Ub(s)erate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 ub(s)erate</copyright>
+    <lastBuildDate>Tue, 03 Jun 2025 22:38:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>网络基础</title>
+      <link>http://localhost:1313/posts/tech/network/base/</link>
+      <pubDate>Tue, 03 Jun 2025 22:38:02 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/tech/network/base/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;网络基础 
+    &lt;div id=&#34;网络基础&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%bd%91%e7%bb%9c%e5%9f%ba%e7%a1%80&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;计算机时代，不论是什么原因，我们都应该了解熟悉网络相关知识。&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;网络 7 层标准模型 
+    &lt;div id=&#34;网络-7-层标准模型&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%bd%91%e7%bb%9c-7-%e5%b1%82%e6%a0%87%e5%87%86%e6%a8%a1%e5%9e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;自上而下
+&lt;/br&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;#&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;名&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;常见协议&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;应用层(Application Layer)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;- &lt;code&gt;HTTP&lt;/code&gt;  - &lt;code&gt;FTP&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;直接为用户的应用程序提供服务&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol&gt;
+&lt;li&gt;应用层(Application Layer)&lt;/li&gt;
+&lt;li&gt;表示层(Presentation Layer)&lt;/li&gt;
+&lt;li&gt;会话层(Session Layer)&lt;/li&gt;
+&lt;li&gt;传输层(Transport Layer)&lt;/li&gt;
+&lt;li&gt;网络层(Network Layer)&lt;/li&gt;
+&lt;li&gt;数据链路层(Data Link Layer)&lt;/li&gt;
+&lt;li&gt;物理层(Physical Layer)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt; 
+    &lt;div id=&#34;&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
