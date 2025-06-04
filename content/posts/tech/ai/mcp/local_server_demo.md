@@ -139,5 +139,7 @@ npx @modelcontextprotocol/inspector mcp run local_server.py
 
 可以看到我们的 TOOL 已经可以正常使用了。
 
+{{< github repo="Uberate/lear-mcp" >}}
+
 # 参考引用
 - [https://modelcontextprotocol.io/quickstart/server](https://modelcontextprotocol.io/quickstart/server)

@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Learn / Ub(s)erate</title>
-    <link>http://localhost:56529/tags/</link>
+    <link>http://localhost:65129/tags/</link>
     <description>Recent content in Tags on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Wed, 04 Jun 2025 22:39:13 +0800</lastBuildDate><atom:link href="http://localhost:56529/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jun 2025 22:39:13 +0800</lastBuildDate><atom:link href="http://localhost:65129/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AI</title>
-      <link>http://localhost:56529/tags/ai/</link>
+      <link>http://localhost:65129/tags/ai/</link>
       <pubDate>Wed, 04 Jun 2025 22:39:13 +0800</pubDate>
       
-      <guid>http://localhost:56529/tags/ai/</guid>
+      <guid>http://localhost:65129/tags/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MCP</title>
-      <link>http://localhost:56529/tags/mcp/</link>
+      <link>http://localhost:65129/tags/mcp/</link>
       <pubDate>Wed, 04 Jun 2025 22:39:13 +0800</pubDate>
       
-      <guid>http://localhost:56529/tags/mcp/</guid>
+      <guid>http://localhost:65129/tags/mcp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>IpTables</title>
-      <link>http://localhost:56529/tags/iptables/</link>
+      <link>http://localhost:65129/tags/iptables/</link>
       <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
       
-      <guid>http://localhost:56529/tags/iptables/</guid>
+      <guid>http://localhost:65129/tags/iptables/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>容器</title>
-      <link>http://localhost:56529/tags/%E5%AE%B9%E5%99%A8/</link>
+      <link>http://localhost:65129/tags/%E5%AE%B9%E5%99%A8/</link>
       <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
       
-      <guid>http://localhost:56529/tags/%E5%AE%B9%E5%99%A8/</guid>
+      <guid>http://localhost:65129/tags/%E5%AE%B9%E5%99%A8/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>网络</title>
-      <link>http://localhost:56529/tags/%E7%BD%91%E7%BB%9C/</link>
+      <link>http://localhost:65129/tags/%E7%BD%91%E7%BB%9C/</link>
       <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
       
-      <guid>http://localhost:56529/tags/%E7%BD%91%E7%BB%9C/</guid>
+      <guid>http://localhost:65129/tags/%E7%BD%91%E7%BB%9C/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://localhost:56529/tags/go/</link>
+      <link>http://localhost:65129/tags/go/</link>
       <pubDate>Mon, 02 Jun 2025 19:10:41 +0800</pubDate>
       
-      <guid>http://localhost:56529/tags/go/</guid>
+      <guid>http://localhost:65129/tags/go/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ln</title>
-      <link>http://localhost:56529/tags/ln/</link>
+      <link>http://localhost:65129/tags/ln/</link>
       <pubDate>Mon, 02 Jun 2025 19:10:41 +0800</pubDate>
       
-      <guid>http://localhost:56529/tags/ln/</guid>
+      <guid>http://localhost:65129/tags/ln/</guid>
       <description></description>
       
     </item>
