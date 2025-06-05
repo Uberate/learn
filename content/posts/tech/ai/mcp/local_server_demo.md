@@ -67,7 +67,7 @@ uv add "mcp[cli]"
 touch local_server.py
 ```
 
-![项目目录](/img/tech/ai/mcp/local_server_demo/project_layout.png "项目目录")
+![项目目录](/learn/img/tech/ai/mcp/local_server_demo/project_layout.png "项目目录")
 
 ---
 
@@ -131,11 +131,11 @@ npx @modelcontextprotocol/inspector mcp run local_server.py
 ```
 
 他会返回一个代理地址:
-![UI](/img/tech/ai/local_server_demo/open_inspect.png "WEB UI Inspect")
+![UI](/learn/img/tech/ai/local_server_demo/open_inspect.png "WEB UI Inspect")
 
 在浏览器打开后，按照如下顺序点击:
 
-![WEB_INSPECT_CONNECT](/img/tech/ai/local_server_demo/web.png)
+![WEB_INSPECT_CONNECT](/learn/img/tech/ai/local_server_demo/web.png)
 
 可以看到我们的 TOOL 已经可以正常使用了。
 

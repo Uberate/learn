@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=65129&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head><script src="/learn/livereload.js?mindelay=10&amp;v=2&amp;port=59923&amp;path=learn/livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="zh-cn" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="ln, go, " />
   
   
-  <link rel="canonical" href="http://localhost:65129/posts/ln/go/channel/" />
+  <link rel="canonical" href="http://localhost:59923/learn/posts/ln/go/channel/" />
   
   
   
@@ -26,11 +26,11 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.5f8f4777872a0d3d0d40b3754a43f54f29ae82af8e7ee8b8cb972495c44f0d770b15cd4194b7a49bc85950ac492768c127b305a57fc92ed77bf7e230fb6530a4.css"
+  <link type="text/css" rel="stylesheet" href="/learn/css/main.bundle.min.5f8f4777872a0d3d0d40b3754a43f54f29ae82af8e7ee8b8cb972495c44f0d770b15cd4194b7a49bc85950ac492768c127b305a57fc92ed77bf7e230fb6530a4.css"
     integrity="sha512-X49Hd4cqDT0NQLN1SkP1Tymugq&#43;Ofui4y5cklcRPDXcLFc1BlLekm8hZUKxJJ2jBJ7MFpX/JLtd79&#43;Iw&#43;2UwpA==" />
   
   
-  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+  <script type="text/javascript" src="/learn/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
     integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
   
   
@@ -43,28 +43,28 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.165327e9b2a9a8807ad5cb6c943a8f9a52756791c128e2dbfb3623bb42429636adb4bbb076b0447b592cad02914321a6aef0db10b907465de34fda41e2830281.js"
+  <script defer type="text/javascript" id="script-bundle" src="/learn/js/main.bundle.min.165327e9b2a9a8807ad5cb6c943a8f9a52756791c128e2dbfb3623bb42429636adb4bbb076b0447b592cad02914321a6aef0db10b907465de34fda41e2830281.js"
     integrity="sha512-FlMn6bKpqIB61ctslDqPmlJ1Z5HBKOLb&#43;zYju0JCljattLuwdrBEe1ksrQKRQyGmrvDbELkHRl3jT9pB4oMCgQ==" data-copy="复制" data-copied="已复制"></script>
   
   
   
-  <script src="/lib/zoom/zoom.min.f592a181a15d2a5b042daa7f746c3721acf9063f8b6acd175d989129865a37d400ae0e85b640f9ad42cd98d1f8ad30931718cf8811abdcc5fcb264400d1a2b0c.js" integrity="sha512-9ZKhgaFdKlsELap/dGw3Iaz5Bj&#43;Las0XXZiRKYZaN9QArg6FtkD5rULNmNH4rTCTFxjPiBGr3MX8smRADRorDA=="></script>
+  <script src="/learn/lib/zoom/zoom.min.f592a181a15d2a5b042daa7f746c3721acf9063f8b6acd175d989129865a37d400ae0e85b640f9ad42cd98d1f8ad30931718cf8811abdcc5fcb264400d1a2b0c.js" integrity="sha512-9ZKhgaFdKlsELap/dGw3Iaz5Bj&#43;Las0XXZiRKYZaN9QArg6FtkD5rULNmNH4rTCTFxjPiBGr3MX8smRADRorDA=="></script>
   
   
   
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  
-  
-  
-  
+  <link rel="apple-touch-icon" sizes="180x180" href="/learn/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/learn/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/learn/favicon-16x16.png" />
+  <link rel="manifest" href="/learn/site.webmanifest" />
   
   
   
   
-  <meta property="og:url" content="http://localhost:65129/posts/ln/go/channel/">
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:59923/learn/posts/ln/go/channel/">
   <meta property="og:site_name" content="Learn / Ub(s)erate">
   <meta property="og:title" content="GO Channel 的空值特性">
   <meta property="og:description" content="Golang Channel nil # Channel 在空值的时候会有特殊的行为。
@@ -98,7 +98,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
     
     "abstract": "\u003ch1 class=\u0022relative group\u0022\u003eGolang Channel nil \n    \u003cdiv id=\u0022golang-channel-nil\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#golang-channel-nil\u0022 aria-label=\u0022锚点\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h1\u003e\n\u003cp\u003eChannel 在空值的时候会有特殊的行为。\u003c\/p\u003e\n\u003cp\u003e与大多数的数据类型不同，Channel 在 \u003ccode\u003enil\u003c\/code\u003e 的情况下进行读写会发生线程阻塞，而不是空指针异常。\u003c\/p\u003e\n\n\u003ch2 class=\u0022relative group\u0022\u003eReadNil \n    \u003cdiv id=\u0022readnil\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#readnil\u0022 aria-label=\u0022锚点\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h2\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003cdiv class=\u0022highlight\u0022\u003e\u003cpre tabindex=\u00220\u0022 style=\u0022color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\u0022\u003e\u003ccode class=\u0022language-go\u0022 data-lang=\u0022go\u0022\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#f92672\u0022\u003epackage\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003emain\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#66d9ef\u0022\u003efunc\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003emain\u003c\/span\u003e() {\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\t\u003cspan style=\u0022color:#66d9ef\u0022\u003evar\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003enilCh\u003c\/span\u003e \u003cspan style=\u0022color:#66d9ef\u0022\u003echan\u003c\/span\u003e \u003cspan style=\u0022color:#66d9ef\u0022\u003estruct\u003c\/span\u003e{} = \u003cspan style=\u0022color:#66d9ef\u0022\u003enil\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\t\u003cspan style=\u0022color:#f92672\u0022\u003e\u0026lt;-\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003enilCh\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e}\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ STDOUT\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ fatal error: all goroutines are asleep - deadlock!\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ goroutine 1 [chan receive (nil chan)]:\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ main.main()\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/         \/learn\/codes\/go\/channel\/readnil\/read_nil_channel.go:5 \u002b0x24\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ exit status 2\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003c\/code\u003e\u003c\/pre\u003e\u003c\/div\u003e\n\n\n\n\u003ch2 class=\u0022relative group\u0022\u003eWriteNil \n    \u003cdiv id=\u0022writenil\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#writenil\u0022 aria-label=\u0022锚点\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h2\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003cdiv class=\u0022highlight\u0022\u003e\u003cpre tabindex=\u00220\u0022 style=\u0022color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\u0022\u003e\u003ccode class=\u0022language-go\u0022 data-lang=\u0022go\u0022\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#f92672\u0022\u003epackage\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003emain\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#66d9ef\u0022\u003efunc\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003emain\u003c\/span\u003e() {\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\t\u003cspan style=\u0022color:#66d9ef\u0022\u003evar\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003enilCh\u003c\/span\u003e \u003cspan style=\u0022color:#66d9ef\u0022\u003echan\u003c\/span\u003e \u003cspan style=\u0022color:#66d9ef\u0022\u003estruct\u003c\/span\u003e{} = \u003cspan style=\u0022color:#66d9ef\u0022\u003enil\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\t\u003cspan style=\u0022color:#a6e22e\u0022\u003enilCh\u003c\/span\u003e \u003cspan style=\u0022color:#f92672\u0022\u003e\u0026lt;-\u003c\/span\u003e \u003cspan style=\u0022color:#66d9ef\u0022\u003estruct\u003c\/span\u003e{}{}\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e}\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ STDOUT\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ fatal error: all goroutines are asleep - deadlock!\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ goroutine 1 [chan send (nil chan)]:\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ main.main()\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/         \/Users\/uberate\/workspace\/learn\/codes\/go\/channel\/writenil\/write_nil_channel.go:5 \u002b0x24\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ exit status 2\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003c\/code\u003e\u003c\/pre\u003e\u003c\/div\u003e\n\n\n\u003cp\u003e执行上述两个代码我们发现了一个现象，\u003ccode\u003enil\u003c\/code\u003e 状态下的 Channel 是无法读写的，会一直阻塞。\u003c\/p\u003e",
     "inLanguage": "zh-cn",
-    "url" : "http:\/\/localhost:65129\/posts\/ln\/go\/channel\/",
+    "url" : "http:\/\/localhost:59923\/learn\/posts\/ln\/go\/channel\/",
     "author" : {
       "@type": "Person",
       "name": "ub(s)erate"
@@ -124,7 +124,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
   
   
 
-<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+<script src="/learn/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
 
 
 
@@ -176,7 +176,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Learn / Ub(s)erate</a>
+            <a href="/learn/" class="text-base font-medium text-gray-500 hover:text-gray-900">Learn / Ub(s)erate</a>
             
 
         </nav>
@@ -217,7 +217,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         
-        <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        <a href="/learn/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
           <p class="text-sm font-sm" title="Posts">
             所有文章
@@ -231,7 +231,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
           </p>
         </a>
         
-        <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        <a href="/learn/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
           <p class="text-sm font-sm" title="Tags">
             标签
@@ -279,7 +279,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         
-        <a href="/categories/%E6%8A%80%E6%9C%AF/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        <a href="/learn/categories/%E6%8A%80%E6%9C%AF/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
           <p class="text-sm font-sm" title="技术">
             技术
@@ -480,7 +480,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
 </li>
 
 <li class="mt-1">
-    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/learn/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-sm font-small" title="Posts">
             所有文章
@@ -498,7 +498,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
 </li>
 
 <li class="mt-1">
-    <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/learn/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-sm font-small" title="Tags">
             标签
@@ -545,7 +545,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
 </li>
 
 <li class="mt-1">
-    <a href="/categories/%E6%8A%80%E6%9C%AF/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/learn/categories/%E6%8A%80%E6%9C%AF/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-sm font-small" title="技术">
             技术
@@ -620,7 +620,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/"
+      href="/learn/"
       >努力做正确的事</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
@@ -629,7 +629,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
   <li class="inline">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/"
+      href="/learn/posts/"
       >Posts</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
@@ -638,7 +638,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/ln/go/channel/"
+      href="/learn/posts/ln/go/channel/"
       >GO Channel 的空值特性</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
@@ -709,7 +709,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/%E6%8A%80%E6%9C%AF/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E6%8A%80%E6%9C%AF/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     技术
@@ -723,7 +723,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ln/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/ln/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Ln
@@ -731,7 +731,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/go/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/go/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Go
@@ -776,7 +776,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="ub(s)erate" src="/img/author_icon_hu_bddbf089040c5808.jpeg" />
+      alt="ub(s)erate" src="/learn/img/author_icon_hu_bddbf089040c5808.jpeg" />
     
   
   <div class="place-self-center">
@@ -1059,7 +1059,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
       </script>
       
       
-      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      <script type="text/javascript" src="/learn/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
       
   
     </section>
@@ -1078,7 +1078,7 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
         </span>
         <span>
           
-            <a class="flex text-right group ml-3" href="/posts/tech/network/base/">
+            <a class="flex text-right group ml-3" href="/learn/posts/tech/network/base/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
@@ -1156,14 +1156,14 @@ ReadNil # package main func main() { var nilCh chan struct{} = nil &lt;- nilCh }
   </script>
   
   
-  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  <script type="text/javascript" src="/learn/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
 </footer>
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:65129/"
+  data-url="http://localhost:59923/learn/"
   style="z-index:500"
 >
   <div
