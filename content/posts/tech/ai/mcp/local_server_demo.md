@@ -7,6 +7,10 @@ categories = ['技术']
 
 这篇文章将带你创建一个简单的 MCP Local Server 服务。
 
+代码已经放到我的 Github 仓库里面了：
+
+{{< github repo="Uberate/lear-mcp" >}}
+
 > 需要注意，不同的操作系统的准备工作是不同的，详细的信息可以访问 [https://modelcontextprotocol.io/quickstart/server](https://modelcontextprotocol.io/quickstart/server) 了解
 > 我的环境是 `MAC` 的操作系统。
 
@@ -139,7 +143,55 @@ npx @modelcontextprotocol/inspector mcp run local_server.py
 
 可以看到我们的 TOOL 已经可以正常使用了。
 
-{{< github repo="Uberate/lear-mcp" >}}
+### 6. 配置 Cursor
+
+笔者这里使用的是 `cursor` 所以这里把 MCP 配置到 Cursor 进行一次验证。
+
+方式比较简单，在项目的根目录下执行一下指令:
+```bash
+# repo root
+mkdir .cursor
+cat << EOF > .cursor/mcp.json
+{
+    "mcpServers": {
+        "local_server": {
+            "command": "./mcp_local_server_demo/.venv/bin/mcp",
+            "args": [
+                "run",
+                "./mcp_local_server_demo/local_server.py"
+            ]
+        }
+    }
+}
+EOF
+```
+> 这里配置的项目级别的 MCP。
+
+然后打开 cursor 的配置页面:
+![Cursor config](/learn/img/tech/ai/local_server_demo/cursor_config.png)
+可以看到这个 MCP 提供了一个名为 `pp` 的 tools。
+
+打开 `cursor` 的对话框，输入：
+```bash
+# 输入
+用PP 检查一下我的网络状态。
+
+# Cursor 响应：
+根据PP工具的检测结果，您的网络状态如下：
+✅ www.baidu.com - 153.44ms（正常）
+❌ www.google.com - 超时（无法访问）
+✅ www.github.com - 235.94ms（正常，但响应稍慢）
+✅ www.bilibili.com - 147.43ms（正常）
+总结：
+您的网络连接基本正常
+国内网站（百度、B站）访问速度良好
+Google网站无法访问，可能是网络环境限制
+GitHub可以访问但响应时间较长
+网络整体状况良好，只是部分海外网站访问受限。
+```
+
+![](/learn/img/tech/ai/local_server_demo/cursor_call_result.png)
+
 
 # 参考引用
 - [https://modelcontextprotocol.io/quickstart/server](https://modelcontextprotocol.io/quickstart/server)
