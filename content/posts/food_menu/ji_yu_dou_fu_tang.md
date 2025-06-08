@@ -1,6 +1,5 @@
 +++
 date = '2025-06-08T14:10:40+08:00'
-draft = true
 title = '鲫鱼豆腐汤'
 categories=["菜谱"]
 tags=["汤", "鱼","豆腐"]

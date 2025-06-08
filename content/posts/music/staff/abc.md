@@ -1,6 +1,5 @@
 +++
 date = '2025-06-07T01:28:17+08:00'
-draft = true
 title = 'Abc 记谱法'
 categories=['音乐']
 tags = ['abc']
