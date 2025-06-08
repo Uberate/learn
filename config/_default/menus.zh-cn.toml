@@ -31,6 +31,18 @@ wegiht = 103
   name = "技术"
   weight = 111
 
+[[main]]
+  parent = "分类"
+  pageRef = "categories/音乐"
+  name = "音乐"
+  weight = 112
+
+[[main]]
+  parent = "分类"
+  pageRef = "categories/菜谱"
+  name = "菜谱"
+  weight = 113
+
 
 [[main]]
 name = "Github"
