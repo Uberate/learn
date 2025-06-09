@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>短篇阅读 on Learn / Ub(s)erate</title>
+    <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
+    <description>Recent content in 短篇阅读 on Learn / Ub(s)erate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 ub(s)erate</copyright>
+    <lastBuildDate>Mon, 09 Jun 2025 22:08:10 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>读 《The Who Cares Era》</title>
+      <link>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</link>
+      <pubDate>Mon, 09 Jun 2025 22:08:10 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 《&lt;a href=&#34;https://dansinker.com/posts/2025-05-23-who-cares/&#34; target=&#34;_blank&#34;&gt;The Who Cares Era&lt;/a&gt;》&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

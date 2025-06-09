@@ -4,7 +4,11 @@
 
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-06-08T14:34:15+08:00</lastmod>
+    <lastmod>2025-06-09T22:08:10+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</loc>
+    <lastmod>2025-06-09T22:08:10+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/ji_yu_dou_fu_tang/</loc>
@@ -20,7 +24,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/tech/ai/mcp/local_server_demo/</loc>
-    <lastmod>2025-06-05T23:13:20+08:00</lastmod>
+    <lastmod>2025-06-08T14:59:19+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/tech/network/container_network_iptables/</loc>

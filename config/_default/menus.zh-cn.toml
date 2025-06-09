@@ -43,6 +43,11 @@ wegiht = 103
   name = "菜谱"
   weight = 113
 
+[[main]]
+  parent = "分类"
+  pageRef = "categories/阅读"
+  name = "阅读"
+  weight = 114
 
 [[main]]
 name = "Github"
