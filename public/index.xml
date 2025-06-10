@@ -10,6 +10,74 @@
     <lastBuildDate>Mon, 02 Jun 2025 20:57:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>基础概念</title>
+      <link>http://localhost:1313/learn/posts/tech/ai/mcp/basic_concept/</link>
+      <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/tech/ai/mcp/basic_concept/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;什么是 MCP ？ 
+    &lt;div id=&#34;什么是-mcp-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af-mcp-&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;定义 
+    &lt;div id=&#34;定义&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%ae%9a%e4%b9%89&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;MCP (&lt;strong&gt;M&lt;/strong&gt;odel &lt;strong&gt;C&lt;/strong&gt;ontext &lt;strong&gt;P&lt;/strong&gt;rotocol) 是一个模型上下文协议。
+由 &lt;code&gt;Anthropic&lt;/code&gt; 自 &lt;code&gt;2024/11&lt;/code&gt; 发布后，在 &lt;a href=&#34;mcp.so&#34;&gt;mcp.so&lt;/a&gt; 已经注册了超过 15000 个 MCP 服务。
+其目的是为了统一大模型与外部数据源和工具之间的通信协议，解决大模型数据孤岛的问题。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;简单来说 MCP 是扩展 AI 数据访问的一种简单的方式。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;MCP 的架构 
+    &lt;div id=&#34;mcp-的架构&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#mcp-%e7%9a%84%e6%9e%b6%e6%9e%84&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;MCP 的是 CS (Client - Server) 架构，这样一个 &lt;code&gt;主机(host)&lt;/code&gt; 可以链接多个 &lt;code&gt;服务(Servers)&lt;/code&gt;。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>路遇故事集</title>
+      <link>http://localhost:1313/learn/posts/stories/first/</link>
+      <pubDate>Tue, 10 Jun 2025 22:22:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/stories/first/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  琴瑟酒伴皆抛我，雪月花是最忆君。 &amp;ndash; 白居易
+&lt;/div&gt;
+
+&lt;p&gt;故事集开始在 2019 年的一个很平常的下午，我约了我好久不见的朋友喝杯咖啡，然后幸运的开始了这个系列。
+我是通过笔和纸记录的，可是我总觉的，我应该把他们留下来，这其实很浪漫不是吗？&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;在这个 W3.0 的时代中，我想像 W1.0 那样生活。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;我喜欢这尘世上纷纷扰扰的相遇。
+我热爱这人世间的故事。
+期待您的故事，等待与你相遇。
+世间有法万千种，我还是喜欢我的生活。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/stories/first/feature.png" />
+    </item>
+    
+    <item>
       <title>读 《The Who Cares Era》</title>
       <link>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</link>
       <pubDate>Mon, 09 Jun 2025 22:08:10 +0800</pubDate>
@@ -1109,6 +1177,28 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
 
 
 &lt;p&gt;执行上述两个代码我们发现了一个现象，&lt;code&gt;nil&lt;/code&gt; 状态下的 Channel 是无法读写的，会一直阻塞。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>唐</title>
+      <link>http://localhost:1313/learn/posts/stories/01/</link>
+      <pubDate>Wed, 20 Mar 2019 08:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/stories/01/</guid>
+      <description>&lt;p&gt;唐是我的好朋友。
+故事集的开始便是从唐开始的。
+我们见面的次数不多，但是每一次的再相遇都感觉十分惬意。&lt;/p&gt;
+&lt;p&gt;我或许应该这样描述唐，目标明确，永远充满斗志和希望。
+所以，如今已然成为了博士。&lt;/p&gt;
+&lt;p&gt;那个时候，我们还在上大学。一次难得的机会，我们约了咖啡馆。
+&lt;em&gt;但是很令人难过的是，我们大学相距很近，而我在那个时候不怎么出校门。&lt;/em&gt;
+所以那一次几乎是我和他大学生涯中唯一一次的相遇。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;我不记得了，到今天，那天仍是最后一天。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;故事集的开篇第一句话，便是他留给我的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尽自己最大的努力，接受最坏的结果。&lt;/p&gt;&lt;/blockquote&gt;</description>
       
     </item>
     

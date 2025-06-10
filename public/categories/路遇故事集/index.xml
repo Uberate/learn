@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>路遇故事集 on Learn / Ub(s)erate</title>
+    <link>http://localhost:1313/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</link>
+    <description>Recent content in 路遇故事集 on Learn / Ub(s)erate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 ub(s)erate</copyright>
+    <lastBuildDate>Tue, 10 Jun 2025 22:22:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>路遇故事集</title>
+      <link>http://localhost:1313/learn/posts/stories/first/</link>
+      <pubDate>Tue, 10 Jun 2025 22:22:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/stories/first/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  琴瑟酒伴皆抛我，雪月花是最忆君。 &amp;ndash; 白居易
+&lt;/div&gt;
+
+&lt;p&gt;故事集开始在 2019 年的一个很平常的下午，我约了我好久不见的朋友喝杯咖啡，然后幸运的开始了这个系列。
+我是通过笔和纸记录的，可是我总觉的，我应该把他们留下来，这其实很浪漫不是吗？&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;在这个 W3.0 的时代中，我想像 W1.0 那样生活。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;我喜欢这尘世上纷纷扰扰的相遇。
+我热爱这人世间的故事。
+期待您的故事，等待与你相遇。
+世间有法万千种，我还是喜欢我的生活。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/stories/first/feature.png" />
+    </item>
+    
+    <item>
+      <title>唐</title>
+      <link>http://localhost:1313/learn/posts/stories/01/</link>
+      <pubDate>Wed, 20 Mar 2019 08:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/stories/01/</guid>
+      <description>&lt;p&gt;唐是我的好朋友。
+故事集的开始便是从唐开始的。
+我们见面的次数不多，但是每一次的再相遇都感觉十分惬意。&lt;/p&gt;
+&lt;p&gt;我或许应该这样描述唐，目标明确，永远充满斗志和希望。
+所以，如今已然成为了博士。&lt;/p&gt;
+&lt;p&gt;那个时候，我们还在上大学。一次难得的机会，我们约了咖啡馆。
+&lt;em&gt;但是很令人难过的是，我们大学相距很近，而我在那个时候不怎么出校门。&lt;/em&gt;
+所以那一次几乎是我和他大学生涯中唯一一次的相遇。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;我不记得了，到今天，那天仍是最后一天。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;故事集的开篇第一句话，便是他留给我的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尽自己最大的努力，接受最坏的结果。&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

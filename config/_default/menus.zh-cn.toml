@@ -48,6 +48,11 @@ wegiht = 103
   pageRef = "categories/阅读"
   name = "阅读"
   weight = 114
+[[main]]
+  name = "路遇故事集"
+  url = "/posts/stories/first/"
+  pre = 'pencil'
+  weight = 12
 
 [[main]]
 name = "Github"

@@ -4,11 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-06-09T22:08:10+08:00</lastmod>
+    <lastmod>2025-06-10T23:17:14+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/tech/ai/mcp/basic_concept/</loc>
+    <lastmod>2025-06-10T23:17:14+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/stories/first/</loc>
+    <lastmod>2025-06-10T22:22:37+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</loc>
-    <lastmod>2025-06-09T22:08:10+08:00</lastmod>
+    <lastmod>2025-06-09T22:28:04+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/ji_yu_dou_fu_tang/</loc>
@@ -41,5 +49,9 @@
   <url>
     <loc>http://localhost:1313/learn/posts/ln/go/channel/</loc>
     <lastmod>2025-06-03T00:18:15+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/stories/01/</loc>
+    <lastmod>2019-03-20T08:00:00+08:00</lastmod>
   </url>
 </urlset>

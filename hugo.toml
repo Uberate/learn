@@ -15,11 +15,20 @@ enableRobotsTXT = true
 enableCodeCopy = true
 
 [params]
+colorScheme="Ocean"
 [params.article]
+heroStyle = "background"
 showBreadcrumbs = true
 showTaxonomies = true
 showTableOfContents = true
+showPagination = false
 
 [params.homepage]
 layout = "card"
 homepageImage = "img/homepage_img.jpeg"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
