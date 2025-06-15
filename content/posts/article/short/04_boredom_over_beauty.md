@@ -1,7 +1,6 @@
 +++
 date = '2025-06-15T18:57:15+08:00'
 title = '读 《Boredom Over Beauty: Why Code Quaility is Code Security》'
-draft = true
 categories = ["阅读"]
 tags = ["短篇阅读", "代码", "代码质量", "代码安全"]
 +++

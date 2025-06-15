@@ -1,7 +1,6 @@
 +++
 date = '2025-06-15T18:55:14+08:00'
 title = '读 《An illustrated guide to Amazon VPCs》'
-draft = true
 categories = ["阅读"]
 tags = ["短篇阅读", "网络", "VPC"]
 +++

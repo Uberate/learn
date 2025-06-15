@@ -1,6 +1,5 @@
 +++
 date = '2025-06-10T23:17:14+08:00'
-draft = true
 title = 'MCP 资源'
 tags = ['AI', 'MCP']
 categories = ['技术']

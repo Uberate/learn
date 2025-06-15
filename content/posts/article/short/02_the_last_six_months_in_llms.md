@@ -1,7 +1,6 @@
 +++
 date = '2025-06-15T18:53:13+08:00'
 title = '读 《The last six months in LLMs, illustrated by pelicans on bicycles》'
-draft = true
 categories = ["阅读"]
 tags = ["短篇阅读", "LLM", "AI"]
 +++
