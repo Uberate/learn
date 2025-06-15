@@ -10,7 +10,6 @@ tags=["汤", "鱼","豆腐"]
 {{< gallery >}}
     <img src="/learn/img/food_menu/ji_yu_dou_fu_tang/1.png" class="grid-w50" />
     <img src="/learn/img/food_menu/ji_yu_dou_fu_tang/2.png" class="grid-w50" />
-
 {{< /gallery >}}
 
 ## 原材料

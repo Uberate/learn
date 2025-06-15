@@ -4,11 +4,15 @@
 
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-06-10T23:33:18+08:00</lastmod>
+    <lastmod>2025-06-15T17:26:50+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/tech/ai/mcp/basic_concept/</loc>
-    <lastmod>2025-06-10T23:33:18+08:00</lastmod>
+    <loc>http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/</loc>
+    <lastmod>2025-06-15T17:26:50+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</loc>
+    <lastmod>2025-06-15T17:26:32+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/first/</loc>
@@ -52,26 +56,26 @@
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/06/</loc>
-    <lastmod>2019-04-20T08:00:00+08:00</lastmod>
+    <lastmod>2025-06-11T21:58:40+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/05/</loc>
-    <lastmod>2019-04-14T08:00:00+08:00</lastmod>
+    <lastmod>2025-06-11T21:58:40+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/03/</loc>
-    <lastmod>2019-03-30T08:00:00+08:00</lastmod>
+    <lastmod>2025-06-11T21:58:40+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/04/</loc>
-    <lastmod>2019-03-30T08:00:00+08:00</lastmod>
+    <lastmod>2025-06-11T21:58:40+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/02/</loc>
-    <lastmod>2019-03-22T08:00:00+08:00</lastmod>
+    <lastmod>2025-06-11T21:58:40+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/01/</loc>
-    <lastmod>2025-06-10T23:33:18+08:00</lastmod>
+    <lastmod>2025-06-11T21:58:40+08:00</lastmod>
   </url>
 </urlset>

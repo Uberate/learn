@@ -18,6 +18,7 @@ enableCodeCopy = true
 colorScheme="Ocean"
 [params.article]
 heroStyle = "background"
+showHero = true
 showBreadcrumbs = true
 showTaxonomies = true
 showTableOfContents = true
