@@ -7,7 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Tue, 03 Jun 2025 23:13:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 18:55:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>读 《An illustrated guide to Amazon VPCs》</title>
+      <link>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
+      <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 [An illustrated guide to Amazon VPCs](An illustrated guide to Amazon VPCs) &amp;ndash; Aditya Bhargava&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;作者阐述了 AWS 中 &lt;code&gt;VPC&lt;/code&gt; 的诞生原因：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 AWS 中，每个用户都有自己的私有网络，称作 &lt;code&gt;VPC&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;如果没有专用网络，IP 就会出现地址冲突的问题。&lt;/li&gt;
+&lt;li&gt;如果没有专用网络，每个人都在同一个网络下，这不安全。&lt;/li&gt;
+&lt;li&gt;VPC 是通过映射服务（Mapping service）实现的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;VPC&lt;/code&gt; 的全称: &lt;code&gt;Virtual Private Cloud&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;一般来说，VPC 应该会架设在 &lt;code&gt;ISO 网络七层&lt;/code&gt; 中的三层（网络层）。&lt;/p&gt;
+&lt;p&gt;不了解网络七层的朋友可以看这篇文章，我大概标记了一下网络七层的作用:
+&lt;a href=&#34;http://localhost:1313/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>容器网络 - IpTables</title>

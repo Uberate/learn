@@ -7,7 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 17:26:50 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jun 2025 14:03:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>卤</title>
+      <link>http://localhost:1313/learn/tags/%E5%8D%A4/</link>
+      <pubDate>Mon, 23 Jun 2025 14:03:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E5%8D%A4/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>牛肉</title>
+      <link>http://localhost:1313/learn/tags/%E7%89%9B%E8%82%89/</link>
+      <pubDate>Mon, 23 Jun 2025 14:03:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E7%89%9B%E8%82%89/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>代码</title>
+      <link>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81/</link>
+      <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>代码安全</title>
+      <link>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8/</link>
+      <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>代码质量</title>
+      <link>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</link>
+      <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>短篇阅读</title>
+      <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>VPC</title>
+      <link>http://localhost:1313/learn/tags/vpc/</link>
+      <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/vpc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>网络</title>
+      <link>http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/learn/tags/ai/</link>
+      <pubDate>Sun, 15 Jun 2025 18:53:13 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:1313/learn/tags/llm/</link>
+      <pubDate>Sun, 15 Jun 2025 18:53:13 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/llm/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>鸡爪</title>
@@ -20,31 +120,11 @@
     </item>
     
     <item>
-      <title>AI</title>
-      <link>http://localhost:1313/learn/tags/ai/</link>
-      <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
-      
-      <guid>http://localhost:1313/learn/tags/ai/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>MCP</title>
       <link>http://localhost:1313/learn/tags/mcp/</link>
       <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
       
       <guid>http://localhost:1313/learn/tags/mcp/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>短篇阅读</title>
-      <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
-      <pubDate>Mon, 09 Jun 2025 22:08:10 +0800</pubDate>
-      
-      <guid>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
       <description></description>
       
     </item>
@@ -125,16 +205,6 @@
       <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
       
       <guid>http://localhost:1313/learn/tags/%E5%AE%B9%E5%99%A8/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>网络</title>
-      <link>http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/</link>
-      <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
-      
-      <guid>http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/</guid>
       <description></description>
       
     </item>
