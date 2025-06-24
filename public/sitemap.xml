@@ -3,12 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/learn/posts/ln/bash/bash_boom/</loc>
+    <lastmod>2025-06-24T22:57:57+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-06-23T14:03:00+08:00</lastmod>
+    <lastmod>2025-06-24T22:57:57+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/</loc>
-    <lastmod>2025-06-23T14:03:00+08:00</lastmod>
+    <lastmod>2025-06-23T22:18:27+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/04_boredom_over_beauty/</loc>
