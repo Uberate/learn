@@ -2,269 +2,269 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/tags/</link>
+    <link>https://uberate.github.io/learn/tags/</link>
     <description>Recent content in Tags on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bash</title>
-      <link>http://localhost:1313/learn/tags/bash/</link>
+      <link>https://uberate.github.io/learn/tags/bash/</link>
       <pubDate>Tue, 24 Jun 2025 22:57:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/bash/</guid>
+      <guid>https://uberate.github.io/learn/tags/bash/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ln</title>
-      <link>http://localhost:1313/learn/tags/ln/</link>
+      <link>https://uberate.github.io/learn/tags/ln/</link>
       <pubDate>Tue, 24 Jun 2025 22:57:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/ln/</guid>
+      <guid>https://uberate.github.io/learn/tags/ln/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>卤</title>
-      <link>http://localhost:1313/learn/tags/%E5%8D%A4/</link>
+      <link>https://uberate.github.io/learn/tags/%E5%8D%A4/</link>
       <pubDate>Mon, 23 Jun 2025 14:03:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E5%8D%A4/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E5%8D%A4/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>牛肉</title>
-      <link>http://localhost:1313/learn/tags/%E7%89%9B%E8%82%89/</link>
+      <link>https://uberate.github.io/learn/tags/%E7%89%9B%E8%82%89/</link>
       <pubDate>Mon, 23 Jun 2025 14:03:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E7%89%9B%E8%82%89/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E7%89%9B%E8%82%89/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>代码</title>
-      <link>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81/</link>
+      <link>https://uberate.github.io/learn/tags/%E4%BB%A3%E7%A0%81/</link>
       <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E4%BB%A3%E7%A0%81/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>代码安全</title>
-      <link>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8/</link>
+      <link>https://uberate.github.io/learn/tags/%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8/</link>
       <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>代码质量</title>
-      <link>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</link>
+      <link>https://uberate.github.io/learn/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</link>
       <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>短篇阅读</title>
-      <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
+      <link>https://uberate.github.io/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
       <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>VPC</title>
-      <link>http://localhost:1313/learn/tags/vpc/</link>
+      <link>https://uberate.github.io/learn/tags/vpc/</link>
       <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/vpc/</guid>
+      <guid>https://uberate.github.io/learn/tags/vpc/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>网络</title>
-      <link>http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/</link>
+      <link>https://uberate.github.io/learn/tags/%E7%BD%91%E7%BB%9C/</link>
       <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E7%BD%91%E7%BB%9C/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/learn/tags/ai/</link>
+      <link>https://uberate.github.io/learn/tags/ai/</link>
       <pubDate>Sun, 15 Jun 2025 18:53:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/ai/</guid>
+      <guid>https://uberate.github.io/learn/tags/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LLM</title>
-      <link>http://localhost:1313/learn/tags/llm/</link>
+      <link>https://uberate.github.io/learn/tags/llm/</link>
       <pubDate>Sun, 15 Jun 2025 18:53:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/llm/</guid>
+      <guid>https://uberate.github.io/learn/tags/llm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>鸡爪</title>
-      <link>http://localhost:1313/learn/tags/%E9%B8%A1%E7%88%AA/</link>
+      <link>https://uberate.github.io/learn/tags/%E9%B8%A1%E7%88%AA/</link>
       <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E9%B8%A1%E7%88%AA/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E9%B8%A1%E7%88%AA/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>烤箱</title>
-      <link>http://localhost:1313/learn/tags/%E7%83%A4%E7%AE%B1/</link>
+      <link>https://uberate.github.io/learn/tags/%E7%83%A4%E7%AE%B1/</link>
       <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E7%83%A4%E7%AE%B1/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E7%83%A4%E7%AE%B1/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>零食</title>
-      <link>http://localhost:1313/learn/tags/%E9%9B%B6%E9%A3%9F/</link>
+      <link>https://uberate.github.io/learn/tags/%E9%9B%B6%E9%A3%9F/</link>
       <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E9%9B%B6%E9%A3%9F/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E9%9B%B6%E9%A3%9F/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>猪肉</title>
-      <link>http://localhost:1313/learn/tags/%E7%8C%AA%E8%82%89/</link>
+      <link>https://uberate.github.io/learn/tags/%E7%8C%AA%E8%82%89/</link>
       <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E7%8C%AA%E8%82%89/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E7%8C%AA%E8%82%89/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MCP</title>
-      <link>http://localhost:1313/learn/tags/mcp/</link>
+      <link>https://uberate.github.io/learn/tags/mcp/</link>
       <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/mcp/</guid>
+      <guid>https://uberate.github.io/learn/tags/mcp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>豆腐</title>
-      <link>http://localhost:1313/learn/tags/%E8%B1%86%E8%85%90/</link>
+      <link>https://uberate.github.io/learn/tags/%E8%B1%86%E8%85%90/</link>
       <pubDate>Sun, 08 Jun 2025 14:10:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E8%B1%86%E8%85%90/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E8%B1%86%E8%85%90/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>汤</title>
-      <link>http://localhost:1313/learn/tags/%E6%B1%A4/</link>
+      <link>https://uberate.github.io/learn/tags/%E6%B1%A4/</link>
       <pubDate>Sun, 08 Jun 2025 14:10:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E6%B1%A4/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E6%B1%A4/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>鱼</title>
-      <link>http://localhost:1313/learn/tags/%E9%B1%BC/</link>
+      <link>https://uberate.github.io/learn/tags/%E9%B1%BC/</link>
       <pubDate>Sun, 08 Jun 2025 14:10:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E9%B1%BC/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E9%B1%BC/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Abc</title>
-      <link>http://localhost:1313/learn/tags/abc/</link>
+      <link>https://uberate.github.io/learn/tags/abc/</link>
       <pubDate>Sat, 07 Jun 2025 01:28:17 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/abc/</guid>
+      <guid>https://uberate.github.io/learn/tags/abc/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>汪苏泷</title>
-      <link>http://localhost:1313/learn/tags/%E6%B1%AA%E8%8B%8F%E6%B3%B7/</link>
+      <link>https://uberate.github.io/learn/tags/%E6%B1%AA%E8%8B%8F%E6%B3%B7/</link>
       <pubDate>Sat, 07 Jun 2025 00:52:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E6%B1%AA%E8%8B%8F%E6%B3%B7/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E6%B1%AA%E8%8B%8F%E6%B3%B7/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>五线谱</title>
-      <link>http://localhost:1313/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/</link>
+      <link>https://uberate.github.io/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/</link>
       <pubDate>Sat, 07 Jun 2025 00:52:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>IpTables</title>
-      <link>http://localhost:1313/learn/tags/iptables/</link>
+      <link>https://uberate.github.io/learn/tags/iptables/</link>
       <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/iptables/</guid>
+      <guid>https://uberate.github.io/learn/tags/iptables/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>容器</title>
-      <link>http://localhost:1313/learn/tags/%E5%AE%B9%E5%99%A8/</link>
+      <link>https://uberate.github.io/learn/tags/%E5%AE%B9%E5%99%A8/</link>
       <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/%E5%AE%B9%E5%99%A8/</guid>
+      <guid>https://uberate.github.io/learn/tags/%E5%AE%B9%E5%99%A8/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://localhost:1313/learn/tags/go/</link>
+      <link>https://uberate.github.io/learn/tags/go/</link>
       <pubDate>Mon, 02 Jun 2025 19:10:41 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/tags/go/</guid>
+      <guid>https://uberate.github.io/learn/tags/go/</guid>
       <description></description>
       
     </item>

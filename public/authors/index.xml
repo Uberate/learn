@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/authors/</link>
+    <link>https://uberate.github.io/learn/authors/</link>
     <description>Recent content in Authors on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <atom:link href="http://localhost:1313/learn/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://uberate.github.io/learn/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

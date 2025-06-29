@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技术 on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/categories/%E6%8A%80%E6%9C%AF/</link>
+    <link>https://uberate.github.io/learn/categories/%E6%8A%80%E6%9C%AF/</link>
     <description>Recent content in 技术 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bash boom(Bash 炸弹)</title>
-      <link>http://localhost:1313/learn/posts/ln/bash/bash_boom/</link>
+      <link>https://uberate.github.io/learn/posts/ln/bash/bash_boom/</link>
       <pubDate>Tue, 24 Jun 2025 22:57:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/ln/bash/bash_boom/</guid>
+      <guid>https://uberate.github.io/learn/posts/ln/bash/bash_boom/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Bash 炸弹 
     &lt;div id=&#34;bash-炸弹&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -67,10 +67,10 @@
     
     <item>
       <title>MCP 资源</title>
-      <link>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</link>
+      <link>https://uberate.github.io/learn/posts/tech/ai/mcp/mcp_resources/</link>
       <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/ai/mcp/mcp_resources/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;学习 
     &lt;div id=&#34;学习&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -131,10 +131,10 @@
     
     <item>
       <title>学习 MCP - 本地 Server Demo</title>
-      <link>http://localhost:1313/learn/posts/tech/ai/mcp/local_server_demo/</link>
+      <link>https://uberate.github.io/learn/posts/tech/ai/mcp/local_server_demo/</link>
       <pubDate>Wed, 04 Jun 2025 22:39:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/ai/mcp/local_server_demo/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/ai/mcp/local_server_demo/</guid>
       <description>&lt;p&gt;这篇文章将带你创建一个简单的 MCP Local Server 服务。&lt;/p&gt;
 &lt;p&gt;代码已经放到我的 Github 仓库里面了：&lt;/p&gt;
 &lt;div class=&#34;github-card-wrapper&#34;&gt;&lt;a id=&#34;github-bf53c00e3cd771b191af44424dd43242&#34; target=&#34;_blank&#34; href=&#34;https://github.com/Uberate/lear-mcp&#34; class=&#34;cursor-pointer&#34;&gt;
@@ -173,10 +173,10 @@
     
     <item>
       <title>容器网络 - IpTables</title>
-      <link>http://localhost:1313/learn/posts/tech/network/container_network_iptables/</link>
+      <link>https://uberate.github.io/learn/posts/tech/network/container_network_iptables/</link>
       <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/network/container_network_iptables/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/network/container_network_iptables/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;IpTables - Linux 中的强力防火墙 
     &lt;div id=&#34;iptables---linux-中的强力防火墙&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -223,10 +223,10 @@
     
     <item>
       <title>网络基础</title>
-      <link>http://localhost:1313/learn/posts/tech/network/base/</link>
+      <link>https://uberate.github.io/learn/posts/tech/network/base/</link>
       <pubDate>Tue, 03 Jun 2025 22:38:02 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/network/base/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/network/base/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;网络基础 
     &lt;div id=&#34;网络基础&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -309,10 +309,10 @@
     
     <item>
       <title>GO Channel 的空值特性</title>
-      <link>http://localhost:1313/learn/posts/ln/go/channel/</link>
+      <link>https://uberate.github.io/learn/posts/ln/go/channel/</link>
       <pubDate>Mon, 02 Jun 2025 19:10:41 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/ln/go/channel/</guid>
+      <guid>https://uberate.github.io/learn/posts/ln/go/channel/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Golang Channel nil 
     &lt;div id=&#34;golang-channel-nil&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -357,7 +357,6 @@
 
 
 
-
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
@@ -377,6 +376,7 @@
 
 
 
+
 &lt;h2 class=&#34;relative group&#34;&gt;WriteNil 
     &lt;div id=&#34;writenil&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -387,7 +387,6 @@
     &lt;/span&gt;        
     
 &lt;/h2&gt;
-
 
 
 
@@ -425,6 +424,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//         /Users/uberate/workspace/learn/codes/go/channel/writenil/write_nil_channel.go:5 +0x24&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// exit status 2&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 
 
 &lt;p&gt;执行上述两个代码我们发现了一个现象，&lt;code&gt;nil&lt;/code&gt; 状态下的 Channel 是无法读写的，会一直阻塞。&lt;/p&gt;</description>

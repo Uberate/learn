@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>菜谱 on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/categories/%E8%8F%9C%E8%B0%B1/</link>
+    <link>https://uberate.github.io/learn/categories/%E8%8F%9C%E8%B0%B1/</link>
     <description>Recent content in 菜谱 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 14:03:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E8%8F%9C%E8%B0%B1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jun 2025 14:03:00 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/categories/%E8%8F%9C%E8%B0%B1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>酱牛肉</title>
-      <link>http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/</link>
+      <link>https://uberate.github.io/learn/posts/food_menu/jiang_niu_rou/</link>
       <pubDate>Mon, 23 Jun 2025 14:03:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/</guid>
+      <guid>https://uberate.github.io/learn/posts/food_menu/jiang_niu_rou/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
     &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -29,7 +29,7 @@
   
   
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/jiang_niu_rou/5.png&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/jiang_niu_rou/5.png&#34; /&gt;
 &lt;/div&gt;
 
 
@@ -145,8 +145,8 @@
   
     
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/jiang_niu_rou/1.png&#34; class=&#34;grid-w50&#34; /&gt;
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/jiang_niu_rou/2.png&#34; class=&#34;grid-w50&#34;/&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/jiang_niu_rou/1.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/jiang_niu_rou/2.png&#34; class=&#34;grid-w50&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -162,15 +162,15 @@
 &lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我的高压锅是&lt;code&gt;美的&lt;/code&gt;的，这50分钟包括水开的时间了，比较长。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/feature_finish_product.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/jiang_niu_rou/feature_finish_product.png" />
     </item>
     
     <item>
       <title>辣卤鸡爪</title>
-      <link>http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/</link>
+      <link>https://uberate.github.io/learn/posts/food_menu/la_lu_ji_zhua/</link>
       <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/</guid>
+      <guid>https://uberate.github.io/learn/posts/food_menu/la_lu_ji_zhua/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
     &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -185,7 +185,7 @@
   
   
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/la_lu_ji_zhua/example.png&#34;/&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/la_lu_ji_zhua/example.png&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -291,7 +291,7 @@
   
   
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/la_lu_ji_zhua/1.png&#34;/&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/la_lu_ji_zhua/1.png&#34;/&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
@@ -302,7 +302,7 @@
   
   
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/la_lu_ji_zhua/2.png&#34;/&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/la_lu_ji_zhua/2.png&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -320,7 +320,7 @@
   
   
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/la_lu_ji_zhua/3.png&#34;/&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/la_lu_ji_zhua/3.png&#34;/&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
@@ -348,15 +348,15 @@
 &lt;li&gt;出锅。&lt;/li&gt;
 &lt;li&gt;喊 &lt;code&gt;老婆&lt;/code&gt; 吃饭。&lt;/li&gt;
 &lt;/ol&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/feature_finish_product.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/la_lu_ji_zhua/feature_finish_product.png" />
     </item>
     
     <item>
       <title>猪肉铺</title>
-      <link>http://localhost:1313/learn/posts/food_menu/zhu_rou_pu/</link>
+      <link>https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/</link>
       <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/food_menu/zhu_rou_pu/</guid>
+      <guid>https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
     &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -371,7 +371,7 @@
   
   
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/zhu_rou_pu/example.png&#34;/&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/example.png&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -463,8 +463,8 @@
   
     
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/zhu_rou_pu/1.png&#34; class=&#34;grid-w50&#34; /&gt;
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/zhu_rou_pu/2.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/1.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/2.png&#34; class=&#34;grid-w50&#34; /&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
@@ -487,8 +487,8 @@
   
     
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/zhu_rou_pu/3.png&#34; class=&#34;grid-w50&#34; /&gt;
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/zhu_rou_pu/4.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/3.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/4.png&#34; class=&#34;grid-w50&#34; /&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
@@ -515,15 +515,15 @@
 &lt;blockquote&gt;
 &lt;p&gt;我的烤箱可以直接烤，可以将预热算在总时间内。
 如果无法包含预热的时间的话可以提前预热，然后烤大概 10 分钟左右。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/food_menu/zhu_rou_pu/feature_finish_product.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/feature_finish_product.png" />
     </item>
     
     <item>
       <title>鲫鱼豆腐汤</title>
-      <link>http://localhost:1313/learn/posts/food_menu/ji_yu_dou_fu_tang/</link>
+      <link>https://uberate.github.io/learn/posts/food_menu/ji_yu_dou_fu_tang/</link>
       <pubDate>Sun, 08 Jun 2025 14:10:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/food_menu/ji_yu_dou_fu_tang/</guid>
+      <guid>https://uberate.github.io/learn/posts/food_menu/ji_yu_dou_fu_tang/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
     &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -539,8 +539,8 @@
   
     
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/ji_yu_dou_fu_tang/1.png&#34; class=&#34;grid-w50&#34; /&gt;
-    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/ji_yu_dou_fu_tang/2.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/ji_yu_dou_fu_tang/1.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/ji_yu_dou_fu_tang/2.png&#34; class=&#34;grid-w50&#34; /&gt;
 &lt;/div&gt;
 
 

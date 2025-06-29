@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网络 on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/</link>
+    <link>https://uberate.github.io/learn/tags/%E7%BD%91%E7%BB%9C/</link>
     <description>Recent content in 网络 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 18:55:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 18:55:14 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>读 《An illustrated guide to Amazon VPCs》</title>
-      <link>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
       <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 [An illustrated guide to Amazon VPCs](An illustrated guide to Amazon VPCs) &amp;ndash; Aditya Bhargava&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;作者阐述了 AWS 中 &lt;code&gt;VPC&lt;/code&gt; 的诞生原因：&lt;/p&gt;
@@ -27,16 +27,16 @@
 &lt;p&gt;&lt;code&gt;VPC&lt;/code&gt; 的全称: &lt;code&gt;Virtual Private Cloud&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;一般来说，VPC 应该会架设在 &lt;code&gt;ISO 网络七层&lt;/code&gt; 中的三层（网络层）。&lt;/p&gt;
 &lt;p&gt;不了解网络七层的朋友可以看这篇文章，我大概标记了一下网络七层的作用:
-&lt;a href=&#34;http://localhost:1313/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://uberate.github.io/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>容器网络 - IpTables</title>
-      <link>http://localhost:1313/learn/posts/tech/network/container_network_iptables/</link>
+      <link>https://uberate.github.io/learn/posts/tech/network/container_network_iptables/</link>
       <pubDate>Tue, 03 Jun 2025 23:13:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/network/container_network_iptables/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/network/container_network_iptables/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;IpTables - Linux 中的强力防火墙 
     &lt;div id=&#34;iptables---linux-中的强力防火墙&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -83,10 +83,10 @@
     
     <item>
       <title>网络基础</title>
-      <link>http://localhost:1313/learn/posts/tech/network/base/</link>
+      <link>https://uberate.github.io/learn/posts/tech/network/base/</link>
       <pubDate>Tue, 03 Jun 2025 22:38:02 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/network/base/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/network/base/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;网络基础 
     &lt;div id=&#34;网络基础&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
