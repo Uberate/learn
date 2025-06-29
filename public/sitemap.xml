@@ -4,11 +4,11 @@
 
   <url>
     <loc>http://localhost:1313/learn/posts/ln/bash/bash_boom/</loc>
-    <lastmod>2025-06-24T22:57:57+08:00</lastmod>
+    <lastmod>2025-06-24T23:16:45+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-06-24T22:57:57+08:00</lastmod>
+    <lastmod>2025-06-24T23:16:45+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/</loc>
@@ -29,6 +29,10 @@
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/</loc>
     <lastmod>2025-06-15T17:49:39+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/food_menu/zhu_rou_pu/</loc>
+    <lastmod>2025-06-15T17:26:50+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</loc>
