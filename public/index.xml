@@ -10,6 +10,245 @@
     <lastBuildDate>Mon, 02 Jun 2025 20:57:49 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Counter_type</title>
+      <link>https://uberate.github.io/learn/posts/tech/observability/counter_type/</link>
+      <pubDate>Thu, 10 Jul 2025 22:16:21 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/posts/tech/observability/counter_type/</guid>
+      <description>&lt;p&gt;今天看到一篇关于 Counter 是否是设计失误的文章，
+引发了一些思考。
+所以想深入了解一下，&lt;/p&gt;
+&lt;p&gt;Counter 用途、定义和目标。
+然后再看看到底有什么问题。&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;什么是 Counter 类型 
+    &lt;div id=&#34;什么是-counter-类型&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af-counter-%e7%b1%bb%e5%9e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Counter&lt;/code&gt; 是观测指标中一种非常常见的数据类型。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Counter&lt;/code&gt; 是一种单调递增的指标类型，
+通常用于记录某个事件发生的总次数。
+他的值只能增加，
+不能减少，
+除非发生了重置（或溢出）。&lt;/p&gt;
+&lt;p&gt;这里有一个非常关键的点：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Counter 是一个单调递增的数据类型，所以再没有发生溢出的情况下，Counter 不应该出现重置。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;用途 
+    &lt;div id=&#34;用途&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%94%a8%e9%80%94&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;1. 速率类的运算 
+    &lt;div id=&#34;1-速率类的运算&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%e9%80%9f%e7%8e%87%e7%b1%bb%e7%9a%84%e8%bf%90%e7%ae%97&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;Counter 本身的计算目标再实际生产中，
+都是用来计算 &lt;code&gt;QPS&lt;/code&gt;，&lt;code&gt;OPS&lt;/code&gt;，&lt;code&gt;EPS&lt;/code&gt; 的。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux 中获取 CPU 和内存的使用情况</title>
+      <link>https://uberate.github.io/learn/posts/ln/bash/get_cpu_mem_usage/</link>
+      <pubDate>Sun, 29 Jun 2025 23:08:43 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/posts/ln/bash/get_cpu_mem_usage/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# CPU 利用率&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ps -p &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;PID&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt; -o %cpu
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 内存&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ps -p &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;PID&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt; -o rss
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>猪肉铺</title>
+      <link>https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/</link>
+      <pubDate>Sat, 28 Jun 2025 17:26:50 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
+    &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%88%90%e5%93%81&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;div id=&#34;gallery-f61ca4e16212839d73266cd8441afebf&#34; class=&#34;gallery&#34;&gt;
+  
+  
+    
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/example.png&#34;/&gt;
+&lt;/div&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;原材料 
+    &lt;div id=&#34;原材料&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%8e%9f%e6%9d%90%e6%96%99&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;食材&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;数量&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;猪肉&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;半斤&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;白芝麻&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一把&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;蜂蜜&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;生抽&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;老抽&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;盐&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;糖&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;黑胡椒粉&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;适量&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;步骤 
+    &lt;div id=&#34;步骤&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%ad%a5%e9%aa%a4&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;1. 泡水 
+    &lt;div id=&#34;1-泡水&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%e6%b3%a1%e6%b0%b4&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;div id=&#34;gallery-94b06f9ddab57416d4d0920e7e29c765&#34; class=&#34;gallery&#34;&gt;
+  
+  
+    
+    
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/1.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/2.png&#34; class=&#34;grid-w50&#34; /&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;把买回来的猪肉泡在水里，跑到血水消失（没有冷冻的话大概 1 小时左右）。&lt;/li&gt;
+&lt;li&gt;把猪肉的水控干，可以使用吸水纸吸水。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;2. 搅碎、搅拌 
+    &lt;div id=&#34;2-搅碎搅拌&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#2-%e6%90%85%e7%a2%8e%e6%90%85%e6%8b%8c&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;div id=&#34;gallery-3ac017c07140025a657b1e641aede67f&#34; class=&#34;gallery&#34;&gt;
+  
+  
+    
+    
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/3.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/4.png&#34; class=&#34;grid-w50&#34; /&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;把猪肉剁碎，不要有大块。&lt;/li&gt;
+&lt;li&gt;把 &lt;code&gt;盐&lt;/code&gt;, &lt;code&gt;糖&lt;/code&gt;、&lt;code&gt;生抽&lt;/code&gt;、&lt;code&gt;老抽&lt;/code&gt;、&lt;code&gt;胡椒粉&lt;/code&gt; 和处理好的 &lt;code&gt;猪肉&lt;/code&gt; 一起搅拌。&lt;/li&gt;
+&lt;li&gt;将 &lt;code&gt;油纸&lt;/code&gt; 放到烤盘的锡纸上，将猪肉铺在上面。&lt;/li&gt;
+&lt;li&gt;用保鲜膜盖一下，然后用擀面杖擀平。&lt;/li&gt;
+&lt;li&gt;厚度最好是 2 毫米左右。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;3. 开始烤 
+    &lt;div id=&#34;3-开始烤&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#3-%e5%bc%80%e5%a7%8b%e7%83%a4&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;约烤 15 分钟（包含预热）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的烤箱可以直接烤，可以将预热算在总时间内。
+如果无法包含预热的时间的话可以提前预热，然后烤大概 10 分钟左右。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/feature_finish_product.png" />
+    </item>
+    
+    <item>
       <title>Bash boom(Bash 炸弹)</title>
       <link>https://uberate.github.io/learn/posts/ln/bash/bash_boom/</link>
       <pubDate>Tue, 24 Jun 2025 22:57:57 +0800</pubDate>
@@ -502,173 +741,6 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
     </item>
     
     <item>
-      <title>猪肉铺</title>
-      <link>https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/</link>
-      <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
-      
-      <guid>https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
-    &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%88%90%e5%93%81&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;div id=&#34;gallery-f61ca4e16212839d73266cd8441afebf&#34; class=&#34;gallery&#34;&gt;
-  
-  
-    
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/example.png&#34;/&gt;
-&lt;/div&gt;
-
-
-&lt;h2 class=&#34;relative group&#34;&gt;原材料 
-    &lt;div id=&#34;原材料&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%8e%9f%e6%9d%90%e6%96%99&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;食材&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;数量&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;备注&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;猪肉&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;半斤&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;白芝麻&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;一把&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;蜂蜜&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;生抽&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;老抽&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;盐&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;糖&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;一勺&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;黑胡椒粉&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;适量&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;步骤 
-    &lt;div id=&#34;步骤&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%ad%a5%e9%aa%a4&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;1. 泡水 
-    &lt;div id=&#34;1-泡水&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%e6%b3%a1%e6%b0%b4&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;div id=&#34;gallery-94b06f9ddab57416d4d0920e7e29c765&#34; class=&#34;gallery&#34;&gt;
-  
-  
-    
-    
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/1.png&#34; class=&#34;grid-w50&#34; /&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/2.png&#34; class=&#34;grid-w50&#34; /&gt;
-&lt;/div&gt;
-
-&lt;ol&gt;
-&lt;li&gt;把买回来的猪肉泡在水里，跑到血水消失（没有冷冻的话大概 1 小时左右）。&lt;/li&gt;
-&lt;li&gt;把猪肉的水控干，可以使用吸水纸吸水。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;2. 搅碎、搅拌 
-    &lt;div id=&#34;2-搅碎搅拌&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#2-%e6%90%85%e7%a2%8e%e6%90%85%e6%8b%8c&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;div id=&#34;gallery-3ac017c07140025a657b1e641aede67f&#34; class=&#34;gallery&#34;&gt;
-  
-  
-    
-    
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/3.png&#34; class=&#34;grid-w50&#34; /&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/zhu_rou_pu/4.png&#34; class=&#34;grid-w50&#34; /&gt;
-&lt;/div&gt;
-
-&lt;ol&gt;
-&lt;li&gt;把猪肉剁碎，不要有大块。&lt;/li&gt;
-&lt;li&gt;把 &lt;code&gt;盐&lt;/code&gt;, &lt;code&gt;糖&lt;/code&gt;、&lt;code&gt;生抽&lt;/code&gt;、&lt;code&gt;老抽&lt;/code&gt;、&lt;code&gt;胡椒粉&lt;/code&gt; 和处理好的 &lt;code&gt;猪肉&lt;/code&gt; 一起搅拌。&lt;/li&gt;
-&lt;li&gt;将 &lt;code&gt;油纸&lt;/code&gt; 放到烤盘的锡纸上，将猪肉铺在上面。&lt;/li&gt;
-&lt;li&gt;用保鲜膜盖一下，然后用擀面杖擀平。&lt;/li&gt;
-&lt;li&gt;厚度最好是 2 毫米左右。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;3. 开始烤 
-    &lt;div id=&#34;3-开始烤&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#3-%e5%bc%80%e5%a7%8b%e7%83%a4&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;约烤 15 分钟（包含预热）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我的烤箱可以直接烤，可以将预热算在总时间内。
-如果无法包含预热的时间的话可以提前预热，然后烤大概 10 分钟左右。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/feature_finish_product.png" />
-    </item>
-    
-    <item>
       <title>MCP 资源</title>
       <link>https://uberate.github.io/learn/posts/tech/ai/mcp/mcp_resources/</link>
       <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
@@ -728,7 +800,43 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
     
 &lt;/h2&gt;
 &lt;p&gt;| MCP 资源库 | &lt;a href=&#34;mcp.so&#34;&gt;mcp.so&lt;/a&gt; |
-| 社区按类型整理的 MCP 服务 | &lt;a href=&#34;https://github.com/yzfly/Awesome-MCP-ZH&#34; target=&#34;_blank&#34;&gt;https://github.com/yzfly/Awesome-MCP-ZH&lt;/a&gt; |&lt;/p&gt;</description>
+| 社区按类型整理的 MCP 服务 | &lt;a href=&#34;https://github.com/yzfly/Awesome-MCP-ZH&#34; target=&#34;_blank&#34;&gt;https://github.com/yzfly/Awesome-MCP-ZH&lt;/a&gt; |&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;AI 相关 
+    &lt;div id=&#34;ai-相关&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#ai-%e7%9b%b8%e5%85%b3&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;测试 
+    &lt;div id=&#34;测试&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%b5%8b%e8%af%95&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;说明&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;链接&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;LLM 测试框架&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://www.readme-i18n.com/confident-ai/deepeval&#34; target=&#34;_blank&#34;&gt;https://www.readme-i18n.com/confident-ai/deepeval&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
       
     </item>
     
@@ -1239,225 +1347,6 @@ CDEF|GABc|defg|abc&#39;d&#39;|e&#39;f&#39;g&#39;a&#39;|b&#39;
         
         window.addEventListener(&#39;resize&#39;, function() {
             ABCJS.renderAbc(&#34;paper-1&#34;, abc, {
-                responsive: &#34;resize&#34;,
-                scale: updateScale()
-            });
-        });
-
-        
-        
-        var midiBuffer;
-
-        var startAudioButton = document.querySelector(&#34;.start&#34;);
-        var stopAudioButton = document.querySelector(&#34;.stop&#34;);
-        var explanationDiv = document.querySelector(&#34;.suspend-explanation&#34;);
-        var statusDiv = document.querySelector(&#34;.status&#34;);
-
-        startAudioButton.addEventListener(&#34;click&#34;, function() {
-            startAudioButton.setAttribute(&#34;style&#34;, &#34;display:none;&#34;);
-            explanationDiv.setAttribute(&#34;style&#34;, &#34;opacity: 0;&#34;);
-            statusDiv.innerHTML = &#34;&lt;div&gt;测试浏览器&lt;/div&gt;&#34;;
-            if (ABCJS.synth.supportsAudio()) {
-                stopAudioButton.setAttribute(&#34;style&#34;, &#34;&#34;);
-
-                
-                
-                
-                
-                window.AudioContext = window.AudioContext ||
-                    window.webkitAudioContext ||
-                    navigator.mozAudioContext ||
-                    navigator.msAudioContext;
-                var audioContext = new window.AudioContext();
-                audioContext.resume().then(function () {
-                    
-
-                    
-                    midiBuffer = new ABCJS.synth.CreateSynth();
-
-                    
-                    return midiBuffer.init({
-                        visualObj: visualObj,
-                        audioContext: audioContext,
-                        millisecondsPerMeasure: visualObj.millisecondsPerMeasure(),
-                        sequence: [],
-                        options: {
-                            soundFontUrl: &#34;https://paulrosen.github.io/midi-js-soundfonts/abcjs/&#34;,
-                            program: 0,
-                            midiTranspose: 0,
-                            fadeLength: 0,
-                            defaultQpm: 120,
-                            chordsOff: false,
-                            voicesOff: false,
-                            drum: &#34;&#34;,
-                            swing: {
-                                beats: 0,
-                                value: 0
-                            }
-                        }
-                    }).then(function (response) {
-                        console.log(&#34;Notes loaded: &#34;, response)
-                        statusDiv.innerHTML += &#34;&lt;div&gt;音频对象初始化&lt;/div&gt;&#34;;
-                        
-                        
-                        return midiBuffer.prime();
-                    }).then(function (response) {
-                        statusDiv.innerHTML += &#34;&lt;div&gt;状态 = &#34; + response.status + &#34;&lt;/div&gt;&#34;
-                        
-                        midiBuffer.start();
-                        statusDiv.innerHTML += &#34;&lt;div&gt;音频开始&lt;/div&gt;&#34;;
-                        return Promise.resolve();
-                    }).catch(function (error) {
-                        if (error.status === &#34;NotSupported&#34;) {
-                            stopAudioButton.setAttribute(&#34;style&#34;, &#34;display:none;&#34;);
-                            var audioError = document.querySelector(&#34;.audio-error&#34;);
-                            audioError.setAttribute(&#34;style&#34;, &#34;&#34;);
-                        } else
-                            console.warn(&#34;synth error&#34;, error);
-                    });
-                });
-            } else {
-                var audioError = document.querySelector(&#34;.audio-error&#34;);
-                audioError.setAttribute(&#34;style&#34;, &#34;&#34;);
-            }
-        });
-
-        stopAudioButton.addEventListener(&#34;click&#34;, function() {
-            startAudioButton.setAttribute(&#34;style&#34;, &#34;&#34;);
-            explanationDiv.setAttribute(&#34;style&#34;, &#34;&#34;);
-            stopAudioButton.setAttribute(&#34;style&#34;, &#34;display:none;&#34;);
-            if (midiBuffer)
-                midiBuffer.stop();
-        });
-    })
-&lt;/script&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>巴赫旧约</title>
-      <link>https://uberate.github.io/learn/posts/music/staff/ba_he_jiu_yue/</link>
-      <pubDate>Sat, 07 Jun 2025 00:52:13 +0800</pubDate>
-      
-      <guid>https://uberate.github.io/learn/posts/music/staff/ba_he_jiu_yue/</guid>
-      <description>&lt;script src=&#34;https://uberate.github.io/learn/js/abcjs-basic-min.js&#34; defer&gt;&lt;/script&gt;
-
-
-
-
-
-&lt;style&gt;
-    main {
-        width: 50vw;
-        margin: 0 auto;
-    }
-    #paper-0 {
-        width: 100%;
-    }
-    .abcjs-container {
-        width: 100% !important;
-    }
-    .row {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .status {
-        padding: 2px 10px 10px 10px;
-        background-color: #f0f0f0;
-        width:250px;
-    }
-    .start, .stop {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 16px;
-        margin: 10px 5px;
-        transition: background-color 0.3s ease;
-    }
-    .stop {
-        background-color: #f44336;
-    }
-    .start:hover {
-        background-color: #45a049;
-    }
-    .stop:hover {
-        background-color: #da190b;
-    }
-    .start:active, .stop:active {
-        transform: scale(0.98);
-    }
-    @media (prefers-color-scheme: dark) {
-        .status {
-            background-color: gray;
-        }
-        .start, .stop {
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-    }
-&lt;/style&gt;
-
-&lt;div style=&#34;width: 100%;&#34;&gt;
-    &lt;details&gt;
-        &lt;summary&gt;查看 ABC 记谱源码&lt;/summary&gt;
-        &lt;pre&gt;&lt;code&gt;
-X: 1
-T: 巴赫旧约
-M: 2/4
-L: 1/8
-N: Ub(s)erate ABC
-C: 汪苏泷
-Q: 1/4=70
-V:1 Program 1 0 %piano
-V:2 Program 1 0 octave=-2 bass $piano
-K: C
-V:1
-z2&gt;AB/2    |  cc/2c/2-c/2cd/2|       e/2BB&gt;E2G/2|  AA/2A/2-A/2AB/2|
-V:2
-V:1
-c/2GG&gt;F2E/2|FF/2(F/2 F/2)FF/2|       EA/2c&gt;B2c/2|AB/2-^G/2G/2BA/2-|
-V:1
-A2&gt;AB/2    |  cc/2c/2-c/2cd/2|        e/2BB&gt;EG/2|  AA/2A/2-A/2AB/2|
-V:1
-c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
-
-
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/details&gt;
-    &lt;main&gt;
-      &lt;button class=&#34;start&#34; style=&#34;background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; margin: 10px 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);&#34;&gt;开始播放&lt;/button&gt;
-      &lt;button class=&#34;stop&#34; style=&#34;display: none; background-color: #f44336; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; margin: 10px 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);&#34;&gt;停止播放&lt;/button&gt;
-      &lt;div id=&#34;paper-0&#34;&gt;&lt;/div&gt;
-      &lt;div id=&#34;audio&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;status&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;suspend-explanation&#34;&gt;点击开始播放按钮开始播放&lt;/div&gt;
-      &lt;div class=&#34;audio-error&#34; style=&#34;display: none;&#34;&gt;此浏览器不支持音频播放&lt;/div&gt;
-    &lt;/main&gt;
-&lt;/div&gt;
-
-&lt;script &gt;
-    var abc = `\nX: 1\nT: 巴赫旧约\nM: 2\/4\nL: 1\/8\nN: Ub(s)erate ABC\nC: 汪苏泷\nQ: 1\/4=70\nV:1 Program 1 0 %piano\nV:2 Program 1 0 octave=-2 bass \u0024piano\nK: C\nV:1\nz2\u003eAB\/2    |  cc\/2c\/2-c\/2cd\/2|       e\/2BB\u003eE2G\/2|  AA\/2A\/2-A\/2AB\/2|\nV:2\nV:1\nc\/2GG\u003eF2E\/2|FF\/2(F\/2 F\/2)FF\/2|       EA\/2c\u003eB2c\/2|AB\/2-^G\/2G\/2BA\/2-|\nV:1\nA2\u003eAB\/2    |  cc\/2c\/2-c\/2cd\/2|        e\/2BB\u003eEG\/2|  AA\/2A\/2-A\/2AB\/2|\nV:1\nc\/2GG\u003eF2E\/2|    Fc\/2c\/2-c\/2c\u003e|B2A\/2^G\/2-G\/2A-B\/2|               B8|\n\n\n`;
-
-    addEventListener(&#34;DOMContentLoaded&#34;, function() {
-        function updateScale() {
-            var container = document.querySelector(&#39;main&#39;);
-            var containerWidth = container.offsetWidth;
-            var scale = containerWidth / 700; 
-            return Math.min(Math.max(scale, 0.8), 2.0); 
-        }
-
-        
-        var visualObj = ABCJS.renderAbc(&#34;paper-0&#34;, abc, {
-            responsive: &#34;resize&#34;,
-            scale: updateScale()
-        })[0];
-
-        
-        window.addEventListener(&#39;resize&#39;, function() {
-            ABCJS.renderAbc(&#34;paper-0&#34;, abc, {
                 responsive: &#34;resize&#34;,
                 scale: updateScale()
             });

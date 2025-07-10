@@ -7,14 +7,74 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Jul 2025 22:16:21 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Observability</title>
+      <link>https://uberate.github.io/learn/tags/observability/</link>
+      <pubDate>Thu, 10 Jul 2025 22:16:21 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/tags/observability/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Prometheus</title>
+      <link>https://uberate.github.io/learn/tags/prometheus/</link>
+      <pubDate>Thu, 10 Jul 2025 22:16:21 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/tags/prometheus/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Bash</title>
       <link>https://uberate.github.io/learn/tags/bash/</link>
-      <pubDate>Tue, 24 Jun 2025 22:57:57 +0800</pubDate>
+      <pubDate>Sun, 29 Jun 2025 23:08:43 +0800</pubDate>
       
       <guid>https://uberate.github.io/learn/tags/bash/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Scripts</title>
+      <link>https://uberate.github.io/learn/tags/scripts/</link>
+      <pubDate>Sun, 29 Jun 2025 23:08:43 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/tags/scripts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>烤箱</title>
+      <link>https://uberate.github.io/learn/tags/%E7%83%A4%E7%AE%B1/</link>
+      <pubDate>Sat, 28 Jun 2025 17:26:50 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/tags/%E7%83%A4%E7%AE%B1/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>零食</title>
+      <link>https://uberate.github.io/learn/tags/%E9%9B%B6%E9%A3%9F/</link>
+      <pubDate>Sat, 28 Jun 2025 17:26:50 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/tags/%E9%9B%B6%E9%A3%9F/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>猪肉</title>
+      <link>https://uberate.github.io/learn/tags/%E7%8C%AA%E8%82%89/</link>
+      <pubDate>Sat, 28 Jun 2025 17:26:50 +0800</pubDate>
+      
+      <guid>https://uberate.github.io/learn/tags/%E7%8C%AA%E8%82%89/</guid>
       <description></description>
       
     </item>
@@ -140,36 +200,6 @@
     </item>
     
     <item>
-      <title>烤箱</title>
-      <link>https://uberate.github.io/learn/tags/%E7%83%A4%E7%AE%B1/</link>
-      <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
-      
-      <guid>https://uberate.github.io/learn/tags/%E7%83%A4%E7%AE%B1/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>零食</title>
-      <link>https://uberate.github.io/learn/tags/%E9%9B%B6%E9%A3%9F/</link>
-      <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
-      
-      <guid>https://uberate.github.io/learn/tags/%E9%9B%B6%E9%A3%9F/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>猪肉</title>
-      <link>https://uberate.github.io/learn/tags/%E7%8C%AA%E8%82%89/</link>
-      <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
-      
-      <guid>https://uberate.github.io/learn/tags/%E7%8C%AA%E8%82%89/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>MCP</title>
       <link>https://uberate.github.io/learn/tags/mcp/</link>
       <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
@@ -215,26 +245,6 @@
       <pubDate>Sat, 07 Jun 2025 01:28:17 +0800</pubDate>
       
       <guid>https://uberate.github.io/learn/tags/abc/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>汪苏泷</title>
-      <link>https://uberate.github.io/learn/tags/%E6%B1%AA%E8%8B%8F%E6%B3%B7/</link>
-      <pubDate>Sat, 07 Jun 2025 00:52:13 +0800</pubDate>
-      
-      <guid>https://uberate.github.io/learn/tags/%E6%B1%AA%E8%8B%8F%E6%B3%B7/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>五线谱</title>
-      <link>https://uberate.github.io/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/</link>
-      <pubDate>Sat, 07 Jun 2025 00:52:13 +0800</pubDate>
-      
-      <guid>https://uberate.github.io/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/</guid>
       <description></description>
       
     </item>

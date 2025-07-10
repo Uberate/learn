@@ -22,3 +22,10 @@ categories = ['技术']
 | MCP 资源库 | [mcp.so](mcp.so) |
 | 社区按类型整理的 MCP 服务 | https://github.com/yzfly/Awesome-MCP-ZH |
 
+## AI 相关
+
+### 测试
+
+| 说明 | 链接 |
+| :---: | :---: |
+| LLM 测试框架 | https://www.readme-i18n.com/confident-ai/deepeval |

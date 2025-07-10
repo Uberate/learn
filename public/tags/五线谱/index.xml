@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>五线谱 on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/</link>
+    <link>http://localhost:1313/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/</link>
     <description>Recent content in 五线谱 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sat, 07 Jun 2025 00:52:13 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 00:52:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>巴赫旧约</title>
-      <link>https://uberate.github.io/learn/posts/music/staff/ba_he_jiu_yue/</link>
+      <link>http://localhost:1313/learn/posts/music/staff/ba_he_jiu_yue/</link>
       <pubDate>Sat, 07 Jun 2025 00:52:13 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/music/staff/ba_he_jiu_yue/</guid>
-      <description>&lt;script src=&#34;https://uberate.github.io/learn/js/abcjs-basic-min.js&#34; defer&gt;&lt;/script&gt;
+      <guid>http://localhost:1313/learn/posts/music/staff/ba_he_jiu_yue/</guid>
+      <description>&lt;script src=&#34;http://localhost:1313/learn/js/abcjs-basic-min.js&#34; defer&gt;&lt;/script&gt;
 
 
 

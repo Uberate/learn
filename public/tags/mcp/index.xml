@@ -69,7 +69,43 @@
     
 &lt;/h2&gt;
 &lt;p&gt;| MCP 资源库 | &lt;a href=&#34;mcp.so&#34;&gt;mcp.so&lt;/a&gt; |
-| 社区按类型整理的 MCP 服务 | &lt;a href=&#34;https://github.com/yzfly/Awesome-MCP-ZH&#34; target=&#34;_blank&#34;&gt;https://github.com/yzfly/Awesome-MCP-ZH&lt;/a&gt; |&lt;/p&gt;</description>
+| 社区按类型整理的 MCP 服务 | &lt;a href=&#34;https://github.com/yzfly/Awesome-MCP-ZH&#34; target=&#34;_blank&#34;&gt;https://github.com/yzfly/Awesome-MCP-ZH&lt;/a&gt; |&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;AI 相关 
+    &lt;div id=&#34;ai-相关&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#ai-%e7%9b%b8%e5%85%b3&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;测试 
+    &lt;div id=&#34;测试&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%b5%8b%e8%af%95&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;说明&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;链接&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;LLM 测试框架&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://www.readme-i18n.com/confident-ai/deepeval&#34; target=&#34;_blank&#34;&gt;https://www.readme-i18n.com/confident-ai/deepeval&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
       
     </item>
     
