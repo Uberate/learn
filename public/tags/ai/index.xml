@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/ai/</link>
+    <link>http://localhost:1313/learn/tags/ai/</link>
     <description>Recent content in AI on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 18:53:13 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 18:53:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>读 《The last six months in LLMs, illustrated by pelicans on bicycles》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</link>
+      <link>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</link>
       <pubDate>Sun, 15 Jun 2025 18:53:13 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://simonwillison.net/2025/Jun/6/six-months-in-llms/&#34; target=&#34;_blank&#34;&gt;The last six month in LLMs, illustrated by pelicans on bicycles&lt;/a&gt; - Simon Willison&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;写下这个文章的时候，时间是 &lt;code&gt;2025年06月15日&lt;/code&gt;。&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>MCP 资源</title>
-      <link>https://uberate.github.io/learn/posts/tech/ai/mcp/mcp_resources/</link>
+      <link>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</link>
       <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/tech/ai/mcp/mcp_resources/</guid>
+      <guid>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;学习 
     &lt;div id=&#34;学习&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -133,10 +133,10 @@
     
     <item>
       <title>学习 MCP - 本地 Server Demo</title>
-      <link>https://uberate.github.io/learn/posts/tech/ai/mcp/local_server_demo/</link>
+      <link>http://localhost:1313/learn/posts/tech/ai/mcp/local_server_demo/</link>
       <pubDate>Wed, 04 Jun 2025 22:39:13 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/tech/ai/mcp/local_server_demo/</guid>
+      <guid>http://localhost:1313/learn/posts/tech/ai/mcp/local_server_demo/</guid>
       <description>&lt;p&gt;这篇文章将带你创建一个简单的 MCP Local Server 服务。&lt;/p&gt;
 &lt;p&gt;代码已经放到我的 Github 仓库里面了：&lt;/p&gt;
 &lt;div class=&#34;github-card-wrapper&#34;&gt;&lt;a id=&#34;github-bf53c00e3cd771b191af44424dd43242&#34; target=&#34;_blank&#34; href=&#34;https://github.com/Uberate/lear-mcp&#34; class=&#34;cursor-pointer&#34;&gt;

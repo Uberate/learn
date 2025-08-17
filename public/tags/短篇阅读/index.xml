@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>短篇阅读 on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
+    <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
     <description>Recent content in 短篇阅读 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 18:57:15 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 18:57:15 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>读 《Boredom Over Beauty: Why Code Quaility is Code Security》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/04_boredom_over_beauty/</link>
+      <link>http://localhost:1313/learn/posts/article/short/04_boredom_over_beauty/</link>
       <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/04_boredom_over_beauty/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/04_boredom_over_beauty/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://blog.asymmetric.re/boredom-over-beauty-why-code-quality-is-code-security/#the-pragmatism-of-prevention&#34; target=&#34;_blank&#34;&gt;Boredom Over Beauty: Why Code Quality is Code Security&lt;/a&gt; &amp;ndash; John Saigle&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
@@ -61,10 +61,10 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
     
     <item>
       <title>读 《An illustrated guide to Amazon VPCs》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
+      <link>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
       <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 [An illustrated guide to Amazon VPCs](An illustrated guide to Amazon VPCs) &amp;ndash; Aditya Bhargava&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;作者阐述了 AWS 中 &lt;code&gt;VPC&lt;/code&gt; 的诞生原因：&lt;/p&gt;
@@ -77,16 +77,16 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;p&gt;&lt;code&gt;VPC&lt;/code&gt; 的全称: &lt;code&gt;Virtual Private Cloud&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;一般来说，VPC 应该会架设在 &lt;code&gt;ISO 网络七层&lt;/code&gt; 中的三层（网络层）。&lt;/p&gt;
 &lt;p&gt;不了解网络七层的朋友可以看这篇文章，我大概标记了一下网络七层的作用:
-&lt;a href=&#34;https://uberate.github.io/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;http://localhost:1313/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>读 《The last six months in LLMs, illustrated by pelicans on bicycles》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</link>
+      <link>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</link>
       <pubDate>Sun, 15 Jun 2025 18:53:13 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://simonwillison.net/2025/Jun/6/six-months-in-llms/&#34; target=&#34;_blank&#34;&gt;The last six month in LLMs, illustrated by pelicans on bicycles&lt;/a&gt; - Simon Willison&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;写下这个文章的时候，时间是 &lt;code&gt;2025年06月15日&lt;/code&gt;。&lt;/p&gt;
@@ -105,10 +105,10 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
     
     <item>
       <title>读 《The Who Cares Era》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/01_the_who_cares_era/</link>
+      <link>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</link>
       <pubDate>Mon, 09 Jun 2025 22:08:10 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/01_the_who_cares_era/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://dansinker.com/posts/2025-05-23-who-cares/&#34; target=&#34;_blank&#34;&gt;《The Who Cares Era》&lt;/a&gt; - Dan Sinker&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;文中提到了一个问题，’&lt;em&gt;&lt;strong&gt;谁在乎&lt;/strong&gt;&lt;/em&gt;‘ ？&lt;/p&gt;

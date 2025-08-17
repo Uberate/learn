@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>鸡爪 on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/%E9%B8%A1%E7%88%AA/</link>
+    <link>http://localhost:1313/learn/tags/%E9%B8%A1%E7%88%AA/</link>
     <description>Recent content in 鸡爪 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 17:26:50 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/%E9%B8%A1%E7%88%AA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 17:26:50 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E9%B8%A1%E7%88%AA/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>辣卤鸡爪</title>
-      <link>https://uberate.github.io/learn/posts/food_menu/la_lu_ji_zhua/</link>
+      <link>http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/</link>
       <pubDate>Sun, 15 Jun 2025 17:26:50 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/food_menu/la_lu_ji_zhua/</guid>
+      <guid>http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
     &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -29,7 +29,7 @@
   
   
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/la_lu_ji_zhua/example.png&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/la_lu_ji_zhua/example.png&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -135,7 +135,7 @@
   
   
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/la_lu_ji_zhua/1.png&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/la_lu_ji_zhua/1.png&#34;/&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
@@ -146,7 +146,7 @@
   
   
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/la_lu_ji_zhua/2.png&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/la_lu_ji_zhua/2.png&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -164,7 +164,7 @@
   
   
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/la_lu_ji_zhua/3.png&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/la_lu_ji_zhua/3.png&#34;/&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
@@ -192,7 +192,7 @@
 &lt;li&gt;出锅。&lt;/li&gt;
 &lt;li&gt;喊 &lt;code&gt;老婆&lt;/code&gt; 吃饭。&lt;/li&gt;
 &lt;/ol&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/la_lu_ji_zhua/feature_finish_product.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/feature_finish_product.png" />
     </item>
     
   </channel>

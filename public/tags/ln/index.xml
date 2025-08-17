@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ln on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/ln/</link>
+    <link>http://localhost:1313/learn/tags/ln/</link>
     <description>Recent content in Ln on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/ln/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/ln/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bash boom(Bash 炸弹)</title>
-      <link>https://uberate.github.io/learn/posts/ln/bash/bash_boom/</link>
+      <link>http://localhost:1313/learn/posts/ln/bash/bash_boom/</link>
       <pubDate>Tue, 24 Jun 2025 22:57:57 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/ln/bash/bash_boom/</guid>
+      <guid>http://localhost:1313/learn/posts/ln/bash/bash_boom/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Bash 炸弹 
     &lt;div id=&#34;bash-炸弹&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -67,10 +67,10 @@
     
     <item>
       <title>GO Channel 的空值特性</title>
-      <link>https://uberate.github.io/learn/posts/ln/go/channel/</link>
+      <link>http://localhost:1313/learn/posts/ln/go/channel/</link>
       <pubDate>Mon, 02 Jun 2025 19:10:41 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/ln/go/channel/</guid>
+      <guid>http://localhost:1313/learn/posts/ln/go/channel/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Golang Channel nil 
     &lt;div id=&#34;golang-channel-nil&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -115,6 +115,7 @@
 
 
 
+
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
@@ -134,7 +135,6 @@
 
 
 
-
 &lt;h2 class=&#34;relative group&#34;&gt;WriteNil 
     &lt;div id=&#34;writenil&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -145,6 +145,7 @@
     &lt;/span&gt;        
     
 &lt;/h2&gt;
+
 
 
 
@@ -182,7 +183,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//         /Users/uberate/workspace/learn/codes/go/channel/writenil/write_nil_channel.go:5 +0x24&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// exit status 2&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 
 &lt;p&gt;执行上述两个代码我们发现了一个现象，&lt;code&gt;nil&lt;/code&gt; 状态下的 Channel 是无法读写的，会一直阻塞。&lt;/p&gt;</description>

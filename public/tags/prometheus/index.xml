@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prometheus on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/prometheus/</link>
+    <link>http://localhost:1313/learn/tags/prometheus/</link>
     <description>Recent content in Prometheus on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Thu, 10 Jul 2025 22:16:21 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Jul 2025 22:16:21 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Counter_type</title>
-      <link>https://uberate.github.io/learn/posts/tech/observability/counter_type/</link>
+      <link>http://localhost:1313/learn/posts/tech/observability/counter_type/</link>
       <pubDate>Thu, 10 Jul 2025 22:16:21 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/tech/observability/counter_type/</guid>
+      <guid>http://localhost:1313/learn/posts/tech/observability/counter_type/</guid>
       <description>&lt;p&gt;今天看到一篇关于 Counter 是否是设计失误的文章，
 引发了一些思考。
 所以想深入了解一下，&lt;/p&gt;

@@ -2,19 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>阅读 on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/categories/%E9%98%85%E8%AF%BB/</link>
+    <link>http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/</link>
     <description>Recent content in 阅读 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 18:57:15 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jul 2025 22:54:47 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SLO &amp; SLI 软件可靠性实践指南</title>
+      <link>http://localhost:1313/learn/posts/article/implementing_service_level_objectives/</link>
+      <pubDate>Mon, 14 Jul 2025 22:54:47 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/implementing_service_level_objectives/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Implementing service level objectives&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/36696508/&#34; target=&#34;_blank&#34;&gt;Douban Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;@Author: 亚历克斯·伊达尔戈&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;术语表 
+    &lt;div id=&#34;术语表&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%9c%af%e8%af%ad%e8%a1%a8&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;术语&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;含义&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;SLI&lt;/code&gt; (&lt;strong&gt;S&lt;/strong&gt;ervice &lt;strong&gt;L&lt;/strong&gt;evel &lt;strong&gt;I&lt;/strong&gt;ndicator)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;服务级别指标&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;SLO&lt;/code&gt; (&lt;strong&gt;S&lt;/strong&gt;ervice &lt;strong&gt;L&lt;/strong&gt;evel &lt;strong&gt;O&lt;/strong&gt;bjective)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;服务级别目标&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Error Budget&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;错误预算&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;1. 服务 
+    &lt;div id=&#34;1-服务&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%e6%9c%8d%e5%8a%a1&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;可靠性真理：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;适当的可靠性级别是服务运维的基础。&lt;/li&gt;
+&lt;li&gt;决定服务可靠性的是从用户视角出发的，而不是你（&lt;em&gt;开发、运维&lt;/em&gt;）的视角。&lt;/li&gt;
+&lt;li&gt;没有什么是完美的，所以服务也不一定完美。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  随着可靠性的提高，需要投入的精力和金钱几乎是几何增长的。
+&lt;/div&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;1.1. 书中对服务的分类 
+    &lt;div id=&#34;11-书中对服务的分类&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#11-%e4%b9%a6%e4%b8%ad%e5%af%b9%e6%9c%8d%e5%8a%a1%e7%9a%84%e5%88%86%e7%b1%bb&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;服务：服务是任何拥有用户的系统。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>读 《Boredom Over Beauty: Why Code Quaility is Code Security》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/04_boredom_over_beauty/</link>
+      <link>http://localhost:1313/learn/posts/article/short/04_boredom_over_beauty/</link>
       <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/04_boredom_over_beauty/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/04_boredom_over_beauty/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://blog.asymmetric.re/boredom-over-beauty-why-code-quality-is-code-security/#the-pragmatism-of-prevention&#34; target=&#34;_blank&#34;&gt;Boredom Over Beauty: Why Code Quality is Code Security&lt;/a&gt; &amp;ndash; John Saigle&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
@@ -61,10 +141,10 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
     
     <item>
       <title>读 《An illustrated guide to Amazon VPCs》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
+      <link>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
       <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 [An illustrated guide to Amazon VPCs](An illustrated guide to Amazon VPCs) &amp;ndash; Aditya Bhargava&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;作者阐述了 AWS 中 &lt;code&gt;VPC&lt;/code&gt; 的诞生原因：&lt;/p&gt;
@@ -77,16 +157,16 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;p&gt;&lt;code&gt;VPC&lt;/code&gt; 的全称: &lt;code&gt;Virtual Private Cloud&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;一般来说，VPC 应该会架设在 &lt;code&gt;ISO 网络七层&lt;/code&gt; 中的三层（网络层）。&lt;/p&gt;
 &lt;p&gt;不了解网络七层的朋友可以看这篇文章，我大概标记了一下网络七层的作用:
-&lt;a href=&#34;https://uberate.github.io/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;http://localhost:1313/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>读 《The last six months in LLMs, illustrated by pelicans on bicycles》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</link>
+      <link>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</link>
       <pubDate>Sun, 15 Jun 2025 18:53:13 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://simonwillison.net/2025/Jun/6/six-months-in-llms/&#34; target=&#34;_blank&#34;&gt;The last six month in LLMs, illustrated by pelicans on bicycles&lt;/a&gt; - Simon Willison&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;写下这个文章的时候，时间是 &lt;code&gt;2025年06月15日&lt;/code&gt;。&lt;/p&gt;
@@ -105,10 +185,10 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
     
     <item>
       <title>读 《The Who Cares Era》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/01_the_who_cares_era/</link>
+      <link>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</link>
       <pubDate>Mon, 09 Jun 2025 22:08:10 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/01_the_who_cares_era/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://dansinker.com/posts/2025-05-23-who-cares/&#34; target=&#34;_blank&#34;&gt;《The Who Cares Era》&lt;/a&gt; - Dan Sinker&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;文中提到了一个问题，’&lt;em&gt;&lt;strong&gt;谁在乎&lt;/strong&gt;&lt;/em&gt;‘ ？&lt;/p&gt;
