@@ -11,15 +11,15 @@ weight = 10
 [[main]]
   parent = "文章"
   name = "主题系列"
-  pageRef = "topics"
+  pageRef = "categories"
   weight = 102
 
 
 [[main]]
-parent = "文章"
-name = "标签"
-pageRef = "tags"
-wegiht = 103
+  parent = "文章"
+  name = "标签"
+  pageRef = "tags"
+  wegiht = 103
 
 [[main]]
   name = "分类"
@@ -33,21 +33,27 @@ wegiht = 103
 
 [[main]]
   parent = "分类"
+  pageRef = "posts/tech/tools/home"
+  name = "工具"
+  wegiht = 112
+
+[[main]]
+  parent = "分类"
   pageRef = "categories/音乐"
   name = "音乐"
-  weight = 112
+  weight = 113
 
 [[main]]
   parent = "分类"
   pageRef = "categories/菜谱"
   name = "菜谱"
-  weight = 113
+  weight = 114
 
 [[main]]
   parent = "分类"
   pageRef = "categories/阅读"
   name = "阅读"
-  weight = 114
+  weight = 115
 [[main]]
   name = "路遇故事集"
   url = "/posts/stories/first/"

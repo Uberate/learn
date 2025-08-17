@@ -7,7 +7,121 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 17 Aug 2025 20:26:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Aug 2025 22:16:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Git 的白名单模式</title>
+      <link>http://localhost:1313/learn/posts/ln/git/git-whitemode/</link>
+      <pubDate>Sun, 17 Aug 2025 22:16:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/ln/git/git-whitemode/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考： &lt;a href=&#34;https://rgbcu.be/blog/gitignore&#34; target=&#34;_blank&#34;&gt;gitignore&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;引发 
+    &lt;div id=&#34;引发&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%bc%95%e5%8f%91&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;如果你是使用 mac 的工作环境，
+那么我相信你一定在你的代码仓库中提交过 &lt;code&gt;.DS_STORE&lt;/code&gt; 这个文件。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>工具合集</title>
+      <link>http://localhost:1313/learn/posts/tech/tools/home/</link>
+      <pubDate>Sun, 17 Aug 2025 21:50:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/tech/tools/home/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;工具整理 
+    &lt;div id=&#34;工具整理&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%b7%a5%e5%85%b7%e6%95%b4%e7%90%86&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;视频、图片加工 &amp;amp; 处理 
+    &lt;div id=&#34;视频图片加工--处理&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e8%a7%86%e9%a2%91%e5%9b%be%e7%89%87%e5%8a%a0%e5%b7%a5--%e5%a4%84%e7%90%86&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名字&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;简述&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;链接&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;videoeditor&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;浏览器版本的视频剪辑工具。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/robinroy03/videoeditor&#34; target=&#34;_blank&#34;&gt;https://github.com/robinroy03/videoeditor&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;官网地址：&lt;a href=&#34;https://trykimu.com/&#34; target=&#34;_blank&#34;&gt;https://trykimu.com/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;虚拟化 &amp;amp; 容器 
+    &lt;div id=&#34;虚拟化--容器&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e8%99%9a%e6%8b%9f%e5%8c%96--%e5%ae%b9%e5%99%a8&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名字&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;简述&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;链接&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;docker-archlinux-gui&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;容器虚拟化的 GUI 解决方案。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/hemashushu/docker-archlinux-gui&#34; target=&#34;_blank&#34;&gt;https://github.com/hemashushu/docker-archlinux-gui&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;奇怪的东西 
+    &lt;div id=&#34;奇怪的东西&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%a5%87%e6%80%aa%e7%9a%84%e4%b8%9c%e8%a5%bf&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;| onemillionscreenshots | 号称一百万个屏幕截图。 | &lt;a href=&#34;https://onemillionscreenshots.com/&#34; target=&#34;_blank&#34;&gt;https://onemillionscreenshots.com/&lt;/a&gt; | |
+| touch-mapper | 提供一个地点的触摸地图。 | &lt;a href=&#34;https://touch-mapper.org/en/&#34; target=&#34;_blank&#34;&gt;https://touch-mapper.org/en/&lt;/a&gt; | |&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>读 《The Secret History of Tor》</title>

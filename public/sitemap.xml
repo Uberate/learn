@@ -3,12 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/learn/posts/ln/git/git-whitemode/</loc>
+    <lastmod>2025-08-17T22:16:00+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-08-17T20:26:00+08:00</lastmod>
+    <lastmod>2025-08-17T22:16:00+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/tech/tools/home/</loc>
+    <lastmod>2025-08-17T21:50:21+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</loc>
-    <lastmod>2025-08-17T20:26:00+08:00</lastmod>
+    <lastmod>2025-08-17T21:40:34+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/</loc>
