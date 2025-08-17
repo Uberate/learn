@@ -10,6 +10,30 @@
     <lastBuildDate>Mon, 02 Jun 2025 20:57:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>读 《The Secret History of Tor》</title>
+      <link>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</link>
+      <pubDate>Sun, 17 Aug 2025 20:26:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 &lt;a href=&#34;https://thereader.mitpress.mit.edu/the-secret-history-of-tor-how-a-military-project-became-a-lifeline-for-privacy/&#34; target=&#34;_blank&#34;&gt;The Secret Hisory of Tor&lt;/a&gt; &amp;ndash; Ben Collier&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;警示 
+    &lt;div id=&#34;警示&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e8%ad%a6%e7%a4%ba&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;这篇文章对于技术的探究没有很深，
+不过他让我有了一些额外的思考。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>牛角包</title>
       <link>http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/</link>
       <pubDate>Sun, 17 Aug 2025 17:25:50 +0800</pubDate>
@@ -236,29 +260,7 @@
     &lt;/span&gt;        
     
 &lt;/h3&gt;
-&lt;p&gt;可靠性真理：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;适当的可靠性级别是服务运维的基础。&lt;/li&gt;
-&lt;li&gt;决定服务可靠性的是从用户视角出发的，而不是你（&lt;em&gt;开发、运维&lt;/em&gt;）的视角。&lt;/li&gt;
-&lt;li&gt;没有什么是完美的，所以服务也不一定完美。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  随着可靠性的提高，需要投入的精力和金钱几乎是几何增长的。
-&lt;/div&gt;
-
-
-&lt;h4 class=&#34;relative group&#34;&gt;1.1. 书中对服务的分类 
-    &lt;div id=&#34;11-书中对服务的分类&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#11-%e4%b9%a6%e4%b8%ad%e5%af%b9%e6%9c%8d%e5%8a%a1%e7%9a%84%e5%88%86%e7%b1%bb&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;服务：服务是任何拥有用户的系统。&lt;/p&gt;</description>
+&lt;p&gt;可靠性真理：&lt;/p&gt;</description>
       
     </item>
     
@@ -284,39 +286,7 @@
     &lt;/span&gt;        
     
 &lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Counter&lt;/code&gt; 是观测指标中一种非常常见的数据类型。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Counter&lt;/code&gt; 是一种单调递增的指标类型，
-通常用于记录某个事件发生的总次数。
-他的值只能增加，
-不能减少，
-除非发生了重置（或溢出）。&lt;/p&gt;
-&lt;p&gt;这里有一个非常关键的点：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Counter 是一个单调递增的数据类型，所以再没有发生溢出的情况下，Counter 不应该出现重置。&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;用途 
-    &lt;div id=&#34;用途&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%94%a8%e9%80%94&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;1. 速率类的运算 
-    &lt;div id=&#34;1-速率类的运算&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%e9%80%9f%e7%8e%87%e7%b1%bb%e7%9a%84%e8%bf%90%e7%ae%97&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;p&gt;Counter 本身的计算目标再实际生产中，
-都是用来计算 &lt;code&gt;QPS&lt;/code&gt;，&lt;code&gt;OPS&lt;/code&gt;，&lt;code&gt;EPS&lt;/code&gt; 的。&lt;/p&gt;</description>
+&lt;p&gt;&lt;code&gt;Counter&lt;/code&gt; 是观测指标中一种非常常见的数据类型。&lt;/p&gt;</description>
       
     </item>
     
@@ -738,28 +708,7 @@
     
 &lt;/h3&gt;
 &lt;p&gt;管理混乱的代码由于其可维护性比较低，容易遭受安全问题的注入。
-此外，没有结构化和一致的代码风格会导致审核人员无法有效、及时的发现问题。&lt;/p&gt;
-&lt;p&gt;由此可以得出一个结论：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;代码需要保持&lt;strong&gt;风格统一&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;简单的代码一般出现的问题比较少 
-    &lt;div id=&#34;简单的代码一般出现的问题比较少&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%ae%80%e5%8d%95%e7%9a%84%e4%bb%a3%e7%a0%81%e4%b8%80%e8%88%ac%e5%87%ba%e7%8e%b0%e7%9a%84%e9%97%ae%e9%a2%98%e6%af%94%e8%be%83%e5%b0%91&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The most secure code isn&amp;rsquo;t beautiful, clever, or elegant-it&amp;rsquo;s boring. Go, a
-programming language that exemplifies this philosophy, intentionally omits
-features that might enable expressive or elegant solutions in favor of simplicity
-and readability. This apparent limitation produces code that&amp;rsquo;s easier to audit,
-harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</description>
+此外，没有结构化和一致的代码风格会导致审核人员无法有效、及时的发现问题。&lt;/p&gt;</description>
       
     </item>
     
@@ -778,10 +727,7 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;li&gt;如果没有专用网络，每个人都在同一个网络下，这不安全。&lt;/li&gt;
 &lt;li&gt;VPC 是通过映射服务（Mapping service）实现的。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;VPC&lt;/code&gt; 的全称: &lt;code&gt;Virtual Private Cloud&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;一般来说，VPC 应该会架设在 &lt;code&gt;ISO 网络七层&lt;/code&gt; 中的三层（网络层）。&lt;/p&gt;
-&lt;p&gt;不了解网络七层的朋友可以看这篇文章，我大概标记了一下网络七层的作用:
-&lt;a href=&#34;http://localhost:1313/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;code&gt;VPC&lt;/code&gt; 的全称: &lt;code&gt;Virtual Private Cloud&lt;/code&gt;。&lt;/p&gt;</description>
       
     </item>
     
@@ -796,14 +742,7 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;p&gt;写下这个文章的时候，时间是 &lt;code&gt;2025年06月15日&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;这篇文章利用鹈鹕说明了当前 LLMs 世界中的重要时间点，以及一些作者的思考。
 其实在某种程度上来说，这篇文章是一个对大模型发展的一个测试。
-作者利用 &lt;code&gt;鹈鹕骑自行车&lt;/code&gt; 来测试大模型生成 &lt;code&gt;SVG&lt;/code&gt; 的能力。&lt;/p&gt;
-&lt;p&gt;这其实倒也提醒了我，这是一个不可能的事情，鹈鹕是个鸟，他不会骑自行车。
-那么这种不可能的事情交给 AI 会发生什么呢？&lt;/p&gt;
-&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  AI 对于莫名奇妙的事情可能无法做出很好的回应。
-&lt;/div&gt;
-
-&lt;p&gt;作者还提到了一些大模型的发展历程，有兴趣的朋友可以去阅读一下。&lt;/p&gt;</description>
+作者利用 &lt;code&gt;鹈鹕骑自行车&lt;/code&gt; 来测试大模型生成 &lt;code&gt;SVG&lt;/code&gt; 的能力。&lt;/p&gt;</description>
       
     </item>
     
@@ -1053,43 +992,7 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
     
 &lt;/h2&gt;
 &lt;p&gt;| MCP 资源库 | &lt;a href=&#34;mcp.so&#34;&gt;mcp.so&lt;/a&gt; |
-| 社区按类型整理的 MCP 服务 | &lt;a href=&#34;https://github.com/yzfly/Awesome-MCP-ZH&#34; target=&#34;_blank&#34;&gt;https://github.com/yzfly/Awesome-MCP-ZH&lt;/a&gt; |&lt;/p&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;AI 相关 
-    &lt;div id=&#34;ai-相关&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#ai-%e7%9b%b8%e5%85%b3&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;测试 
-    &lt;div id=&#34;测试&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%b5%8b%e8%af%95&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;说明&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;链接&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;LLM 测试框架&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://www.readme-i18n.com/confident-ai/deepeval&#34; target=&#34;_blank&#34;&gt;https://www.readme-i18n.com/confident-ai/deepeval&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
+| 社区按类型整理的 MCP 服务 | &lt;a href=&#34;https://github.com/yzfly/Awesome-MCP-ZH&#34; target=&#34;_blank&#34;&gt;https://github.com/yzfly/Awesome-MCP-ZH&lt;/a&gt; |&lt;/p&gt;</description>
       
     </item>
     
@@ -1104,13 +1007,7 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;/div&gt;
 
 &lt;p&gt;故事集开始在 2019 年的一个很平常的下午，我约了我好久不见的朋友喝杯咖啡，然后幸运的开始了这个系列。
-我是通过笔和纸记录的，可是我总觉的，我应该把他们留下来，这其实很浪漫不是吗？&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;在这个 W3.0 的时代中，我想像 W1.0 那样生活。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;我喜欢这尘世上纷纷扰扰的相遇。
-我热爱这人世间的故事。
-期待您的故事，等待与你相遇。
-世间有法万千种，我还是喜欢我的生活。&lt;/p&gt;</description>
+我是通过笔和纸记录的，可是我总觉的，我应该把他们留下来，这其实很浪漫不是吗？&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/stories/first/feature.png" />
     </item>
     
@@ -1126,23 +1023,7 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;p&gt;是的，这是一个非常快节奏的时代，大多数的人没有精力和时间去识别信息是否为真。
 这样一来，谣言的传播非常快。
 &lt;em&gt;但是我认为&lt;strong&gt;我们没有必要在乎这件事&lt;/strong&gt;&lt;/em&gt;。
-我们应该避免成为 FakeNews 的传播者就足够了。&lt;/p&gt;
-&lt;p&gt;这是时代是信息时代，我们每天周围都充斥的大量的信息输入。就拿我自己来说，我曾经几乎每天要处理1000条工作上的消息。
-这几乎好近了我全部的精力。之后的很长时间，我都没有办法可以快速集中我的精力。这非常痛苦。
-简单来算，假设每条消息需要阅读&lt;code&gt;5秒钟&lt;/code&gt;（这包括对问题的思考和对曾经的上下文检索的时间）。
-那么我每一天花在阅读其他人发给我消息的时间大概就是 &lt;code&gt;5000秒&lt;/code&gt;, 约一个半小时。&lt;/p&gt;
-&lt;p&gt;然而我的工作热情和能力并没有因为过多的信息而得到提升。相反，我感到非常痛苦。
-所以，我得到了一个结论：&lt;/p&gt;
-&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  &lt;em&gt;我应该把精力放在提升自己的事情上，而且，我应该更加关心我的生活。&lt;/em&gt;
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;用技术去生存，用艺术去生活。
-&amp;ndash; 电影《死亡诗社》&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;或许这是一个时代的变革，我从不认为新技术会让人先入悲哀，时代也是如此。
-新的时代浪潮已经到来，我们不应该沉溺于过去，而是要向前看。
-集中精力，做正确的事。&lt;/p&gt;</description>
+我们应该避免成为 FakeNews 的传播者就足够了。&lt;/p&gt;</description>
       
     </item>
     
@@ -1975,34 +1856,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
 &lt;p&gt;&lt;code&gt;IpTables&lt;/code&gt; 是一个 &lt;code&gt;NetFilter&lt;/code&gt; 的用户态应用程序。&lt;/p&gt;
 &lt;p&gt;主要面向系统管理员的 Linux 内核防火墙。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;是的，&lt;code&gt;IpTables&lt;/code&gt; 实际是一个防火墙，而不是路由器。&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;容器时代的机遇 
-    &lt;div id=&#34;容器时代的机遇&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%ae%b9%e5%99%a8%e6%97%b6%e4%bb%a3%e7%9a%84%e6%9c%ba%e9%81%87&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;订书器也没有想到有一天他订装的不是精神粮食，而是真的粮食。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;除网络隔离之外，IpTables 还提供了流量隔离、管理的能力。&lt;/p&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;IpTables 的 Table(表) 
-    &lt;div id=&#34;iptables-的-table表&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#iptables-%e7%9a%84-table%e8%a1%a8&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;p&gt;容器时代更加常见使用的是 &lt;code&gt;NAT&lt;/code&gt; 表，比如 &lt;code&gt;Docker&lt;/code&gt; 将服务暴露到主机服务上，实际上就是通过 &lt;code&gt;IpTables&lt;/code&gt; 实现的。
-如果在启动 &lt;code&gt;Docker&lt;/code&gt; 添加启动参数 &lt;code&gt;--iptables=false&lt;/code&gt;, &lt;code&gt;Docker&lt;/code&gt; 就无法通过 &lt;code&gt;IpTables&lt;/code&gt; 将服务暴露在主机上。&lt;/p&gt;</description>
+&lt;p&gt;是的，&lt;code&gt;IpTables&lt;/code&gt; 实际是一个防火墙，而不是路由器。&lt;/p&gt;</description>
       
     </item>
     
@@ -2022,73 +1876,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
     &lt;/span&gt;        
     
 &lt;/h1&gt;
-&lt;p&gt;计算机时代，不论是什么原因，我们都应该了解熟悉网络相关知识。&lt;/p&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;网络 7 层标准模型 
-    &lt;div id=&#34;网络-7-层标准模型&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%bd%91%e7%bb%9c-7-%e5%b1%82%e6%a0%87%e5%87%86%e6%a8%a1%e5%9e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;p&gt;自上而下&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;#&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;名&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;常见协议&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;说明&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;应用层(Application Layer)&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;HTTP&lt;/code&gt; &lt;/br&gt; &lt;code&gt;FTP&lt;/code&gt; &lt;/br&gt; &lt;code&gt;SMTP&lt;/code&gt; &lt;/br&gt; &lt;code&gt;DNS&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;直接为用户的应用程序提供服务。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;表示层(Presentation Layer)&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;负责数据的表示、加密、解密和压缩，如数据格式转换、加密解密、字符集转换等。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;会化层(Session Layer)&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;管理会话，建立、管理和终止会话连接，如登录验证、会话恢复等。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;4&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;传输层(Transport Layer)&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;TCP&lt;/code&gt; &lt;/br&gt; &lt;code&gt;UDP&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;提供端到端的可靠传输和流量控制。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;5&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;网络层(Network Layer)&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;负责数据包的路由和转发，实现不同网络之间的通信。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;6&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;数据链路层(Data Link Layer)&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;负责在同一网络内的数据帧传输和差错检测。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;7&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;物理层 (Physical Layer)&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;负责比特流的传输，定义物理设备的电气、机械、过程和功能规范，如网线、光纤、集线器等。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
+&lt;p&gt;计算机时代，不论是什么原因，我们都应该了解熟悉网络相关知识。&lt;/p&gt;</description>
       
     </item>
     
@@ -2109,110 +1897,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
     
 &lt;/h1&gt;
 &lt;p&gt;Channel 在空值的时候会有特殊的行为。&lt;/p&gt;
-&lt;p&gt;与大多数的数据类型不同，Channel 在 &lt;code&gt;nil&lt;/code&gt; 的情况下进行读写会发生线程阻塞，而不是空指针异常。&lt;/p&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;ReadNil 
-    &lt;div id=&#34;readnil&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#readnil&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nilCh&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;chan&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{} = &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nilCh&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// STDOUT&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// fatal error: all goroutines are asleep - deadlock!&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// goroutine 1 [chan receive (nil chan)]:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// main.main()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//         /learn/codes/go/channel/readnil/read_nil_channel.go:5 +0x24&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// exit status 2&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-
-&lt;h2 class=&#34;relative group&#34;&gt;WriteNil 
-    &lt;div id=&#34;writenil&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#writenil&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nilCh&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;chan&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{} = &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;nilCh&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}{}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// STDOUT&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// fatal error: all goroutines are asleep - deadlock!&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// goroutine 1 [chan send (nil chan)]:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// main.main()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//         /Users/uberate/workspace/learn/codes/go/channel/writenil/write_nil_channel.go:5 +0x24&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// exit status 2&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;执行上述两个代码我们发现了一个现象，&lt;code&gt;nil&lt;/code&gt; 状态下的 Channel 是无法读写的，会一直阻塞。&lt;/p&gt;</description>
+&lt;p&gt;与大多数的数据类型不同，Channel 在 &lt;code&gt;nil&lt;/code&gt; 的情况下进行读写会发生线程阻塞，而不是空指针异常。&lt;/p&gt;</description>
       
     </item>
     
@@ -2244,10 +1929,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
 给不了她想要的生活。
 但是，
 也要一米粒之光与日月争辉！
-有一天成功了，你会发现阳光打在她的脸上有多美！&lt;/p&gt;
-&lt;p&gt;&amp;ndash; 虎子&lt;/p&gt;
-
-&lt;/div&gt;</description>
+有一天成功了，你会发现阳光打在她的脸上有多美！&lt;/p&gt;</description>
       
     </item>
     
@@ -2265,47 +1947,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
 会爱屋及乌的喜欢他的喜欢的一切，
 会喜欢他周围的一切，
 或许爱情也是这样，
-会为了她努力做的更好。&lt;/p&gt;
-&lt;p&gt;Wali 小金碗那么好的几个人却要分开，
-可是如果不分开，
-那妞妞该怎么办呢？
-不知道为什么，
-一些人纠结着，
-喜欢一个人，
-不应该连他爱着的人一起喜欢的么？
-时间不会倒流，
-过去的事情就让他过去吧，
-不要去想那些让自己不开心的事情。
-时间会慢慢抹去那些不开心的事情，
-虽然不能永远遗忘，
-但是只要不去想就可以了。
-多做一些自己开心的事情，
-一个人的人生宗浩有一些伤心难过的事情。
-这些伤心难过的事情才会使自己变得更加强大，
-才会长大。&lt;/p&gt;
-&lt;p&gt;小时候总想着自己长大后，
-长大了就不会被约束，
-被管着。
-可是当自己长大后，
-有时回想着回到小时候该多好。
-可是小时候有小时候的烦恼，
-不想学习，
-想着玩游戏，
-可是长大之后会为小时候那个不努力学习的自己后悔。
-如果当时努力学习，
-现在会不会不一样。
-不一样的学校，不一样的环境。
-但是不一样的学校和环境可能有着不一样的同学，
-这个时候会舍不得现在的同学。&lt;/p&gt;
-&lt;p&gt;果然，
-世界上没有让时间倒流的方法。
-自己走的路，就要坚持下去。
-不要想一些不切实际的事情。
-那些让自己后悔的事情就忘记吧！
-明天一定会更好的。&lt;/p&gt;
-&lt;p&gt;&amp;ndash;永远的 Wannable &amp;amp; Love&lt;/p&gt;
-
-&lt;/div&gt;</description>
+会为了她努力做的更好。&lt;/p&gt;</description>
       
     </item>
     
@@ -2331,70 +1973,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
 不断去想，
 才能升华自己，
 让自己变得更好。
-可能是生活的意义。&lt;/p&gt;
-&lt;p&gt;人嘛，
-平淡有平淡的好，
-不平淡其实也不错，
-看自己的乐趣，
-万事都要问问自己，
-这么做有没有错，
-如果没错，
-管他的，
-干啥都行，
-随便闯呗，
-万事皆有利弊。&lt;/p&gt;
-&lt;p&gt;我做事情其实没有太多焦虑，
-都是当场去想，
-比如来一件事，
-立马想怎么去做。
-我对象也埋怨我，
-明天啥安排啊。
-我总会说明天的事明天再去想呗。
-车到山前必有路。&lt;/p&gt;
-&lt;p&gt;写了这么多，
-毫无逻辑，
-想到啥说啥呗。&lt;/p&gt;
-&lt;p&gt;我是觉得发现自己的准则，
-还是挺重要的。&lt;/p&gt;
-&lt;p&gt;有时候，
-我也不想哪些重要，
-哪些不重要，
-整的我的生活也挺乱，这辈子，
-友情、爱情、亲情，
-还有那些对你有恩的恩情，
-做事就要考虑这些吧。&lt;/p&gt;
-&lt;p&gt;遇到几个真心朋友，
-遇到几段好的，坏的爱情，
-亲情努力去守护，
-恩情永远不要忘记，
-做啥问心无愧，
-随意一点。
-遇事乐观，
-发生这些事，
-反正肯定有原因。
-具体什么原因，
-不要去想。
-我是觉得这样挺好的。
-但一定注意平常多反思，
-充实自己才不亏。
-如果再这样的基础上，
-自己对自己有一个好的规划，
-我感觉更棒。&lt;/p&gt;
-&lt;p&gt;每个人的故事都很棒，
-我也不差，
-努力做好自己。
-你的灵魂真的很有趣。
-我想有女生愿意去了解你的时候，
-会爱上你的，
-哈哈。
-还有我想告诉你，
-你是我为数不多的真心朋友，
-回合以前那些兄弟一样永远记在心里，
-毕了业，
-可能联系少了，
-但是有事想到我，
-请你不要怕麻烦的，
-我，对于你，我会永远记在心里。&lt;/p&gt;</description>
+可能是生活的意义。&lt;/p&gt;</description>
       
     </item>
     
@@ -2408,13 +1987,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
   &lt;p&gt;十岁那年，玩得最好的朋友都成了知己，认为友情最难得，一辈子都想跟一个人走到底。
 二十岁那年，所有的人都不知道你曾经的回忆，你也很难再找到那种共鸣。
 所以你就重新做了个自己，但原则不变，至今还在寻找一个真诚，愿意理解、愿意尊重、愿意倾听知道你想要的知己。
-谈恋爱每个我都愿意奉陪到底，但不是非你不娶。&lt;/p&gt;
-&lt;p&gt;我是一个感情大于一切的人，对所有人我都愿意真诚平等的对待。
-但如果你伤害过我，我也明白了不过如此，就永远都不可能成为最重要的人。&lt;/p&gt;
-&lt;p&gt;之所以心态稳定，是因为初心坚定，守着初心走下去，就是最好的机遇。&lt;/p&gt;
-&lt;p&gt;&amp;ndash;RYY&lt;/p&gt;
-
-&lt;/div&gt;</description>
+谈恋爱每个我都愿意奉陪到底，但不是非你不娶。&lt;/p&gt;</description>
       
     </item>
     
@@ -2487,10 +2060,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
   &lt;p&gt;朋友这种事看缘分，但其实真的是遇到困境才能发现哪个值得你去珍惜。
 这也是人生中最重要的东西之一了，希望你能遇见最郑群的人。
 不只是朋友，还有恋人，没有太多祝福，只想能有人会陪着你。
-未来很长，还是要坚持啊，没有任何困难能抵得过坚持。&lt;/p&gt;
-&lt;p&gt;&amp;ndash; 正确的人&lt;/p&gt;
-
-&lt;/div&gt;</description>
+未来很长，还是要坚持啊，没有任何困难能抵得过坚持。&lt;/p&gt;</description>
       
     </item>
     
@@ -2508,13 +2078,7 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
 故事集的开始便是从唐开始的。
 我们见面的次数不多，但是每一次的再相遇都感觉十分惬意。&lt;/p&gt;
 &lt;p&gt;我或许应该这样描述唐，目标明确，永远充满斗志和希望。
-所以，如今已然成为了博士。&lt;/p&gt;
-&lt;p&gt;那个时候，我们还在上大学。一次难得的机会，我们约了咖啡馆。
-&lt;em&gt;但是很令人难过的是，我们大学相距很近，而我在那个时候不怎么出校门。&lt;/em&gt;
-所以那一次几乎是我和他大学生涯中唯一一次的相遇。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;我不记得了，到今天，那天仍是最后一天。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;故事集的开篇第一句话，便是他留给我的。&lt;/p&gt;</description>
+所以，如今已然成为了博士。&lt;/p&gt;</description>
       
     </item>
     

@@ -31,39 +31,7 @@
     &lt;/span&gt;        
     
 &lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Counter&lt;/code&gt; 是观测指标中一种非常常见的数据类型。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Counter&lt;/code&gt; 是一种单调递增的指标类型，
-通常用于记录某个事件发生的总次数。
-他的值只能增加，
-不能减少，
-除非发生了重置（或溢出）。&lt;/p&gt;
-&lt;p&gt;这里有一个非常关键的点：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Counter 是一个单调递增的数据类型，所以再没有发生溢出的情况下，Counter 不应该出现重置。&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;用途 
-    &lt;div id=&#34;用途&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%94%a8%e9%80%94&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;1. 速率类的运算 
-    &lt;div id=&#34;1-速率类的运算&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%e9%80%9f%e7%8e%87%e7%b1%bb%e7%9a%84%e8%bf%90%e7%ae%97&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;p&gt;Counter 本身的计算目标再实际生产中，
-都是用来计算 &lt;code&gt;QPS&lt;/code&gt;，&lt;code&gt;OPS&lt;/code&gt;，&lt;code&gt;EPS&lt;/code&gt; 的。&lt;/p&gt;</description>
+&lt;p&gt;&lt;code&gt;Counter&lt;/code&gt; 是观测指标中一种非常常见的数据类型。&lt;/p&gt;</description>
       
     </item>
     

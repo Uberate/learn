@@ -34,28 +34,7 @@
     
 &lt;/h3&gt;
 &lt;p&gt;管理混乱的代码由于其可维护性比较低，容易遭受安全问题的注入。
-此外，没有结构化和一致的代码风格会导致审核人员无法有效、及时的发现问题。&lt;/p&gt;
-&lt;p&gt;由此可以得出一个结论：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;代码需要保持&lt;strong&gt;风格统一&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;简单的代码一般出现的问题比较少 
-    &lt;div id=&#34;简单的代码一般出现的问题比较少&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%ae%80%e5%8d%95%e7%9a%84%e4%bb%a3%e7%a0%81%e4%b8%80%e8%88%ac%e5%87%ba%e7%8e%b0%e7%9a%84%e9%97%ae%e9%a2%98%e6%af%94%e8%be%83%e5%b0%91&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The most secure code isn&amp;rsquo;t beautiful, clever, or elegant-it&amp;rsquo;s boring. Go, a
-programming language that exemplifies this philosophy, intentionally omits
-features that might enable expressive or elegant solutions in favor of simplicity
-and readability. This apparent limitation produces code that&amp;rsquo;s easier to audit,
-harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</description>
+此外，没有结构化和一致的代码风格会导致审核人员无法有效、及时的发现问题。&lt;/p&gt;</description>
       
     </item>
     

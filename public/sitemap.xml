@@ -4,15 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-08-17T17:25:50+08:00</lastmod>
+    <lastmod>2025-08-17T20:26:00+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</loc>
+    <lastmod>2025-08-17T20:26:00+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/</loc>
-    <lastmod>2025-08-17T17:25:50+08:00</lastmod>
+    <lastmod>2025-08-17T19:39:28+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/implementing_service_level_objectives/</loc>
-    <lastmod>2025-07-14T22:54:47+08:00</lastmod>
+    <lastmod>2025-08-17T19:39:28+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/tech/observability/counter_type/</loc>

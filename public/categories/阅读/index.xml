@@ -7,7 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Mon, 14 Jul 2025 22:54:47 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Aug 2025 20:26:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>读 《The Secret History of Tor》</title>
+      <link>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</link>
+      <pubDate>Sun, 17 Aug 2025 20:26:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 &lt;a href=&#34;https://thereader.mitpress.mit.edu/the-secret-history-of-tor-how-a-military-project-became-a-lifeline-for-privacy/&#34; target=&#34;_blank&#34;&gt;The Secret Hisory of Tor&lt;/a&gt; &amp;ndash; Ben Collier&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;警示 
+    &lt;div id=&#34;警示&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e8%ad%a6%e7%a4%ba&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;这篇文章对于技术的探究没有很深，
+不过他让我有了一些额外的思考。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>SLO &amp; SLI 软件可靠性实践指南</title>
@@ -63,29 +87,7 @@
     &lt;/span&gt;        
     
 &lt;/h3&gt;
-&lt;p&gt;可靠性真理：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;适当的可靠性级别是服务运维的基础。&lt;/li&gt;
-&lt;li&gt;决定服务可靠性的是从用户视角出发的，而不是你（&lt;em&gt;开发、运维&lt;/em&gt;）的视角。&lt;/li&gt;
-&lt;li&gt;没有什么是完美的，所以服务也不一定完美。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  随着可靠性的提高，需要投入的精力和金钱几乎是几何增长的。
-&lt;/div&gt;
-
-
-&lt;h4 class=&#34;relative group&#34;&gt;1.1. 书中对服务的分类 
-    &lt;div id=&#34;11-书中对服务的分类&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#11-%e4%b9%a6%e4%b8%ad%e5%af%b9%e6%9c%8d%e5%8a%a1%e7%9a%84%e5%88%86%e7%b1%bb&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;服务：服务是任何拥有用户的系统。&lt;/p&gt;</description>
+&lt;p&gt;可靠性真理：&lt;/p&gt;</description>
       
     </item>
     
@@ -114,28 +116,7 @@
     
 &lt;/h3&gt;
 &lt;p&gt;管理混乱的代码由于其可维护性比较低，容易遭受安全问题的注入。
-此外，没有结构化和一致的代码风格会导致审核人员无法有效、及时的发现问题。&lt;/p&gt;
-&lt;p&gt;由此可以得出一个结论：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;代码需要保持&lt;strong&gt;风格统一&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;简单的代码一般出现的问题比较少 
-    &lt;div id=&#34;简单的代码一般出现的问题比较少&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%ae%80%e5%8d%95%e7%9a%84%e4%bb%a3%e7%a0%81%e4%b8%80%e8%88%ac%e5%87%ba%e7%8e%b0%e7%9a%84%e9%97%ae%e9%a2%98%e6%af%94%e8%be%83%e5%b0%91&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The most secure code isn&amp;rsquo;t beautiful, clever, or elegant-it&amp;rsquo;s boring. Go, a
-programming language that exemplifies this philosophy, intentionally omits
-features that might enable expressive or elegant solutions in favor of simplicity
-and readability. This apparent limitation produces code that&amp;rsquo;s easier to audit,
-harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</description>
+此外，没有结构化和一致的代码风格会导致审核人员无法有效、及时的发现问题。&lt;/p&gt;</description>
       
     </item>
     
@@ -154,10 +135,7 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;li&gt;如果没有专用网络，每个人都在同一个网络下，这不安全。&lt;/li&gt;
 &lt;li&gt;VPC 是通过映射服务（Mapping service）实现的。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;VPC&lt;/code&gt; 的全称: &lt;code&gt;Virtual Private Cloud&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;一般来说，VPC 应该会架设在 &lt;code&gt;ISO 网络七层&lt;/code&gt; 中的三层（网络层）。&lt;/p&gt;
-&lt;p&gt;不了解网络七层的朋友可以看这篇文章，我大概标记了一下网络七层的作用:
-&lt;a href=&#34;http://localhost:1313/learn/posts/tech/network/base/&#34;&gt;网络基础&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;code&gt;VPC&lt;/code&gt; 的全称: &lt;code&gt;Virtual Private Cloud&lt;/code&gt;。&lt;/p&gt;</description>
       
     </item>
     
@@ -172,14 +150,7 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;p&gt;写下这个文章的时候，时间是 &lt;code&gt;2025年06月15日&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;这篇文章利用鹈鹕说明了当前 LLMs 世界中的重要时间点，以及一些作者的思考。
 其实在某种程度上来说，这篇文章是一个对大模型发展的一个测试。
-作者利用 &lt;code&gt;鹈鹕骑自行车&lt;/code&gt; 来测试大模型生成 &lt;code&gt;SVG&lt;/code&gt; 的能力。&lt;/p&gt;
-&lt;p&gt;这其实倒也提醒了我，这是一个不可能的事情，鹈鹕是个鸟，他不会骑自行车。
-那么这种不可能的事情交给 AI 会发生什么呢？&lt;/p&gt;
-&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  AI 对于莫名奇妙的事情可能无法做出很好的回应。
-&lt;/div&gt;
-
-&lt;p&gt;作者还提到了一些大模型的发展历程，有兴趣的朋友可以去阅读一下。&lt;/p&gt;</description>
+作者利用 &lt;code&gt;鹈鹕骑自行车&lt;/code&gt; 来测试大模型生成 &lt;code&gt;SVG&lt;/code&gt; 的能力。&lt;/p&gt;</description>
       
     </item>
     
@@ -195,23 +166,7 @@ harder to misuse, and less prone to security vulnerabilities.&lt;/p&gt;</descrip
 &lt;p&gt;是的，这是一个非常快节奏的时代，大多数的人没有精力和时间去识别信息是否为真。
 这样一来，谣言的传播非常快。
 &lt;em&gt;但是我认为&lt;strong&gt;我们没有必要在乎这件事&lt;/strong&gt;&lt;/em&gt;。
-我们应该避免成为 FakeNews 的传播者就足够了。&lt;/p&gt;
-&lt;p&gt;这是时代是信息时代，我们每天周围都充斥的大量的信息输入。就拿我自己来说，我曾经几乎每天要处理1000条工作上的消息。
-这几乎好近了我全部的精力。之后的很长时间，我都没有办法可以快速集中我的精力。这非常痛苦。
-简单来算，假设每条消息需要阅读&lt;code&gt;5秒钟&lt;/code&gt;（这包括对问题的思考和对曾经的上下文检索的时间）。
-那么我每一天花在阅读其他人发给我消息的时间大概就是 &lt;code&gt;5000秒&lt;/code&gt;, 约一个半小时。&lt;/p&gt;
-&lt;p&gt;然而我的工作热情和能力并没有因为过多的信息而得到提升。相反，我感到非常痛苦。
-所以，我得到了一个结论：&lt;/p&gt;
-&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  &lt;em&gt;我应该把精力放在提升自己的事情上，而且，我应该更加关心我的生活。&lt;/em&gt;
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;用技术去生存，用艺术去生活。
-&amp;ndash; 电影《死亡诗社》&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;或许这是一个时代的变革，我从不认为新技术会让人先入悲哀，时代也是如此。
-新的时代浪潮已经到来，我们不应该沉溺于过去，而是要向前看。
-集中精力，做正确的事。&lt;/p&gt;</description>
+我们应该避免成为 FakeNews 的传播者就足够了。&lt;/p&gt;</description>
       
     </item>
     
