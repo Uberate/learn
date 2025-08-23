@@ -3,16 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/learn/posts/ln/git/git-whitemode/</loc>
-    <lastmod>2025-08-17T22:16:00+08:00</lastmod>
+    <loc>http://localhost:1313/learn/posts/</loc>
+    <lastmod>2025-08-23T15:50:07+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-08-17T22:16:00+08:00</lastmod>
+    <loc>http://localhost:1313/learn/posts/ln/vim/config/</loc>
+    <lastmod>2025-08-23T15:50:07+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</loc>
+    <lastmod>2025-08-17T22:55:01+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/ln/git/git-whitemode/</loc>
+    <lastmod>2025-08-17T22:55:01+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/tech/tools/home/</loc>
-    <lastmod>2025-08-17T21:50:21+08:00</lastmod>
+    <lastmod>2025-08-17T22:55:01+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</loc>
@@ -105,6 +113,10 @@
   <url>
     <loc>http://localhost:1313/learn/posts/ln/go/channel/</loc>
     <lastmod>2025-06-03T00:18:15+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/stories/12/</loc>
+    <lastmod>2025-08-17T23:11:23+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/11/</loc>

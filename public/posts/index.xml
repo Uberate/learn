@@ -7,7 +7,230 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 17 Aug 2025 22:16:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Aug 2025 15:50:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vim config</title>
+      <link>http://localhost:1313/learn/posts/ln/vim/config/</link>
+      <pubDate>Sat, 23 Aug 2025 15:50:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/ln/vim/config/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;我的 VIM 配置 
+    &lt;div id=&#34;我的-vim-配置&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%88%91%e7%9a%84-vim-%e9%85%8d%e7%bd%ae&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;#34;============= base settings
+&amp;#34; set search ignore the case
+set ignorecase
+&amp;#34; set file type match
+syntax enable
+syntax on
+
+set nocompatible
+filetype off
+
+&amp;#34; set the help view
+set nu
+set cursorcolumn
+set cursorline
+set showmatch
+set cc=120
+
+&amp;#34; set the tab to space and default set 4 space
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set backspace=indent,eol,start
+
+&amp;#34; vundle plugin manager
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin &amp;#39;VundleVim/Vundle.vim&amp;#39;
+
+&amp;#34; === the codes
+&amp;#34; for golang
+Plugin &amp;#39;fatih/vim-go&amp;#39;
+
+
+&amp;#34; === the managers
+&amp;#34; for the file observe
+Plugin &amp;#39;preservim/nerdtree&amp;#39;
+Plugin &amp;#39;jistr/vim-nerdtree-tabs&amp;#39;
+&amp;#34; Git status
+Plugin &amp;#39;Xuyuanp/nerdtree-git-plugin&amp;#39;
+
+&amp;#34; === the helpers
+&amp;#34; for bottom status
+Plugin &amp;#39;KeitaNakamura/neodark.vim&amp;#39;
+Plugin &amp;#39;crusoexia/vim-monokai&amp;#39;
+Plugin &amp;#39;acarapetis/vim-colors-github&amp;#39;
+Plugin &amp;#39;rakr/vim-one&amp;#39;
+Plugin &amp;#39;vim-airline/vim-airline&amp;#39;
+Plugin &amp;#39;vim-airline/vim-airline-themes&amp;#39;
+Plugin &amp;#39;jiangmiao/auto-pairs&amp;#39;
+Plugin &amp;#39;Valloric/YouCompleteMe&amp;#39;, { &amp;#39;on&amp;#39;: [], &amp;#39;commit&amp;#39;: &amp;#39;85c11d3a875b02a7ac28fb96d0c7a02782f60410&amp;#39; }
+Plugin &amp;#39;airblade/vim-gitgutter&amp;#39;
+Plugin &amp;#39;vim-scripts/SuperTab&amp;#39;
+
+&amp;#34; === for golangs
+&amp;#34; params list, func list and so on, need https://github.com/jstemmer/gotags
+Plugin &amp;#39;majutsushi/tagbar&amp;#39;
+&amp;#34; code jump
+Plugin &amp;#39;dgryski/vim-godef&amp;#39;
+
+&amp;#34; === for dockerfile
+Plugin &amp;#39;ekalinin/Dockerfile.vim&amp;#39;
+
+&amp;#34; === for mark down
+Plugin &amp;#39;iamcco/mathjax-support-for-mkdp&amp;#39;
+Plugin &amp;#39;iamcco/markdown-preview.vim&amp;#39;
+
+call vundle#end()
+
+
+
+
+filetype plugin indent on
+
+&amp;#34; set auto nerdtree
+autocmd VimEnter * NERDTree
+
+&amp;#34; set key-map
+&amp;#34; set the nerd tree find
+nnoremap &amp;lt;C-f&amp;gt; :NERDTreeFind&amp;lt;CR&amp;gt;
+
+&amp;#34; === plugin config
+let g:gitgutter_terminal_reports_focus=0
+
+&amp;#34;==============================================================================
+&amp;#34; 主题配色
+&amp;#34;==============================================================================
+
+&amp;#34; 开启24bit的颜色，开启这个颜色会更漂亮一些
+set termguicolors
+&amp;#34; 配色方案, 可以从上面插件安装中的选择一个使用
+colorscheme one &amp;#34; 主题
+set background=dark &amp;#34; 主题背景 dark-深色; light-浅色
+
+
+&amp;#34;==============================================================================
+&amp;#34; vim-go 插件
+&amp;#34;==============================================================================
+let g:go_fmt_command = &amp;#34;goimports&amp;#34; &amp;#34; 格式化将默认的 gofmt 替换
+let g:go_autodetect_gopath = 1
+let g:go_list_type = &amp;#34;quickfix&amp;#34;
+
+let g:go_version_warning = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_generate_tags = 1
+
+let g:godef_split=2
+let g:godef_same_file_in_same_window=1
+
+&amp;#34;==============================================================================
+&amp;#34;  majutsushi/tagbar 插件
+&amp;#34;==============================================================================
+
+&amp;#34; majutsushi/tagbar 插件打开关闭快捷键
+nnoremap Tt :TagbarToggle&amp;lt;CR&amp;gt;
+
+let g:tagbar_type_go = {
+    \ &amp;#39;ctagstype&amp;#39; : &amp;#39;go&amp;#39;,
+    \ &amp;#39;kinds&amp;#39;     : [
+        \ &amp;#39;p:package&amp;#39;,
+        \ &amp;#39;i:imports:1&amp;#39;,
+        \ &amp;#39;c:constants&amp;#39;,
+        \ &amp;#39;v:variables&amp;#39;,
+        \ &amp;#39;t:types&amp;#39;,
+        \ &amp;#39;n:interfaces&amp;#39;,
+        \ &amp;#39;w:fields&amp;#39;,
+        \ &amp;#39;e:embedded&amp;#39;,
+        \ &amp;#39;m:methods&amp;#39;,
+        \ &amp;#39;r:constructor&amp;#39;,
+        \ &amp;#39;f:functions&amp;#39;
+    \ ],
+    \ &amp;#39;sro&amp;#39; : &amp;#39;.&amp;#39;,
+    \ &amp;#39;kind2scope&amp;#39; : {
+        \ &amp;#39;t&amp;#39; : &amp;#39;ctype&amp;#39;,
+        \ &amp;#39;n&amp;#39; : &amp;#39;ntype&amp;#39;
+    \ },
+    \ &amp;#39;scope2kind&amp;#39; : {
+        \ &amp;#39;ctype&amp;#39; : &amp;#39;t&amp;#39;,
+        \ &amp;#39;ntype&amp;#39; : &amp;#39;n&amp;#39;
+    \ },
+    \ &amp;#39;ctagsbin&amp;#39;  : &amp;#39;gotags&amp;#39;,
+    \ &amp;#39;ctagsargs&amp;#39; : &amp;#39;-sort -silent&amp;#39;
+\ }
+
+&amp;#34;==============================================================================
+&amp;#34;  nerdtree-git-plugin 插件
+&amp;#34;==============================================================================
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+    \ &amp;#34;Modified&amp;#34;  : &amp;#34;✹&amp;#34;,
+    \ &amp;#34;Staged&amp;#34;    : &amp;#34;✚&amp;#34;,
+    \ &amp;#34;Untracked&amp;#34; : &amp;#34;✭&amp;#34;,
+    \ &amp;#34;Renamed&amp;#34;   : &amp;#34;➜&amp;#34;,
+    \ &amp;#34;Unmerged&amp;#34;  : &amp;#34;═&amp;#34;,
+    \ &amp;#34;Deleted&amp;#34;   : &amp;#34;✖&amp;#34;,
+    \ &amp;#34;Dirty&amp;#34;     : &amp;#34;✗&amp;#34;,
+    \ &amp;#34;Clean&amp;#34;     : &amp;#34;✔︎&amp;#34;,
+    \ &amp;#39;Ignored&amp;#39;   : &amp;#39;☒&amp;#39;,
+    \ &amp;#34;Unknown&amp;#34;   : &amp;#34;?&amp;#34;
+    \ }
+
+let g:NERDTreeGitStatusShowIgnored = 1
+
+
+
+&amp;#34;==============================================================================
+&amp;#34;  Valloric/YouCompleteMe 插件
+&amp;#34;==============================================================================
+
+&amp;#34; make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = [&amp;#39;&amp;lt;C-n&amp;gt;&amp;#39;, &amp;#39;&amp;lt;space&amp;gt;&amp;#39;]
+let g:ycm_key_list_previous_completion = [&amp;#39;&amp;lt;C-p&amp;gt;&amp;#39;, &amp;#39;&amp;lt;Up&amp;gt;&amp;#39;]
+let g:SuperTabDefaultCompletionType = &amp;#39;&amp;lt;C-n&amp;gt;&amp;#39;
+
+&amp;#34; better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = &amp;#34;&amp;lt;tab&amp;gt;&amp;#34;
+let g:UltiSnipsJumpForwardTrigger = &amp;#34;&amp;lt;tab&amp;gt;&amp;#34;
+let g:UltiSnipsJumpBackwardTrigger = &amp;#34;&amp;lt;s-tab&amp;gt;&amp;#34;
+
+let g:ycm_global_ycm_extra_conf = &amp;#34;~&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/ln/vim/config/feature.png" />
+    </item>
+    
+    <item>
+      <title>读 《Vibe code is legacy code》</title>
+      <link>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</link>
+      <pubDate>Sun, 17 Aug 2025 22:50:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://simonwillison.net/2025/Jul/30/steve-krouse/&#34; target=&#34;_blank&#34;&gt;Vibe code is legacy code&lt;/a&gt; &amp;ndash; Steve Krouse&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;作者认为目前的 Vibe code 应该没有什么前景。
+我也有同样的感觉。&lt;/p&gt;
+&lt;p&gt;不过，
+在我尝试了一些 CLI、Command 和工具之后，
+我认为 &lt;code&gt;Vibe code&lt;/code&gt; 可能适合在创业阶段进行的一种快速验证的方法。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>Git 的白名单模式</title>
@@ -71,6 +294,12 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Pixel Motion&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;像素风作画、Gif 工具。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://pixel-motion.yysuni.com/&#34; target=&#34;_blank&#34;&gt;https://pixel-motion.yysuni.com/&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;videoeditor&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;浏览器版本的视频剪辑工具。&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/robinroy03/videoeditor&#34; target=&#34;_blank&#34;&gt;https://github.com/robinroy03/videoeditor&lt;/a&gt;&lt;/td&gt;
@@ -108,6 +337,35 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 class=&#34;relative group&#34;&gt;网络、网站&amp;hellip; 
+    &lt;div id=&#34;网络网站&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%bd%91%e7%bb%9c%e7%bd%91%e7%ab%99&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名字&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;简述&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;链接&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;archive.tody&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;网页快照&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://archive.ph/&#34; target=&#34;_blank&#34;&gt;https://archive.ph/&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 class=&#34;relative group&#34;&gt;奇怪的东西 
     &lt;div id=&#34;奇怪的东西&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -118,8 +376,30 @@
     &lt;/span&gt;        
     
 &lt;/h2&gt;
-&lt;p&gt;| onemillionscreenshots | 号称一百万个屏幕截图。 | &lt;a href=&#34;https://onemillionscreenshots.com/&#34; target=&#34;_blank&#34;&gt;https://onemillionscreenshots.com/&lt;/a&gt; | |
-| touch-mapper | 提供一个地点的触摸地图。 | &lt;a href=&#34;https://touch-mapper.org/en/&#34; target=&#34;_blank&#34;&gt;https://touch-mapper.org/en/&lt;/a&gt; | |&lt;/p&gt;</description>
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名字&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;简述&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;链接&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;onemillionscreenshots&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;号称一百万个屏幕截图。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://onemillionscreenshots.com/&#34; target=&#34;_blank&#34;&gt;https://onemillionscreenshots.com/&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;touch-mapper&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;提供一个地点的触摸地图。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://touch-mapper.org/en/&#34; target=&#34;_blank&#34;&gt;https://touch-mapper.org/en/&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
       
     </item>
     
@@ -2012,6 +2292,29 @@ c/2GG&gt;F2E/2|    Fc/2c/2-c/2c&gt;|B2A/2^G/2-G/2A-B/2|               B8|
 &lt;/h1&gt;
 &lt;p&gt;Channel 在空值的时候会有特殊的行为。&lt;/p&gt;
 &lt;p&gt;与大多数的数据类型不同，Channel 在 &lt;code&gt;nil&lt;/code&gt; 的情况下进行读写会发生线程阻塞，而不是空指针异常。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>爱喝可乐</title>
+      <link>http://localhost:1313/learn/posts/stories/12/</link>
+      <pubDate>Fri, 10 May 2019 16:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/stories/12/</guid>
+      <description>&lt;p&gt;很难过的说，在同一座城市之中，我们已好久未相见。&lt;/p&gt;
+&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  &lt;p&gt;大学不知不觉已经过去了三年，
+这三年过得很快，
+上了大学才觉得时间真是的是非，
+大学时光还是很快乐的，
+也是有遗憾的，
+当初不顾父母的建议，
+来到了 2000 多公里外的大连，
+只为来到这个城市，
+也做了很多的努力，
+虽然专业上没有多大的成绩，
+但是这个城市认识了一帮很好的朋友，
+有了很多美好的回忆。&lt;/p&gt;</description>
       
     </item>
     
