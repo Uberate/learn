@@ -19,13 +19,21 @@ categories = ['技术']
 
 
 ## MCP 大全
+| 说明 | 链接 |
+| :---: | :--- |
 | MCP 资源库 | [mcp.so](mcp.so) |
 | 社区按类型整理的 MCP 服务 | https://github.com/yzfly/Awesome-MCP-ZH |
 
 ## AI 相关
 
-### 测试
-
 | 说明 | 链接 |
 | :---: | :---: |
 | LLM 测试框架 | https://www.readme-i18n.com/confident-ai/deepeval |
+| IBM 出品的 MCP Context Forge | https://github.com/IBM/mcp-context-forge |
+| 安全领域模型 | https://github.com/aliasrobotics/cai |
+
+## AI 上层应用
+
+| 说明 | 链接 | 
+| :---: | :---: |
+| 快速构建部署人工智能应用 | https://github.com/dtyq/magic |

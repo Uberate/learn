@@ -3,12 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/learn/posts/tech/ai/openai/openai-process-translate/</loc>
+    <lastmod>2025-08-23T16:23:18+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-08-23T15:50:07+08:00</lastmod>
+    <lastmod>2025-08-23T16:23:18+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/ln/githubs/githubrepos/</loc>
+    <lastmod>2025-08-23T16:12:02+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/ln/vim/config/</loc>
-    <lastmod>2025-08-23T15:50:07+08:00</lastmod>
+    <lastmod>2025-08-23T15:54:55+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</loc>
