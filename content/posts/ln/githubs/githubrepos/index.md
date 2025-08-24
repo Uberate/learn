@@ -15,6 +15,7 @@ categories = ['技术']
 | 未开始 | [智能体框架](https://github.com/bmad-code-org/BMAD-METHOD)                                   |       |
 | 未开始 | [各个工具的系统提示词整理](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) |       |
 | 未开始 | [Agent.md](https://github.com/openai/agents.md)                                              |       |
+| 未开始 | [语音转写](https://github.com/weynechen/intrascribe) | |
 
 ### 模型
 

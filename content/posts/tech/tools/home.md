@@ -27,6 +27,7 @@ tags = ['工具']
 | 名字 | 简述 | 链接 | 备注 |
 | :---: | :---: | :--- | :---:|
 | archive.tody | 网页快照 | https://archive.ph/ | |
+| Github Models | Github 的免费模型使用 |  [https://github.blog/ai-and-ml/llms/solving-the-inference-problem-for-open-source-ai-projects-with-github-models/](https://github.blog/ai-and-ml/llms/solving-the-inference-problem-for-open-source-ai-projects-with-github-models/)| |
 
 ## 奇怪的东西
 
@@ -34,4 +35,5 @@ tags = ['工具']
 | :---: | :---: | :--- | :---:|
 | onemillionscreenshots | 号称一百万个屏幕截图。 | [https://onemillionscreenshots.com/](https://onemillionscreenshots.com/) | |
 | touch-mapper | 提供一个地点的触摸地图。 | [https://touch-mapper.org/en/](https://touch-mapper.org/en/) | |
-| CityWalki | 赛博逛街 | [https://www.citywalki.com/](https://www.citywalki.com/)
+| CityWalki | 赛博逛街 | [https://www.citywalki.com/](https://www.citywalki.com/)||
+| SendKeeps | 赛博明信片 | [https://www.sendkeeps.com/](https://www.sendkeeps.com/)||

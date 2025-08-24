@@ -44,7 +44,7 @@
     
 &lt;/h3&gt;
 &lt;p&gt;显而易见，这就是优秀的系统的设计目标。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/article/short/08_everything_i_know_about_good_system_design/feature.png" />
+      
     </item>
     
     <item>
@@ -569,6 +569,11 @@
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/openai/agents.md&#34; target=&#34;_blank&#34;&gt;Agent.md&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;未开始&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/weynechen/intrascribe&#34; target=&#34;_blank&#34;&gt;语音转写&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -991,6 +996,12 @@ let g:ycm_global_ycm_extra_conf = &amp;#34;~&amp;#34;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://archive.ph/&#34; target=&#34;_blank&#34;&gt;https://archive.ph/&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Github Models&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Github 的免费模型使用&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.blog/ai-and-ml/llms/solving-the-inference-problem-for-open-source-ai-projects-with-github-models/&#34; target=&#34;_blank&#34;&gt;https://github.blog/ai-and-ml/llms/solving-the-inference-problem-for-open-source-ai-projects-with-github-models/&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -1030,6 +1041,12 @@ let g:ycm_global_ycm_extra_conf = &amp;#34;~&amp;#34;
           &lt;td style=&#34;text-align: center&#34;&gt;CityWalki&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;赛博逛街&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.citywalki.com/&#34; target=&#34;_blank&#34;&gt;https://www.citywalki.com/&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;SendKeeps&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;赛博明信片&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.sendkeeps.com/&#34; target=&#34;_blank&#34;&gt;https://www.sendkeeps.com/&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
