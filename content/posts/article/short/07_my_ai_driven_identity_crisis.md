@@ -1,6 +1,5 @@
 +++
 date = '2025-08-24T14:42:08+08:00'
-draft = true
 title = '读《My AI-Driven Identity crisis》'
 categories = ["阅读"]
 tags = ['短篇阅读']
