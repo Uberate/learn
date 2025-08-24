@@ -33,4 +33,5 @@ tags = ['工具']
 | 名字 | 简述 | 链接 | 备注 |
 | :---: | :---: | :--- | :---:|
 | onemillionscreenshots | 号称一百万个屏幕截图。 | [https://onemillionscreenshots.com/](https://onemillionscreenshots.com/) | |
-| touch-mapper | 提供一个地点的触摸地图。 | https://touch-mapper.org/en/ | |
+| touch-mapper | 提供一个地点的触摸地图。 | [https://touch-mapper.org/en/](https://touch-mapper.org/en/) | |
+| CityWalki | 赛博逛街 | [https://www.citywalki.com/](https://www.citywalki.com/)
