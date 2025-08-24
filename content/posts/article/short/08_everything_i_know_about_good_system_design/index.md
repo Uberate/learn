@@ -2,6 +2,8 @@
 date = '2025-08-24T15:08:50+08:00'
 title = '读 《Everything i know abhout good system design》'
 showHearo=true
+categories = ["阅读"]
+tags = ['短篇阅读']
 +++
 
 > 原文 [《Everything I know about good system design》](https://www.seangoedecke.com/good-system-design/) -- Sean goedecke
