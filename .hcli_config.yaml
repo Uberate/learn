@@ -1,6 +1,6 @@
 # Define the template of posts.
 Templates:
-  - Name: sa # hcli gen posts -n sa xxx.md
+  - Name: sa # hcli gen posts -nsa xxx
     Categories: ["阅读"]
     Tags: ["短篇阅读"]
     Template: |
@@ -14,4 +14,24 @@ Templates:
       > 原文 [Title](Url) -- Author
     NeedDir: true
     Dir: "content/posts/article/short"
+  - Name: s # hcli gen posts -ns numberd
+    Categories: ["路遇故事集"]
+    NeedDir: false
+    Dir: "content/posts/stories"
+    Template: |
+      +++
+      date = '{{.createAt}}'
+      title = '{{.author}}'
+      categories = {{.categories}}
+      series = ["路遇故事集"]
+      series_order = "{{.title}}"
+      showHero = true
+      +++
+
+      {{"{{"}}< lead >{{"}}"}}
+
+      -- Author
+      {{"{{"}}< /lead >{{"}}"}}
+
+
 
