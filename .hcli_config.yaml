@@ -1,0 +1,17 @@
+# Define the template of posts.
+Templates:
+  - Name: sa # hcli gen posts -n sa xxx.md
+    Categories: ["阅读"]
+    Tags: ["短篇阅读"]
+    Template: |
+      +++
+      date = '{{.createAt}}'
+      title = '{{.title}}'
+      categories = {{.categories}}
+      tags = {{.tags}}
+      +++
+
+      > 原文 [Title](Url) -- Author
+    NeedDir: true
+    Dir: "content/posts/article/short"
+
