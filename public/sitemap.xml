@@ -3,12 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</loc>
-    <lastmod>2025-08-31T16:52:23+08:00</lastmod>
+    <loc>http://localhost:1313/learn/posts/tech/ai/claude_code_router/</loc>
+    <lastmod>2025-08-31T22:03:07+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-08-31T16:52:23+08:00</lastmod>
+    <lastmod>2025-08-31T22:03:07+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</loc>
+    <lastmod>2025-08-31T16:58:16+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/stories/13/</loc>

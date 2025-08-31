@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 31 Aug 2025 16:52:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Aug 2025 22:03:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/learn/tags/ai/</link>
+      <pubDate>Sun, 31 Aug 2025 22:03:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ClaudeCode</title>
+      <link>http://localhost:1313/learn/tags/claudecode/</link>
+      <pubDate>Sun, 31 Aug 2025 22:03:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/claudecode/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GitRepos</title>
+      <link>http://localhost:1313/learn/tags/gitrepos/</link>
+      <pubDate>Sun, 31 Aug 2025 22:03:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/gitrepos/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>短篇阅读</title>
@@ -15,16 +45,6 @@
       <pubDate>Sun, 31 Aug 2025 16:52:23 +0800</pubDate>
       
       <guid>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/learn/tags/ai/</link>
-      <pubDate>Sat, 23 Aug 2025 16:23:18 +0800</pubDate>
-      
-      <guid>http://localhost:1313/learn/tags/ai/</guid>
       <description></description>
       
     </item>

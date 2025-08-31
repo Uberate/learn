@@ -10,13 +10,20 @@
     <lastBuildDate>Sun, 31 Aug 2025 16:52:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>09_prompt_coding</title>
+      <title>Prompt Coding</title>
       <link>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</link>
       <pubDate>Sun, 31 Aug 2025 16:52:23 +0800</pubDate>
       
       <guid>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;原文 &lt;a href=&#34;https://www.gibney.org/prompt_coding&#34; target=&#34;_blank&#34;&gt;Prompt Coding&lt;/a&gt; &amp;ndash; Marek Gibney&lt;/p&gt;&lt;/blockquote&gt;</description>
+&lt;p&gt;原文 &lt;a href=&#34;https://www.gibney.org/prompt_coding&#34; target=&#34;_blank&#34;&gt;Prompt Coding&lt;/a&gt; &amp;ndash; Marek Gibney&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;作者提供了一个全新的代码编程思路，
+在每个代码文件的最开始，
+提供一个提示词，
+然后不允许任何手动修改。&lt;/p&gt;
+&lt;p&gt;让开发从编程的视角转变为 Vibe Code。
+我认为想法非常不错，
+我接下来会尝试按照这个思路来完善我的 &lt;code&gt;hcli&lt;/code&gt; 工具包。&lt;/p&gt;</description>
       
     </item>
     
