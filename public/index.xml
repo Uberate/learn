@@ -10,6 +10,36 @@
     <lastBuildDate>Mon, 02 Jun 2025 20:57:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Prompt Coding</title>
+      <link>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</link>
+      <pubDate>Sun, 31 Aug 2025 16:52:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 &lt;a href=&#34;https://www.gibney.org/prompt_coding&#34; target=&#34;_blank&#34;&gt;Prompt Coding&lt;/a&gt; &amp;ndash; Marek Gibney&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;作者提供了一个全新的代码编程思路，
+在每个代码文件的最开始，
+提供一个提示词，
+然后不允许任何手动修改。&lt;/p&gt;
+&lt;p&gt;让开发从编程的视角转变为 Vibe Code。
+我认为想法非常不错，
+我接下来会尝试按照这个思路来完善我的 &lt;code&gt;hcli&lt;/code&gt; 工具包。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>13</title>
+      <link>http://localhost:1313/learn/posts/stories/13/</link>
+      <pubDate>Mon, 25 Aug 2025 23:02:22 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/stories/13/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  &amp;ndash; Author
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>读 《Everything i know abhout good system design》</title>
       <link>http://localhost:1313/learn/posts/article/short/08_everything_i_know_about_good_system_design/</link>
       <pubDate>Sun, 24 Aug 2025 15:08:50 +0800</pubDate>
@@ -567,6 +597,11 @@
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;未开始&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/openai/agents.md&#34; target=&#34;_blank&#34;&gt;Agent.md&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;未开始&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/weynechen/intrascribe&#34; target=&#34;_blank&#34;&gt;语音转写&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
