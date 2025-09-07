@@ -1,8 +1,8 @@
 # Define the template of posts.
 Templates:
   - Name: sa # hcli gen posts -nsa xxx
-    Categories: ["阅读"]
-    Tags: ["短篇阅读"]
+    Categories: [ "阅读" ]
+    Tags: [ "短篇阅读" ]
     Template: |
       +++
       date = '{{.createAt}}'
@@ -15,7 +15,7 @@ Templates:
     NeedDir: true
     Dir: "content/posts/article/short"
   - Name: s # hcli gen posts -ns numberd
-    Categories: ["路遇故事集"]
+    Categories: [ "路遇故事集" ]
     NeedDir: false
     Dir: "content/posts/stories"
     Template: |
@@ -32,6 +32,31 @@ Templates:
 
       -- Author
       {{"{{"}}< /lead >{{"}}"}}
+  - Name: fm # hcli gen posts -n fm food-name
+    Categories: ["菜谱"]
+    NeedDir: true
+    Dir: "content/posts/food_menu"
+    Template: |
+      +++
+      date = '{{.createAt}}'
+      title = '{{.title}}'
+      categories = {{.categories}}
+      tags = {{.tags}}
+      +++
+      
+      ## 成品
+      {{"{{"}}< gallery >{{"}}"}}
+        <img src="/learn/img/food_menu/{{.title}}/example.JPG"/>
+      {{"{{"}}< /gallery >{{"}}"}}
+      
+      ## 原材料
+      |食材|数量|备注|
+      |:----:|:---:|:---|
+      | | | |
+      
+      ## 步骤
+      
+      ### 1. xxx
 
 AI:
   Provider: "volc"

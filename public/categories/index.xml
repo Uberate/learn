@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/categories/</link>
+    <link>http://localhost:1313/learn/categories/</link>
     <description>Recent content in Categories on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 31 Aug 2025 22:03:07 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Sep 2025 21:44:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>菜谱</title>
+      <link>http://localhost:1313/learn/categories/%E8%8F%9C%E8%B0%B1/</link>
+      <pubDate>Sun, 07 Sep 2025 21:44:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/categories/%E8%8F%9C%E8%B0%B1/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>技术</title>
-      <link>https://uberate.github.io/learn/categories/%E6%8A%80%E6%9C%AF/</link>
+      <link>http://localhost:1313/learn/categories/%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Sun, 31 Aug 2025 22:03:07 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <guid>http://localhost:1313/learn/categories/%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>阅读</title>
-      <link>https://uberate.github.io/learn/categories/%E9%98%85%E8%AF%BB/</link>
+      <link>http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/</link>
       <pubDate>Sun, 31 Aug 2025 16:52:23 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/categories/%E9%98%85%E8%AF%BB/</guid>
+      <guid>http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>路遇故事集</title>
-      <link>https://uberate.github.io/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</link>
+      <link>http://localhost:1313/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</link>
       <pubDate>Mon, 25 Aug 2025 23:02:22 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</guid>
+      <guid>http://localhost:1313/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>工具</title>
-      <link>https://uberate.github.io/learn/categories/%E5%B7%A5%E5%85%B7/</link>
+      <link>http://localhost:1313/learn/categories/%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Sun, 17 Aug 2025 21:50:21 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/categories/%E5%B7%A5%E5%85%B7/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>菜谱</title>
-      <link>https://uberate.github.io/learn/categories/%E8%8F%9C%E8%B0%B1/</link>
-      <pubDate>Sun, 17 Aug 2025 17:25:50 +0800</pubDate>
-      
-      <guid>https://uberate.github.io/learn/categories/%E8%8F%9C%E8%B0%B1/</guid>
+      <guid>http://localhost:1313/learn/categories/%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>音乐</title>
-      <link>https://uberate.github.io/learn/categories/%E9%9F%B3%E4%B9%90/</link>
+      <link>http://localhost:1313/learn/categories/%E9%9F%B3%E4%B9%90/</link>
       <pubDate>Sat, 07 Jun 2025 01:28:17 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/categories/%E9%9F%B3%E4%B9%90/</guid>
+      <guid>http://localhost:1313/learn/categories/%E9%9F%B3%E4%B9%90/</guid>
       <description></description>
       
     </item>

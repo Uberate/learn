@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VibeCode on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/vibecode/</link>
+    <link>http://localhost:1313/learn/tags/vibecode/</link>
     <description>Recent content in VibeCode on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 17 Aug 2025 22:50:00 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/vibecode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Aug 2025 22:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/vibecode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>读 《Vibe code is legacy code》</title>
-      <link>https://uberate.github.io/learn/posts/article/short/06_vibe_code_is_legacy_code/</link>
+      <link>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</link>
       <pubDate>Sun, 17 Aug 2025 22:50:00 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/article/short/06_vibe_code_is_legacy_code/</guid>
+      <guid>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://simonwillison.net/2025/Jul/30/steve-krouse/&#34; target=&#34;_blank&#34;&gt;Vibe code is legacy code&lt;/a&gt; &amp;ndash; Steve Krouse&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;作者认为目前的 Vibe code 应该没有什么前景。

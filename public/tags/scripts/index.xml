@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scripts on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/scripts/</link>
+    <link>http://localhost:1313/learn/tags/scripts/</link>
     <description>Recent content in Scripts on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 17 Aug 2025 22:16:00 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Aug 2025 22:16:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git 的白名单模式</title>
-      <link>https://uberate.github.io/learn/posts/ln/git/git-whitemode/</link>
+      <link>http://localhost:1313/learn/posts/ln/git/git-whitemode/</link>
       <pubDate>Sun, 17 Aug 2025 22:16:00 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/ln/git/git-whitemode/</guid>
+      <guid>http://localhost:1313/learn/posts/ln/git/git-whitemode/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;参考： &lt;a href=&#34;https://rgbcu.be/blog/gitignore&#34; target=&#34;_blank&#34;&gt;gitignore&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 
@@ -35,10 +35,10 @@
     
     <item>
       <title>Linux 中获取 CPU 和内存的使用情况</title>
-      <link>https://uberate.github.io/learn/posts/ln/bash/get_cpu_mem_usage/</link>
+      <link>http://localhost:1313/learn/posts/ln/bash/get_cpu_mem_usage/</link>
       <pubDate>Sun, 29 Jun 2025 23:08:43 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/ln/bash/get_cpu_mem_usage/</guid>
+      <guid>http://localhost:1313/learn/posts/ln/bash/get_cpu_mem_usage/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# CPU 利用率&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ps -p &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;PID&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt; -o %cpu
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 内存&lt;/span&gt;

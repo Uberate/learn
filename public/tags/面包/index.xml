@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>面包 on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/%E9%9D%A2%E5%8C%85/</link>
+    <link>http://localhost:1313/learn/tags/%E9%9D%A2%E5%8C%85/</link>
     <description>Recent content in 面包 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 17 Aug 2025 17:25:50 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/%E9%9D%A2%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Aug 2025 17:25:50 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E9%9D%A2%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>牛角包</title>
-      <link>https://uberate.github.io/learn/posts/food_menu/niu_jiao_bao/</link>
+      <link>http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/</link>
       <pubDate>Sun, 17 Aug 2025 17:25:50 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/food_menu/niu_jiao_bao/</guid>
+      <guid>http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
     &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -29,7 +29,7 @@
   
   
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/finish.JPG&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/finish.JPG&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -154,10 +154,10 @@
     
     
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/1.JPG&#34; class=&#34;grid-w33&#34;/&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/2.JPG&#34; class=&#34;grid-w33&#34;/&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/3.JPG&#34; class=&#34;grid-w33&#34;/&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/4.JPG&#34; class=&#34;grid-w100&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/1.JPG&#34; class=&#34;grid-w33&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/2.JPG&#34; class=&#34;grid-w33&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/3.JPG&#34; class=&#34;grid-w33&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/4.JPG&#34; class=&#34;grid-w100&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -179,7 +179,7 @@
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这里可以适当调整发酵时间，最多 2 小时，最少 1 小时。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/niu_jiao_bao/feature_finish_product.JPG" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/feature_finish_product.JPG" />
     </item>
     
   </channel>

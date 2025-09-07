@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/series/</link>
+    <link>http://localhost:1313/learn/series/</link>
     <description>Recent content in Series on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Mon, 25 Aug 2025 23:02:22 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Aug 2025 23:02:22 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/series/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>路遇故事集</title>
-      <link>https://uberate.github.io/learn/series/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</link>
+      <link>http://localhost:1313/learn/series/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</link>
       <pubDate>Mon, 25 Aug 2025 23:02:22 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/series/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</guid>
+      <guid>http://localhost:1313/learn/series/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/</guid>
       <description></description>
       
     </item>

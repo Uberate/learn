@@ -2,19 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>下午茶 on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/</link>
+    <link>http://localhost:1313/learn/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/</link>
     <description>Recent content in 下午茶 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 17 Aug 2025 17:25:50 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Sep 2025 21:44:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>qi_feng_dan_gao</title>
+      <link>http://localhost:1313/learn/posts/food_menu/qi_feng_dan_gao/</link>
+      <pubDate>Sun, 07 Sep 2025 21:44:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/food_menu/qi_feng_dan_gao/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
+    &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e6%88%90%e5%93%81&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;div id=&#34;gallery-d013b83b4a7ad4a6348d5bf5604d67d3&#34; class=&#34;gallery&#34;&gt;
+  
+  
+    
+&lt;img src=&#34;learn/img/food_menu/qi_feng_dan_gao/example.JPG&#34;/&gt;
+&lt;/div&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;原材料 
+    &lt;div id=&#34;原材料&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%8e%9f%e6%9d%90%e6%96%99&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;用量是按照 6 寸大小列出的，
+这次实际是按照一个 6 寸和一个 4 寸来做的。
+按照 6 寸的食材用量如下表：&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/food_menu/qi_feng_dan_gao/feature.JPG" />
+    </item>
     
     <item>
       <title>牛角包</title>
-      <link>https://uberate.github.io/learn/posts/food_menu/niu_jiao_bao/</link>
+      <link>http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/</link>
       <pubDate>Sun, 17 Aug 2025 17:25:50 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/food_menu/niu_jiao_bao/</guid>
+      <guid>http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
     &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -29,7 +69,7 @@
   
   
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/finish.JPG&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/finish.JPG&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -154,10 +194,10 @@
     
     
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/1.JPG&#34; class=&#34;grid-w33&#34;/&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/2.JPG&#34; class=&#34;grid-w33&#34;/&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/3.JPG&#34; class=&#34;grid-w33&#34;/&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/niu_jiao_bao/4.JPG&#34; class=&#34;grid-w100&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/1.JPG&#34; class=&#34;grid-w33&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/2.JPG&#34; class=&#34;grid-w33&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/3.JPG&#34; class=&#34;grid-w33&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/niu_jiao_bao/4.JPG&#34; class=&#34;grid-w100&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -179,7 +219,7 @@
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这里可以适当调整发酵时间，最多 2 小时，最少 1 小时。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/niu_jiao_bao/feature_finish_product.JPG" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/feature_finish_product.JPG" />
     </item>
     
   </channel>

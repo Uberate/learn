@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>卤 on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/%E5%8D%A4/</link>
+    <link>http://localhost:1313/learn/tags/%E5%8D%A4/</link>
     <description>Recent content in 卤 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 14:03:00 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/%E5%8D%A4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jun 2025 14:03:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E5%8D%A4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>酱牛肉</title>
-      <link>https://uberate.github.io/learn/posts/food_menu/jiang_niu_rou/</link>
+      <link>http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/</link>
       <pubDate>Mon, 23 Jun 2025 14:03:00 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/food_menu/jiang_niu_rou/</guid>
+      <guid>http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;成品 
     &lt;div id=&#34;成品&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -29,7 +29,7 @@
   
   
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/jiang_niu_rou/5.png&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/jiang_niu_rou/5.png&#34; /&gt;
 &lt;/div&gt;
 
 
@@ -145,8 +145,8 @@
   
     
     
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/jiang_niu_rou/1.png&#34; class=&#34;grid-w50&#34; /&gt;
-    &lt;img src=&#34;https://uberate.github.io/learn/img/food_menu/jiang_niu_rou/2.png&#34; class=&#34;grid-w50&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/jiang_niu_rou/1.png&#34; class=&#34;grid-w50&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/learn/img/food_menu/jiang_niu_rou/2.png&#34; class=&#34;grid-w50&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -162,7 +162,7 @@
 &lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我的高压锅是&lt;code&gt;美的&lt;/code&gt;的，这50分钟包括水开的时间了，比较长。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/food_menu/jiang_niu_rou/feature_finish_product.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/feature_finish_product.png" />
     </item>
     
   </channel>

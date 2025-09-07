@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenAI on Learn / Ub(s)erate</title>
-    <link>https://uberate.github.io/learn/tags/openai/</link>
+    <link>http://localhost:1313/learn/tags/openai/</link>
     <description>Recent content in OpenAI on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sat, 23 Aug 2025 16:23:18 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Aug 2025 16:23:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Openai Process Translate</title>
-      <link>https://uberate.github.io/learn/posts/tech/ai/openai/openai-process-translate/</link>
+      <link>http://localhost:1313/learn/posts/tech/ai/openai/openai-process-translate/</link>
       <pubDate>Sat, 23 Aug 2025 16:23:18 +0800</pubDate>
       
-      <guid>https://uberate.github.io/learn/posts/tech/ai/openai/openai-process-translate/</guid>
+      <guid>http://localhost:1313/learn/posts/tech/ai/openai/openai-process-translate/</guid>
       <description>&lt;p&gt;偶然发现 OpenAI 每年都会用同一个问题询问最新的 AI。&lt;/p&gt;
 &lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
   &lt;p&gt;What would you say if you could talk to a future OpenAI model?&lt;/p&gt;
