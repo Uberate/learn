@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VIM on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/tags/vim/</link>
+    <link>https://uberate.github.io/learn/tags/vim/</link>
     <description>Recent content in VIM on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sat, 23 Aug 2025 15:50:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Aug 2025 15:50:07 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Vim config</title>
-      <link>http://localhost:1313/learn/posts/ln/vim/config/</link>
+      <link>https://uberate.github.io/learn/posts/ln/vim/config/</link>
       <pubDate>Sat, 23 Aug 2025 15:50:07 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/ln/vim/config/</guid>
+      <guid>https://uberate.github.io/learn/posts/ln/vim/config/</guid>
       <description>&lt;p&gt;Example:&lt;/p&gt;
 &lt;div id=&#34;gallery-37894c3b0f26564a9215a6917c37d76e&#34; class=&#34;gallery&#34;&gt;
   
   
     
-    &lt;img src=&#34;http://localhost:1313/learn/img/ln/vim/config/example.png&#34; class=&#34;grid-w50&#34;/&gt;
+    &lt;img src=&#34;https://uberate.github.io/learn/img/ln/vim/config/example.png&#34; class=&#34;grid-w50&#34;/&gt;
 &lt;/div&gt;
 
 
@@ -222,7 +222,7 @@ let g:UltiSnipsJumpBackwardTrigger = &amp;#34;&amp;lt;s-tab&amp;gt;&amp;#34;
 
 let g:ycm_global_ycm_extra_conf = &amp;#34;~&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/ln/vim/config/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/ln/vim/config/feature.png" />
     </item>
     
   </channel>

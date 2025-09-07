@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>短篇阅读 on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
+    <link>https://uberate.github.io/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
     <description>Recent content in 短篇阅读 on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 31 Aug 2025 16:52:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Aug 2025 16:52:23 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Prompt Coding</title>
-      <link>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/09_prompt_coding/</link>
       <pubDate>Sun, 31 Aug 2025 16:52:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/09_prompt_coding/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://www.gibney.org/prompt_coding&#34; target=&#34;_blank&#34;&gt;Prompt Coding&lt;/a&gt; &amp;ndash; Marek Gibney&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;作者提供了一个全新的代码编程思路，
@@ -24,15 +24,15 @@
 &lt;p&gt;让开发从编程的视角转变为 Vibe Code。
 我认为想法非常不错，
 我接下来会尝试按照这个思路来完善我的 &lt;code&gt;hcli&lt;/code&gt; 工具包。&lt;/p&gt;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/article/short/09_prompt_coding/feature.png" />
     </item>
     
     <item>
       <title>读 《Everything i know abhout good system design》</title>
-      <link>http://localhost:1313/learn/posts/article/short/08_everything_i_know_about_good_system_design/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/08_everything_i_know_about_good_system_design/</link>
       <pubDate>Sun, 24 Aug 2025 15:08:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/08_everything_i_know_about_good_system_design/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/08_everything_i_know_about_good_system_design/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://www.seangoedecke.com/good-system-design/&#34; target=&#34;_blank&#34;&gt;《Everything I know about good system design》&lt;/a&gt; &amp;ndash; Sean goedecke&lt;/p&gt;&lt;/blockquote&gt;
 
@@ -62,15 +62,15 @@
     
 &lt;/h3&gt;
 &lt;p&gt;显而易见，这就是优秀的系统的设计目标。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/article/short/08_everything_i_know_about_good_system_design/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/article/short/08_everything_i_know_about_good_system_design/feature.png" />
     </item>
     
     <item>
       <title>读《My AI-Driven Identity crisis》</title>
-      <link>http://localhost:1313/learn/posts/article/short/07_my_ai_driven_identity_crisis/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/07_my_ai_driven_identity_crisis/</link>
       <pubDate>Sun, 24 Aug 2025 14:42:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/07_my_ai_driven_identity_crisis/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/07_my_ai_driven_identity_crisis/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://dusty.phillips.codes/2025/06/08/my-ai-driven-identity-crisis/&#34; target=&#34;_blank&#34;&gt;《My AI-Driven Identity crisis》&lt;/a&gt; - Dusty Phillips&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;目前 AI 已经不再是早期的简单问答的状态了，这一点从可以这里得到证实。&lt;/p&gt;
@@ -104,12 +104,12 @@
 
 
 
-  &lt;a class=&#34;flex flex-wrap md:flex-nowrap article &#34; href=&#34;http://localhost:1313/learn/posts/tech/ai/openai/openai-process-translate/&#34;&gt;
+  &lt;a class=&#34;flex flex-wrap md:flex-nowrap article &#34; href=&#34;https://uberate.github.io/learn/posts/tech/ai/openai/openai-process-translate/&#34;&gt;
     &lt;div class=&#34; mt-3 md:mt-0&#34;&gt;
       &lt;div class=&#34;items-center text-left text-xl font-semibold&#34;&gt;
         
         &lt;div class=&#34;font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral&#34;
-          href=&#34;http://localhost:1313/learn/posts/tech/ai/openai/openai-process-translate/&#34;&gt;Openai Process Translate&lt;/div&gt;
+          href=&#34;https://uberate.github.io/learn/posts/tech/ai/openai/openai-process-translate/&#34;&gt;Openai Process Translate&lt;/div&gt;
         
         
         
@@ -238,10 +238,10 @@
     
     <item>
       <title>读 《Vibe code is legacy code》</title>
-      <link>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/06_vibe_code_is_legacy_code/</link>
       <pubDate>Sun, 17 Aug 2025 22:50:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/06_vibe_code_is_legacy_code/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://simonwillison.net/2025/Jul/30/steve-krouse/&#34; target=&#34;_blank&#34;&gt;Vibe code is legacy code&lt;/a&gt; &amp;ndash; Steve Krouse&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;作者认为目前的 Vibe code 应该没有什么前景。
@@ -254,10 +254,10 @@
     
     <item>
       <title>读 《The Secret History of Tor》</title>
-      <link>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/05_the_secret_history_of_tor/</link>
       <pubDate>Sun, 17 Aug 2025 20:26:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/05_the_secret_history_of_tor/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://thereader.mitpress.mit.edu/the-secret-history-of-tor-how-a-military-project-became-a-lifeline-for-privacy/&#34; target=&#34;_blank&#34;&gt;The Secret Hisory of Tor&lt;/a&gt; &amp;ndash; Ben Collier&lt;/p&gt;&lt;/blockquote&gt;
 
@@ -278,10 +278,10 @@
     
     <item>
       <title>读 《Boredom Over Beauty: Why Code Quaility is Code Security》</title>
-      <link>http://localhost:1313/learn/posts/article/short/04_boredom_over_beauty/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/04_boredom_over_beauty/</link>
       <pubDate>Sun, 15 Jun 2025 18:57:15 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/04_boredom_over_beauty/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/04_boredom_over_beauty/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://blog.asymmetric.re/boredom-over-beauty-why-code-quality-is-code-security/#the-pragmatism-of-prevention&#34; target=&#34;_blank&#34;&gt;Boredom Over Beauty: Why Code Quality is Code Security&lt;/a&gt; &amp;ndash; John Saigle&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
@@ -307,10 +307,10 @@
     
     <item>
       <title>读 《An illustrated guide to Amazon VPCs》</title>
-      <link>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</link>
       <pubDate>Sun, 15 Jun 2025 18:55:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 [An illustrated guide to Amazon VPCs](An illustrated guide to Amazon VPCs) &amp;ndash; Aditya Bhargava&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;作者阐述了 AWS 中 &lt;code&gt;VPC&lt;/code&gt; 的诞生原因：&lt;/p&gt;
@@ -326,10 +326,10 @@
     
     <item>
       <title>读 《The last six months in LLMs, illustrated by pelicans on bicycles》</title>
-      <link>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</link>
       <pubDate>Sun, 15 Jun 2025 18:53:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://simonwillison.net/2025/Jun/6/six-months-in-llms/&#34; target=&#34;_blank&#34;&gt;The last six month in LLMs, illustrated by pelicans on bicycles&lt;/a&gt; - Simon Willison&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;写下这个文章的时候，时间是 &lt;code&gt;2025年06月15日&lt;/code&gt;。&lt;/p&gt;
@@ -341,10 +341,10 @@
     
     <item>
       <title>读 《The Who Cares Era》</title>
-      <link>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</link>
+      <link>https://uberate.github.io/learn/posts/article/short/01_the_who_cares_era/</link>
       <pubDate>Mon, 09 Jun 2025 22:08:10 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</guid>
+      <guid>https://uberate.github.io/learn/posts/article/short/01_the_who_cares_era/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文 &lt;a href=&#34;https://dansinker.com/posts/2025-05-23-who-cares/&#34; target=&#34;_blank&#34;&gt;《The Who Cares Era》&lt;/a&gt; - Dan Sinker&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;文中提到了一个问题，’&lt;em&gt;&lt;strong&gt;谁在乎&lt;/strong&gt;&lt;/em&gt;‘ ？&lt;/p&gt;

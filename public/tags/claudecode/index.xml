@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ClaudeCode on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/tags/claudecode/</link>
+    <link>https://uberate.github.io/learn/tags/claudecode/</link>
     <description>Recent content in ClaudeCode on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 31 Aug 2025 22:03:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/claudecode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Aug 2025 22:03:07 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/claudecode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Claude code router</title>
-      <link>http://localhost:1313/learn/posts/tech/ai/claude_code_router/</link>
+      <link>https://uberate.github.io/learn/posts/tech/ai/claude_code_router/</link>
       <pubDate>Sun, 31 Aug 2025 22:03:07 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/ai/claude_code_router/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/ai/claude_code_router/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;背景 
     &lt;div id=&#34;背景&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -28,7 +28,7 @@
 &lt;p&gt;由于 ClaudeCode 的一系列原因，
 可能无法快速在这个地区合理使用。
 所以找到了一个可以路由到其他模型的方法。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/tech/ai/claude_code_router/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uberate.github.io/learn/posts/tech/ai/claude_code_router/feature.png" />
     </item>
     
   </channel>

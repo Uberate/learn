@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/tags/git/</link>
+    <link>https://uberate.github.io/learn/tags/git/</link>
     <description>Recent content in Git on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 17 Aug 2025 22:16:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Aug 2025 22:16:00 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git 的白名单模式</title>
-      <link>http://localhost:1313/learn/posts/ln/git/git-whitemode/</link>
+      <link>https://uberate.github.io/learn/posts/ln/git/git-whitemode/</link>
       <pubDate>Sun, 17 Aug 2025 22:16:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/ln/git/git-whitemode/</guid>
+      <guid>https://uberate.github.io/learn/posts/ln/git/git-whitemode/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;参考： &lt;a href=&#34;https://rgbcu.be/blog/gitignore&#34; target=&#34;_blank&#34;&gt;gitignore&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 

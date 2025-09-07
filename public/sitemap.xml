@@ -3,191 +3,183 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/learn/posts/tech/ai/claude_code_router/</loc>
-    <lastmod>2025-08-31T22:03:07+08:00</lastmod>
+    <loc>https://uberate.github.io/learn/posts/tech/ai/claude_code_router/</loc>
+    <lastmod>2025-08-31T22:56:30+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-08-31T22:03:07+08:00</lastmod>
+    <loc>https://uberate.github.io/learn/posts/</loc>
+    <lastmod>2025-08-31T22:56:30+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</loc>
-    <lastmod>2025-08-31T16:58:16+08:00</lastmod>
+    <loc>https://uberate.github.io/learn/posts/article/short/09_prompt_coding/</loc>
+    <lastmod>2025-08-31T22:56:30+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/13/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/13/</loc>
     <lastmod>2025-08-25T23:03:15+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/08_everything_i_know_about_good_system_design/</loc>
+    <loc>https://uberate.github.io/learn/posts/article/short/08_everything_i_know_about_good_system_design/</loc>
     <lastmod>2025-08-24T16:52:51+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/07_my_ai_driven_identity_crisis/</loc>
+    <loc>https://uberate.github.io/learn/posts/article/short/07_my_ai_driven_identity_crisis/</loc>
     <lastmod>2025-08-24T16:38:06+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/tech/ai/openai/openai-process-translate/</loc>
+    <loc>https://uberate.github.io/learn/posts/tech/ai/openai/openai-process-translate/</loc>
     <lastmod>2025-08-23T16:56:29+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/ln/githubs/githubrepos/</loc>
-    <lastmod>2025-08-24T16:46:54+08:00</lastmod>
+    <loc>https://uberate.github.io/learn/posts/ln/githubs/githubrepos/</loc>
+    <lastmod>2025-08-31T22:56:30+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/ln/vim/config/</loc>
+    <loc>https://uberate.github.io/learn/posts/ln/vim/config/</loc>
     <lastmod>2025-08-23T15:54:55+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/06_vibe_code_is_legacy_code/</loc>
+    <loc>https://uberate.github.io/learn/posts/article/short/06_vibe_code_is_legacy_code/</loc>
     <lastmod>2025-08-17T22:55:01+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/ln/git/git-whitemode/</loc>
+    <loc>https://uberate.github.io/learn/posts/ln/git/git-whitemode/</loc>
     <lastmod>2025-08-17T22:55:01+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/tech/tools/home/</loc>
+    <loc>https://uberate.github.io/learn/posts/tech/tools/home/</loc>
     <lastmod>2025-08-24T16:46:54+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/05_the_secret_history_of_tor/</loc>
+    <loc>https://uberate.github.io/learn/posts/article/short/05_the_secret_history_of_tor/</loc>
     <lastmod>2025-08-17T21:40:34+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/food_menu/niu_jiao_bao/</loc>
+    <loc>https://uberate.github.io/learn/posts/food_menu/niu_jiao_bao/</loc>
     <lastmod>2025-08-17T19:39:28+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/implementing_service_level_objectives/</loc>
-    <lastmod>2025-08-17T19:39:28+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/learn/posts/tech/observability/counter_type/</loc>
+    <loc>https://uberate.github.io/learn/posts/tech/observability/counter_type/</loc>
     <lastmod>2025-07-10T23:13:12+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/ln/bash/get_cpu_mem_usage/</loc>
+    <loc>https://uberate.github.io/learn/posts/ln/bash/get_cpu_mem_usage/</loc>
     <lastmod>2025-06-29T23:10:39+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/food_menu/zhu_rou_pu/</loc>
+    <loc>https://uberate.github.io/learn/posts/food_menu/zhu_rou_pu/</loc>
     <lastmod>2025-07-10T23:13:12+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/ln/bash/bash_boom/</loc>
+    <loc>https://uberate.github.io/learn/posts/ln/bash/bash_boom/</loc>
     <lastmod>2025-06-24T23:16:45+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/food_menu/jiang_niu_rou/</loc>
+    <loc>https://uberate.github.io/learn/posts/food_menu/jiang_niu_rou/</loc>
     <lastmod>2025-06-23T22:18:27+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/04_boredom_over_beauty/</loc>
+    <loc>https://uberate.github.io/learn/posts/article/short/04_boredom_over_beauty/</loc>
     <lastmod>2025-06-15T19:26:01+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</loc>
+    <loc>https://uberate.github.io/learn/posts/article/short/03_an_illustrated_guide_to_amazon_vpcs/</loc>
     <lastmod>2025-06-15T19:21:18+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/02_the_last_six_months_in_llms/</loc>
+    <loc>https://uberate.github.io/learn/posts/article/short/02_the_last_six_months_in_llms/</loc>
     <lastmod>2025-06-15T19:21:18+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/food_menu/la_lu_ji_zhua/</loc>
+    <loc>https://uberate.github.io/learn/posts/food_menu/la_lu_ji_zhua/</loc>
     <lastmod>2025-06-15T17:49:39+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</loc>
+    <loc>https://uberate.github.io/learn/posts/tech/ai/mcp/mcp_resources/</loc>
     <lastmod>2025-08-23T16:56:29+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/first/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/first/</loc>
     <lastmod>2025-06-10T23:33:18+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/article/short/01_the_who_cares_era/</loc>
+    <loc>https://uberate.github.io/learn/posts/article/short/01_the_who_cares_era/</loc>
     <lastmod>2025-06-09T22:28:04+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/food_menu/ji_yu_dou_fu_tang/</loc>
+    <loc>https://uberate.github.io/learn/posts/food_menu/ji_yu_dou_fu_tang/</loc>
     <lastmod>2025-06-15T17:49:39+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/music/staff/abc/</loc>
+    <loc>https://uberate.github.io/learn/posts/music/staff/abc/</loc>
     <lastmod>2025-06-08T14:34:15+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/music/staff/ba_he_jiu_yue/</loc>
-    <lastmod>2025-06-29T23:12:09+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/learn/posts/tech/ai/mcp/local_server_demo/</loc>
+    <loc>https://uberate.github.io/learn/posts/tech/ai/mcp/local_server_demo/</loc>
     <lastmod>2025-06-08T14:59:19+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/tech/network/container_network_iptables/</loc>
+    <loc>https://uberate.github.io/learn/posts/tech/network/container_network_iptables/</loc>
     <lastmod>2025-06-03T23:31:00+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/tech/network/base/</loc>
+    <loc>https://uberate.github.io/learn/posts/tech/network/base/</loc>
     <lastmod>2025-06-03T23:01:51+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/</loc>
+    <loc>https://uberate.github.io/learn/</loc>
     <lastmod>2025-06-03T00:23:50+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/ln/go/channel/</loc>
+    <loc>https://uberate.github.io/learn/posts/ln/go/channel/</loc>
     <lastmod>2025-06-03T00:18:15+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/12/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/12/</loc>
     <lastmod>2025-08-17T23:11:23+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/11/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/11/</loc>
     <lastmod>2025-06-29T23:12:09+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/10/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/10/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/09/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/09/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/08/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/08/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/07/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/07/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/06/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/06/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/05/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/05/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/03/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/03/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/04/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/04/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/02/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/02/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/learn/posts/stories/01/</loc>
+    <loc>https://uberate.github.io/learn/posts/stories/01/</loc>
     <lastmod>2025-06-29T22:58:10+08:00</lastmod>
   </url>
 </urlset>

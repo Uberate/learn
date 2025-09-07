@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MCP on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/tags/mcp/</link>
+    <link>https://uberate.github.io/learn/tags/mcp/</link>
     <description>Recent content in MCP on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Tue, 10 Jun 2025 23:17:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/mcp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jun 2025 23:17:14 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/mcp/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MCP 资源</title>
-      <link>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</link>
+      <link>https://uberate.github.io/learn/posts/tech/ai/mcp/mcp_resources/</link>
       <pubDate>Tue, 10 Jun 2025 23:17:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/ai/mcp/mcp_resources/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/ai/mcp/mcp_resources/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;学习 
     &lt;div id=&#34;学习&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -149,10 +149,10 @@
     
     <item>
       <title>学习 MCP - 本地 Server Demo</title>
-      <link>http://localhost:1313/learn/posts/tech/ai/mcp/local_server_demo/</link>
+      <link>https://uberate.github.io/learn/posts/tech/ai/mcp/local_server_demo/</link>
       <pubDate>Wed, 04 Jun 2025 22:39:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/tech/ai/mcp/local_server_demo/</guid>
+      <guid>https://uberate.github.io/learn/posts/tech/ai/mcp/local_server_demo/</guid>
       <description>&lt;p&gt;这篇文章将带你创建一个简单的 MCP Local Server 服务。&lt;/p&gt;
 &lt;p&gt;代码已经放到我的 Github 仓库里面了：&lt;/p&gt;
 &lt;div class=&#34;github-card-wrapper&#34;&gt;&lt;a id=&#34;github-bf53c00e3cd771b191af44424dd43242&#34; target=&#34;_blank&#34; href=&#34;https://github.com/Uberate/lear-mcp&#34; class=&#34;cursor-pointer&#34;&gt;

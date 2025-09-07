@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /
-Sitemap: http://localhost:1313/learn/sitemap.xml
+Allow: /
+Sitemap: https://uberate.github.io/learn/sitemap.xml

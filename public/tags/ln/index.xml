@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ln on Learn / Ub(s)erate</title>
-    <link>http://localhost:1313/learn/tags/ln/</link>
+    <link>https://uberate.github.io/learn/tags/ln/</link>
     <description>Recent content in Ln on Learn / Ub(s)erate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/ln/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2025 22:57:57 +0800</lastBuildDate><atom:link href="https://uberate.github.io/learn/tags/ln/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bash boom(Bash 炸弹)</title>
-      <link>http://localhost:1313/learn/posts/ln/bash/bash_boom/</link>
+      <link>https://uberate.github.io/learn/posts/ln/bash/bash_boom/</link>
       <pubDate>Tue, 24 Jun 2025 22:57:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/ln/bash/bash_boom/</guid>
+      <guid>https://uberate.github.io/learn/posts/ln/bash/bash_boom/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Bash 炸弹 
     &lt;div id=&#34;bash-炸弹&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -67,10 +67,10 @@
     
     <item>
       <title>GO Channel 的空值特性</title>
-      <link>http://localhost:1313/learn/posts/ln/go/channel/</link>
+      <link>https://uberate.github.io/learn/posts/ln/go/channel/</link>
       <pubDate>Mon, 02 Jun 2025 19:10:41 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/ln/go/channel/</guid>
+      <guid>https://uberate.github.io/learn/posts/ln/go/channel/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Golang Channel nil 
     &lt;div id=&#34;golang-channel-nil&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     

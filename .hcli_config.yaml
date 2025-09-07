@@ -33,5 +33,6 @@ Templates:
       -- Author
       {{"{{"}}< /lead >{{"}}"}}
 
-
+AI:
+  Provider: "volc"
 
