@@ -54,6 +54,13 @@ weight = 10
   pageRef = "categories/阅读"
   name = "阅读"
   weight = 115
+
+[[main]]
+  parent = "分类"
+  pageRef = "categories/笔记本"
+  name = "杂物笔记本"
+  weight = 116
+
 [[main]]
   name = "路遇故事集"
   url = "/posts/stories/first/"

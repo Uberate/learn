@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记本 on Learn / Ub(s)erate</title>
+    <link>http://localhost:1313/learn/categories/%E7%AC%94%E8%AE%B0%E6%9C%AC/</link>
+    <description>Recent content in 笔记本 on Learn / Ub(s)erate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 ub(s)erate</copyright>
+    <lastBuildDate>Sun, 14 Sep 2025 01:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E7%AC%94%E8%AE%B0%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>杂物笔记本</title>
+      <link>http://localhost:1313/learn/posts/article/note/</link>
+      <pubDate>Sun, 14 Sep 2025 01:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/note/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;描述&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;链接&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;通过 CSS、JS 对 Apple 毛玻璃效果复刻&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://kube.io/blog/liquid-glass-css-svg/&#34; target=&#34;_blank&#34;&gt;https://kube.io/blog/liquid-glass-css-svg/&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

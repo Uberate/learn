@@ -10,6 +10,31 @@
     <lastBuildDate>Mon, 02 Jun 2025 20:57:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>杂物笔记本</title>
+      <link>http://localhost:1313/learn/posts/article/note/</link>
+      <pubDate>Sun, 14 Sep 2025 01:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/note/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;描述&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;链接&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;通过 CSS、JS 对 Apple 毛玻璃效果复刻&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://kube.io/blog/liquid-glass-css-svg/&#34; target=&#34;_blank&#34;&gt;https://kube.io/blog/liquid-glass-css-svg/&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Use singular nouns for database table names</title>
       <link>http://localhost:1313/learn/posts/article/short/10_use_singualr_nouns_for_database_table_names/</link>
       <pubDate>Sun, 14 Sep 2025 00:11:56 +0800</pubDate>

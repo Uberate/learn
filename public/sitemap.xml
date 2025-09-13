@@ -4,11 +4,15 @@
 
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-09-14T00:11:56+08:00</lastmod>
+    <lastmod>2025-09-14T01:00:00+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/article/note/</loc>
+    <lastmod>2025-09-14T01:00:00+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/10_use_singualr_nouns_for_database_table_names/</loc>
-    <lastmod>2025-09-14T00:11:56+08:00</lastmod>
+    <lastmod>2025-09-14T00:47:21+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/qi_feng_dan_gao/</loc>
