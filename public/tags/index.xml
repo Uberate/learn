@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 07 Sep 2025 21:44:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Sep 2025 00:11:56 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>短篇阅读</title>
+      <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Sun, 14 Sep 2025 00:11:56 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>数据库</title>
+      <link>http://localhost:1313/learn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Sun, 14 Sep 2025 00:11:56 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>蛋糕</title>
@@ -75,16 +95,6 @@
       <pubDate>Sun, 31 Aug 2025 22:03:07 +0800</pubDate>
       
       <guid>http://localhost:1313/learn/tags/gitrepos/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>短篇阅读</title>
-      <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
-      <pubDate>Sun, 31 Aug 2025 16:52:23 +0800</pubDate>
-      
-      <guid>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
       <description></description>
       
     </item>

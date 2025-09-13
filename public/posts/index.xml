@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 07 Sep 2025 21:44:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Sep 2025 00:11:56 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>qi_feng_dan_gao</title>
+      <title>Use singular nouns for database table names</title>
+      <link>http://localhost:1313/learn/posts/article/short/10_use_singualr_nouns_for_database_table_names/</link>
+      <pubDate>Sun, 14 Sep 2025 00:11:56 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/10_use_singualr_nouns_for_database_table_names/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 &lt;a href=&#34;https://www.teamten.com/lawrence/programming/use-singular-nouns-for-database-table-names.html&#34; target=&#34;_blank&#34;&gt;Use singular nouns for database table names&lt;/a&gt; &amp;ndash; Lawrence Kesteloot&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;按照现代的数据库建设来说，
+大多数的规范，
+甚至包括一些基础库（Gorm等）都会直接将表名命名为复数形式。&lt;/p&gt;
+&lt;p&gt;我对作者的观点持反对意见，着重对第二部分，单数形式的必要性和理由进行阐述：&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/article/short/10_use_singualr_nouns_for_database_table_names/feature.png" />
+    </item>
+    
+    <item>
+      <title>戚风蛋糕</title>
       <link>http://localhost:1313/learn/posts/food_menu/qi_feng_dan_gao/</link>
       <pubDate>Sun, 07 Sep 2025 21:44:07 +0800</pubDate>
       
@@ -29,7 +44,7 @@
   
   
     
-&lt;img src=&#34;learn/img/food_menu/qi_feng_dan_gao/example.JPG&#34;/&gt;
+&lt;img src=&#34;http://localhost:1313/learn/img/food_menu/qi_feng_dan_gao/example.JPG&#34;/&gt;
 &lt;/div&gt;
 
 
