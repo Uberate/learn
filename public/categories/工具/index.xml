@@ -58,6 +58,12 @@
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/robinroy03/videoeditor&#34; target=&#34;_blank&#34;&gt;https://github.com/robinroy03/videoeditor&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;官网地址：&lt;a href=&#34;https://trykimu.com/&#34; target=&#34;_blank&#34;&gt;https://trykimu.com/&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;人声抽离&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;从任何视频中获取清晰的语音内容。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://elevenlabs.io/voice-isolator&#34; target=&#34;_blank&#34;&gt;https://elevenlabs.io/voice-isolator&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -161,13 +167,13 @@
           &lt;td style=&#34;text-align: center&#34;&gt;CityWalki&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;赛博逛街&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.citywalki.com/&#34; target=&#34;_blank&#34;&gt;https://www.citywalki.com/&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;SendKeeps&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;赛博明信片&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.sendkeeps.com/&#34; target=&#34;_blank&#34;&gt;https://www.sendkeeps.com/&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>

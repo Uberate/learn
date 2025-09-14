@@ -1,6 +1,6 @@
 +++
 date = '2025-09-14T01:09:13+08:00'
-title = 'Your biggest customer might be your biggest bottleneck'
+title = '读《Your biggest customer might be your biggest bottleneck》'
 categories = ["阅读"]
 tags = ["短篇阅读"]
 +++

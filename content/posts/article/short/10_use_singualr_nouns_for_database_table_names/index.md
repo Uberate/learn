@@ -1,6 +1,6 @@
 +++
 date = '2025-09-14T00:11:56+08:00'
-title = 'Use singular nouns for database table names'
+title = '读《Use singular nouns for database table names》'
 categories = ["阅读"]
 tags = ["短篇阅读","数据库"]
 +++

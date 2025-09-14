@@ -9,31 +9,32 @@ categories = ['技术']
 
 > 不止 MCP ，还有一些其他乱七八糟的学习。
 
-| 说明 | 链接 |
-| :---: | :--- |
-| 官方资料 | [Model Context Protocol](https://zhuanlan.zhihu.com/p/27327515233) | 
-| Github Microsoft MCP 学习书，非常详细，非常适合初学者 | [Github：microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) |
-| 知乎：一文看懂：MCP（大模型上下文协议） | [知乎：一文看懂：MCP（大模型上下文协议）](https://zhuanlan.zhihu.com/p/27327515233) |
-| 知乎：从0到1掌握 MCP：微软 AI 标准化协议学习指南深度解读 | [知乎：从0到1掌握 MCP：微软 AI 标准化协议学习指南深度解读](https://zhuanlan.zhihu.com/p/1914634098984615970) |
-| 大模型学习指南，适合中国宝宝 | (https://github.com/datawhalechina/self-llm)(https://github.com/datawhalechina/self-llm) |
-
+|                  说明                   | 链接                                                                                       |
+|:-------------------------------------:|:-----------------------------------------------------------------------------------------|
+|                 官方资料                  | [Model Context Protocol](https://zhuanlan.zhihu.com/p/27327515233)                       | 
+| Github Microsoft MCP 学习书，非常详细，非常适合初学者 | [Github：microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)     |
+|         知乎：一文看懂：MCP（大模型上下文协议）         | [知乎：一文看懂：MCP（大模型上下文协议）](https://zhuanlan.zhihu.com/p/27327515233)                        |
+|   知乎：从0到1掌握 MCP：微软 AI 标准化协议学习指南深度解读   | [知乎：从0到1掌握 MCP：微软 AI 标准化协议学习指南深度解读](https://zhuanlan.zhihu.com/p/1914634098984615970)    |
+|            大模型学习指南，适合中国宝宝             | (https://github.com/datawhalechina/self-llm)(https://github.com/datawhalechina/self-llm) |
 
 ## MCP 大全
-| 说明 | 链接 |
-| :---: | :--- |
-| MCP 资源库 | [mcp.so](mcp.so) |
-| 社区按类型整理的 MCP 服务 | https://github.com/yzfly/Awesome-MCP-ZH |
+
+|       说明        | 链接                                                                                           |
+|:---------------:|:---------------------------------------------------------------------------------------------|
+|     MCP 资源库     | [mcp.so](mcp.so)                                                                             |
+| 社区按类型整理的 MCP 服务 | https://github.com/yzfly/Awesome-MCP-ZH                                                      |
+|     小红书 MCP     | [https://github.com/xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) |
 
 ## AI 相关
 
-| 说明 | 链接 |
-| :---: | :---: |
-| LLM 测试框架 | https://www.readme-i18n.com/confident-ai/deepeval |
-| IBM 出品的 MCP Context Forge | https://github.com/IBM/mcp-context-forge |
-| 安全领域模型 | https://github.com/aliasrobotics/cai |
+|            说明             |                        链接                         |
+|:-------------------------:|:-------------------------------------------------:|
+|         LLM 测试框架          | https://www.readme-i18n.com/confident-ai/deepeval |
+| IBM 出品的 MCP Context Forge |     https://github.com/IBM/mcp-context-forge      |
+|          安全领域模型           |       https://github.com/aliasrobotics/cai        |
 
 ## AI 上层应用
 
-| 说明 | 链接 | 
-| :---: | :---: |
+|      说明      |              链接               | 
+|:------------:|:-----------------------------:|
 | 快速构建部署人工智能应用 | https://github.com/dtyq/magic |

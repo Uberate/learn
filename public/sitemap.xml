@@ -4,15 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-09-14T17:02:26+08:00</lastmod>
+    <lastmod>2025-09-14T22:02:41+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/article/short/12_the_last_programmers/</loc>
+    <lastmod>2025-09-14T22:02:41+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/ln/architecture/fair_go_chan/</loc>
-    <lastmod>2025-09-14T17:02:26+08:00</lastmod>
+    <lastmod>2025-09-14T17:27:42+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/</loc>
-    <lastmod>2025-09-14T01:09:13+08:00</lastmod>
+    <lastmod>2025-09-14T17:21:40+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/note/</loc>

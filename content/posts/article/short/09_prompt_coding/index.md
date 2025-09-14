@@ -1,6 +1,6 @@
 +++
 date = '2025-08-31T16:52:23+08:00'
-title = 'Prompt Coding'
+title = '读《Prompt Coding》'
 categories = ["阅读"]
 tags = ["短篇阅读"]
 +++

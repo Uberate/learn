@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 14 Sep 2025 01:09:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Sep 2025 22:02:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Your biggest customer might be your biggest bottleneck</title>
+      <title>读《The last programers》</title>
+      <link>http://localhost:1313/learn/posts/article/short/12_the_last_programmers/</link>
+      <pubDate>Sun, 14 Sep 2025 22:02:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/12_the_last_programmers/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 &lt;a href=&#34;https://www.xipu.li/posts/the-last-programmers&#34; target=&#34;_blank&#34;&gt;The last programmers&lt;/a&gt; &amp;ndash; &lt;a href=&#34;https://www.xipu.li/&#34; target=&#34;_blank&#34;&gt;Xipu Li&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;让我感触颇深的一句话。&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  We&amp;rsquo;re living through the end of an era where humans translate ideas into code by hand.
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>读《Your biggest customer might be your biggest bottleneck》</title>
       <link>http://localhost:1313/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/</link>
       <pubDate>Sun, 14 Sep 2025 01:09:13 +0800</pubDate>
       
@@ -23,11 +38,11 @@
 &lt;p&gt;作者之前使用的 FIFO 的队列模型由于某个租户的巨量输入而出现问题。
 然后作者提出了一个新的方案。
 轮询所有通道队列，依次处理。&lt;/p&gt;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/feature.png" />
     </item>
     
     <item>
-      <title>Use singular nouns for database table names</title>
+      <title>读《Use singular nouns for database table names》</title>
       <link>http://localhost:1313/learn/posts/article/short/10_use_singualr_nouns_for_database_table_names/</link>
       <pubDate>Sun, 14 Sep 2025 00:11:56 +0800</pubDate>
       
@@ -42,7 +57,7 @@
     </item>
     
     <item>
-      <title>Prompt Coding</title>
+      <title>读《Prompt Coding》</title>
       <link>http://localhost:1313/learn/posts/article/short/09_prompt_coding/</link>
       <pubDate>Sun, 31 Aug 2025 16:52:23 +0800</pubDate>
       
