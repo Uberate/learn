@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 14 Sep 2025 00:11:56 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Sep 2025 01:09:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Your biggest customer might be your biggest bottleneck</title>
+      <link>http://localhost:1313/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/</link>
+      <pubDate>Sun, 14 Sep 2025 01:09:13 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 &lt;a href=&#34;https://densumesh.dev/blog/fair-queue/&#34; target=&#34;_blank&#34;&gt;Your biggest customer might be your biggest bottleneck&lt;/a&gt; &amp;ndash; &lt;a href=&#34;https://github.com/densumesh&#34; target=&#34;_blank&#34;&gt;densumesh&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;吵闹邻居，
+是指在多租户隔离模式下，
+共享资源被独立大租户过度消耗而导致的系统整体异常的问题。&lt;/p&gt;
+&lt;p&gt;作者之前使用的 FIFO 的队列模型由于某个租户的巨量输入而出现问题。
+然后作者提出了一个新的方案。
+轮询所有通道队列，依次处理。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>Use singular nouns for database table names</title>

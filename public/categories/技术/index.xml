@@ -7,7 +7,158 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 31 Aug 2025 22:03:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Sep 2025 17:02:26 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>公平竞争 Chan 模型</title>
+      <link>http://localhost:1313/learn/posts/ln/architecture/fair_go_chan/</link>
+      <pubDate>Sun, 14 Sep 2025 17:02:26 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/ln/architecture/fair_go_chan/</guid>
+      <description>&lt;p&gt;源自这个文章：
+
+
+
+  
+
+
+  &lt;section class=&#34;space-y-10 w-full&#34;&gt;
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  &lt;a class=&#34;flex flex-wrap md:flex-nowrap article &#34; href=&#34;http://localhost:1313/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/&#34;&gt;
+    &lt;div class=&#34; mt-3 md:mt-0&#34;&gt;
+      &lt;div class=&#34;items-center text-left text-xl font-semibold&#34;&gt;
+        
+        &lt;div class=&#34;font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral&#34;
+          href=&#34;http://localhost:1313/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/&#34;&gt;Your biggest customer might be your biggest bottleneck&lt;/div&gt;
+        
+        
+        
+      &lt;/div&gt;
+      &lt;div class=&#34;text-sm text-neutral-500 dark:text-neutral-400&#34;&gt;
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;flex flex-row flex-wrap items-center&#34;&gt;
+  
+  
+  &lt;time datetime=&#34;2025-09-14T01:09:13&amp;#43;08:00&#34;&gt;September 14, 2025&lt;/time&gt;&lt;span class=&#34;px-2 text-primary-500&#34;&gt;&amp;middot;&lt;/span&gt;&lt;span&gt;158 字&lt;/span&gt;&lt;span class=&#34;px-2 text-primary-500&#34;&gt;&amp;middot;&lt;/span&gt;&lt;span title=&#34;预计阅读&#34;&gt;1 分钟&lt;/span&gt;
+  
+
+  
+  
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;flex flex-row flex-wrap items-center&#34;&gt;
+  
+  
+  
+  
+  
+  
+  &lt;span style=&#34;margin-top:0.5rem&#34; class=&#34;mr-2&#34; onclick=&#34;window.open(&amp;#34;/learn/categories/%E9%98%85%E8%AF%BB/&amp;#34;,&#39;_self&#39;);return false;&#34;&gt;
+    &lt;span class=&#34;flex&#34; style=&#34;cursor: pointer;&#34;&gt;
+  &lt;span class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;
+    阅读
+  &lt;/span&gt;
+&lt;/span&gt;
+  &lt;/span&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;span style=&#34;margin-top:0.5rem&#34; class=&#34;mr-2&#34; onclick=&#34;window.open(&amp;#34;/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/&amp;#34;,&#39;_self&#39;);return false;&#34;&gt;
+    &lt;span class=&#34;flex&#34; style=&#34;cursor: pointer;&#34;&gt;
+  &lt;span class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;
+    短篇阅读
+  &lt;/span&gt;
+&lt;/span&gt;
+  &lt;/span&gt;
+  
+  
+  
+  
+&lt;/div&gt;
+
+
+
+
+
+
+
+      &lt;/div&gt;
+      
+    &lt;/div&gt;
+  &lt;/a&gt;
+
+  &lt;/section&gt;
+
+&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>Claude code router</title>
