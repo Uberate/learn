@@ -20,8 +20,10 @@
 &lt;p&gt;&lt;strong&gt;让我感触颇深的一句话。&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
   We&amp;rsquo;re living through the end of an era where humans translate ideas into code by hand.
-&lt;/div&gt;</description>
-      
+&lt;/div&gt;
+
+&lt;p&gt;最近一段时间，团队内的同学们也开始逐渐使用 Vibe Code 类工具，不过由于公司政策限制，我们不得不使用内部工具。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/article/short/12_the_last_programmers/feature.png" />
     </item>
     
     <item>

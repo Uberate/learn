@@ -74,18 +74,18 @@ We’re living through the end of an era where humans translate ideas into code 
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-09-14T22:02:41+08:00">
-    <meta property="article:modified_time" content="2025-09-14T22:02:41+08:00">
+    <meta property="article:modified_time" content="2025-09-14T22:16:44+08:00">
     <meta property="article:tag" content="短篇阅读">
+    <meta property="og:image" content="http://localhost:1313/learn/posts/article/short/12_the_last_programmers/feature.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/learn/posts/article/short/12_the_last_programmers/feature.png">
   <meta name="twitter:title" content="读《The last programers》">
   <meta name="twitter:description" content="原文 The last programmers – Xipu Li
 让我感触颇深的一句话。
 We’re living through the end of an era where humans translate ideas into code by hand. 最近一段时间，团队内的同学们也开始逐渐使用 Vibe Code 类工具，不过由于公司政策限制，我们不得不使用内部工具。">
 
-    
-  
   
   <script type="application/ld+json">
   [{
@@ -106,7 +106,7 @@ We’re living through the end of an era where humans translate ideas into code 
     "dateCreated": "2025-09-14T22:02:41\u002b08:00",
     "datePublished": "2025-09-14T22:02:41\u002b08:00",
     
-    "dateModified": "2025-09-14T22:02:41\u002b08:00",
+    "dateModified": "2025-09-14T22:16:44\u002b08:00",
     
     "keywords": ["短篇阅读"],
     
@@ -739,9 +739,33 @@ We’re living through the end of an era where humans translate ideas into code 
   
   
   
- 
 
 
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/learn/posts/article/short/12_the_last_programmers/feature_hu_d7be2f127b7ee86.png);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
 
   
   
