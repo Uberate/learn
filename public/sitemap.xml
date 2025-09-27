@@ -4,7 +4,15 @@
 
   <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-09-14T22:16:44+08:00</lastmod>
+    <lastmod>2025-09-27T19:21:34+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/food_menu/ma_la_xiang_guo/</loc>
+    <lastmod>2025-09-27T19:21:34+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/food_menu/ke_le_ji_chi/</loc>
+    <lastmod>2025-09-27T19:20:58+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/12_the_last_programmers/</loc>
