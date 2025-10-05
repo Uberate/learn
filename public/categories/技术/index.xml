@@ -7,7 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 14 Sep 2025 17:02:26 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Oct 2025 13:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DIY 键盘 01: 开始</title>
+      <link>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/</link>
+      <pubDate>Sun, 05 Oct 2025 13:50:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/</guid>
+      <description>&lt;p&gt;我有很多键盘，
+各种各样的。
+不过他们都是标准配列，
+没有类似人体工程学那种分布散乱的配列。&lt;/p&gt;
+&lt;p&gt;不过在众多键盘配列中，
+在 MAC 上，
+我最喜欢的还是 &lt;code&gt;HHKB&lt;/code&gt; 配列，
+不过需要注意的是，
+现在市面上大多数宣称是 &lt;code&gt;HHKB&lt;/code&gt; 配列的键盘实际上都是 60% 或 61% 配列。
+区分的方式是看右下角的 &lt;code&gt;CTRL&lt;/code&gt; 位置。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/feature.png" />
+    </item>
+    
+    <item>
+      <title>DIY 键盘 02: 准备工作以及设计配列</title>
+      <link>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/</link>
+      <pubDate>Sun, 05 Oct 2025 13:50:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/</guid>
+      <description>&lt;h3 class=&#34;relative group&#34;&gt;References 
+    &lt;div id=&#34;references&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#references&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://keyboard-layout-editor.com/#/&#34; target=&#34;_blank&#34;&gt;keyboard-layout-editor.com&lt;/a&gt; 是一个编辑键盘配列的工具网站。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你可以在我的仓库中找到我所使用的全部文件：
+&lt;div class=&#34;github-card-wrapper&#34;&gt;&lt;a id=&#34;github-1c4d434150cbfeb0fade9b6080c710ff&#34; target=&#34;_blank&#34; href=&#34;https://github.com/Uberate/diy_hhkb&#34; class=&#34;cursor-pointer&#34;&gt;
+
+
+
+    &lt;div
+      class=&#34;w-full md:w-auto p-0 m-0 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl&#34;&gt;&lt;div class=&#34;w-full nozoom&#34;&gt;
+        &lt;img src=&#34;https://opengraph.githubassets.com/0/Uberate/diy_hhkb&#34; alt=&#34;GitHub Repository Thumbnail&#34;
+          class=&#34;nozoom mt-0 mb-0 w-full h-full object-cover&#34;&gt;
+      &lt;/div&gt;&lt;div
+        class=&#34;w-full md:w-auto pt-3 p-5&#34;&gt;
+
+        &lt;div class=&#34;flex items-center&#34;&gt;
+          &lt;span class=&#34;text-2xl text-neutral-800 dark:text-neutral&#34; style=&#34;margin-right:10px;&#34;&gt;
+            
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 496 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z&#34;/&gt;&lt;/svg&gt;
+
+  &lt;/span&gt;
+
+
+          &lt;/span&gt;
+          &lt;div id=&#34;github-1c4d434150cbfeb0fade9b6080c710ff-full_name&#34;
+            class=&#34;m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral&#34;&gt;
+            Uberate/diy_hhkb
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;p id=&#34;github-1c4d434150cbfeb0fade9b6080c710ff-description&#34; class=&#34;m-0 mt-2 text-md text-neutral-800 dark:text-neutral&#34;&gt;
+          DIY HHKB, maybe you need these.
+        &lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/feature.png" />
+    </item>
     
     <item>
       <title>公平竞争 Chan 模型</title>

@@ -3,12 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/</loc>
+    <lastmod>2025-10-05T13:50:00+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/</loc>
+    <lastmod>2025-10-05T13:50:00+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/learn/posts/</loc>
-    <lastmod>2025-10-05T13:04:16+08:00</lastmod>
+    <lastmod>2025-10-05T13:50:00+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/article/short/13_the_70_problem_hard_truths_about_ai_assisted_coding/</loc>
-    <lastmod>2025-10-05T13:04:16+08:00</lastmod>
+    <lastmod>2025-10-05T13:39:40+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/learn/posts/food_menu/ma_la_xiang_guo/</loc>
