@@ -58,6 +58,6 @@ Templates:
       
       ### 1. xxx
 
-AI:
+LLMs:
   Provider: "volc"
 

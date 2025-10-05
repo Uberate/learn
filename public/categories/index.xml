@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sat, 27 Sep 2025 19:21:34 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Oct 2025 13:04:16 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>阅读</title>
+      <link>http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Sun, 05 Oct 2025 13:04:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>菜谱</title>
@@ -15,16 +25,6 @@
       <pubDate>Sat, 27 Sep 2025 19:21:34 +0800</pubDate>
       
       <guid>http://localhost:1313/learn/categories/%E8%8F%9C%E8%B0%B1/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>阅读</title>
-      <link>http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/</link>
-      <pubDate>Sun, 14 Sep 2025 22:02:41 +0800</pubDate>
-      
-      <guid>http://localhost:1313/learn/categories/%E9%98%85%E8%AF%BB/</guid>
       <description></description>
       
     </item>

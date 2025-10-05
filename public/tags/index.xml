@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sat, 27 Sep 2025 19:20:58 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Oct 2025 13:04:16 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/learn/tags/ai/</link>
+      <pubDate>Sun, 05 Oct 2025 13:04:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Coding</title>
+      <link>http://localhost:1313/learn/tags/coding/</link>
+      <pubDate>Sun, 05 Oct 2025 13:04:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/coding/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>短篇阅读</title>
+      <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Sun, 05 Oct 2025 13:04:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>耗时短</title>
@@ -25,16 +55,6 @@
       <pubDate>Sat, 27 Sep 2025 19:20:58 +0800</pubDate>
       
       <guid>http://localhost:1313/learn/tags/%E9%B8%A1%E7%BF%85/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>短篇阅读</title>
-      <link>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</link>
-      <pubDate>Sun, 14 Sep 2025 22:02:41 +0800</pubDate>
-      
-      <guid>http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/</guid>
       <description></description>
       
     </item>
@@ -95,16 +115,6 @@
       <pubDate>Sun, 07 Sep 2025 21:44:07 +0800</pubDate>
       
       <guid>http://localhost:1313/learn/tags/%E4%B8%8B%E5%8D%88%E8%8C%B6/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/learn/tags/ai/</link>
-      <pubDate>Sun, 31 Aug 2025 22:03:07 +0800</pubDate>
-      
-      <guid>http://localhost:1313/learn/tags/ai/</guid>
       <description></description>
       
     </item>

@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 14 Sep 2025 22:02:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Oct 2025 13:04:16 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>读《The 70% problem: Hard truths about AI-assisted coding》</title>
+      <link>http://localhost:1313/learn/posts/article/short/13_the_70_problem_hard_truths_about_ai_assisted_coding/</link>
+      <pubDate>Sun, 05 Oct 2025 13:04:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/13_the_70_problem_hard_truths_about_ai_assisted_coding/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 &lt;a href=&#34;https://addyo.substack.com/p/the-70-problem-hard-truths-about&#34; target=&#34;_blank&#34;&gt;The 70% problem: Hard truths about AI-assisted coding&lt;/a&gt; &amp;ndash; ADDY OSMANI&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  AI 虽然可以提升开发效率，但是只能做到 70%，剩下 30% 必须还是以来人工完成。
+&lt;/div&gt;
+
+&lt;p&gt;实话实说，
+我在尝试 AI VibeCoding 的时候，
+也存在同样的感觉。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/article/short/13_the_70_problem_hard_truths_about_ai_assisted_coding/feature.png" />
+    </item>
     
     <item>
       <title>读《The last programers》</title>
