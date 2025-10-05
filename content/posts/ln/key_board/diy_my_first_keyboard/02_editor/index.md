@@ -33,7 +33,7 @@ series_order = 2
 或者你已有 keyboard-layout-editor.com 格式的 HHKB 配列格式的话，
 你可以跳过这篇文章。
 
-![上传配列信息](/learn/img/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/upload_json_file.png)
+![上传配列信息](/learn/img/ln/key_board/diy_my_first_keyboard/02_editor/upload_json_file.png)
 
 ### 什么是配列
 
@@ -76,7 +76,7 @@ series_order = 2
 
 *如下图所示*
 
-![104 配列](/learn/img/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/104_key_board_layout.png)
+![104 配列](/learn/img/ln/key_board/diy_my_first_keyboard/02_editor/104_key_board_layout.png)
 
 #### 常见配列
 
@@ -112,7 +112,7 @@ series_order = 2
 由于空格是 `7U` 的，
 所以 `CTRL` 几乎到了右侧 `Shift` 的中间甚至靠右侧的下方。
 
-![上传配列信息](/learn/img/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/upload_json_file.png)
+![上传配列信息](/learn/img/ln/key_board/diy_my_first_keyboard/02_editor/upload_json_file.png)
 
 [hhkb.json](https://github.com/Uberate/diy_hhkb/blob/main/keyboard-layout-editor.com/hhkb.json)
 {{< codeimporter url="https://raw.githubusercontent.com/Uberate/diy_hhkb/refs/heads/main/keyboard-layout-editor.com/hhkb.json" type="json" >}}

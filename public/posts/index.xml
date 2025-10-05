@@ -11,10 +11,10 @@
     
     <item>
       <title>DIY 键盘 01: 开始</title>
-      <link>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/</link>
+      <link>http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/01_plan/</link>
       <pubDate>Sun, 05 Oct 2025 13:50:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/</guid>
+      <guid>http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/01_plan/</guid>
       <description>&lt;p&gt;我有很多键盘，
 各种各样的。
 不过他们都是标准配列，
@@ -25,17 +25,17 @@
 不过需要注意的是，
 现在市面上大多数宣称是 &lt;code&gt;HHKB&lt;/code&gt; 配列的键盘实际上都是 60% 或 61% 配列。
 区分的方式是看右下角的 &lt;code&gt;CTRL&lt;/code&gt; 位置。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/01_plan/feature.png" />
     </item>
     
     <item>
       <title>DIY 键盘 02: 准备工作以及设计配列</title>
-      <link>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/</link>
+      <link>http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/02_editor/</link>
       <pubDate>Sun, 05 Oct 2025 13:50:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/learn/posts/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/</guid>
+      <guid>http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/02_editor/</guid>
       <description>&lt;p&gt;你可以在我的仓库中找到我所使用的全部文件：
-&lt;div class=&#34;github-card-wrapper&#34;&gt;&lt;a id=&#34;github-1c4d434150cbfeb0fade9b6080c710ff&#34; target=&#34;_blank&#34; href=&#34;https://github.com/Uberate/diy_hhkb&#34; class=&#34;cursor-pointer&#34;&gt;
+&lt;div class=&#34;github-card-wrapper&#34;&gt;&lt;a id=&#34;github-9fc673e1d7524da7514294a1ffd30389&#34; target=&#34;_blank&#34; href=&#34;https://github.com/Uberate/diy_hhkb&#34; class=&#34;cursor-pointer&#34;&gt;
 
 
 
@@ -57,16 +57,16 @@
 
 
           &lt;/span&gt;
-          &lt;div id=&#34;github-1c4d434150cbfeb0fade9b6080c710ff-full_name&#34;
+          &lt;div id=&#34;github-9fc673e1d7524da7514294a1ffd30389-full_name&#34;
             class=&#34;m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral&#34;&gt;
             Uberate/diy_hhkb
           &lt;/div&gt;
         &lt;/div&gt;
 
-        &lt;p id=&#34;github-1c4d434150cbfeb0fade9b6080c710ff-description&#34; class=&#34;m-0 mt-2 text-md text-neutral-800 dark:text-neutral&#34;&gt;
+        &lt;p id=&#34;github-9fc673e1d7524da7514294a1ffd30389-description&#34; class=&#34;m-0 mt-2 text-md text-neutral-800 dark:text-neutral&#34;&gt;
           DIY HHKB, maybe you need these.
         &lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/ln/key_board/diy_key_board/02_diy_my_first_keyboard_key_board_editor/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/02_editor/feature.png" />
     </item>
     
     <item>

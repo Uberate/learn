@@ -22,7 +22,7 @@ series_order = 1
 
 *下图是一个标准的 HHKB 配列*
 
-![HHKB 配列键盘](/learn/img/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/hhkb_key_format.png)
+![HHKB 配列键盘](/learn/img/ln/key_board/diy_my_first_keyboard/01_plan/hhkb_key_format.png)
 
 ## HHKB 引发的一个计划
 
@@ -51,7 +51,8 @@ series_order = 1
 {{</lead>}}
 
 *我的 HHKB*
-![HHKB 配列键盘](/learn/img/ln/key_board/diy_key_board/01_diy_my_first_keyboard_plan/my_hhkb.png)
+
+![HHKB键盘](/learn/img/ln/key_board/diy_my_first_keyboard/01_plan/my_hhkb.png)
 
 ## 开始规划
 
