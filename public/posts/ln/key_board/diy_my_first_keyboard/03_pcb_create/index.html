@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Posts &middot; Learn / Ub(s)erate</title>
-  <meta name="title" content="Posts &middot; Learn / Ub(s)erate" />
+  <title>DIY 键盘 02: 准备工作以及设计配列 &middot; Learn / Ub(s)erate</title>
+  <meta name="title" content="DIY 键盘 02: 准备工作以及设计配列 &middot; Learn / Ub(s)erate" />
   
   
+  <meta name="keywords" content="学习, 键盘, HHKB, " />
   
   
-  
-  <link rel="canonical" href="http://localhost:1313/learn/posts/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/learn/posts/index.xml" title="Learn / Ub(s)erate" />
+  <link rel="canonical" href="http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/03_pcb_create/" />
   
   
   
@@ -66,20 +64,57 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/learn/posts/">
+  <meta property="og:url" content="http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/03_pcb_create/">
   <meta property="og:site_name" content="Learn / Ub(s)erate">
-  <meta property="og:title" content="Posts">
+  <meta property="og:title" content="DIY 键盘 02: 准备工作以及设计配列">
+  <meta property="og:description" content="你可以在我的仓库中找到我所使用的全部文件： Uberate/diy_hhkb DIY HHKB, maybe you need these.">
   <meta property="og:locale" content="zh_cn">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-05T13:50:00+08:00">
+    <meta property="article:modified_time" content="2025-10-05T13:50:00+08:00">
+    <meta property="article:tag" content="学习">
+    <meta property="article:tag" content="键盘">
+    <meta property="article:tag" content="HHKB">
+      <meta property="og:see_also" content="http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/01_plan/">
+      <meta property="og:see_also" content="http://localhost:1313/learn/posts/ln/key_board/diy_my_first_keyboard/02_editor/">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:title" content="DIY 键盘 02: 准备工作以及设计配列">
+  <meta name="twitter:description" content="你可以在我的仓库中找到我所使用的全部文件： Uberate/diy_hhkb DIY HHKB, maybe you need these.">
 
     
   
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "DIY 键盘 02: 准备工作以及设计配列",
+    "headline": "DIY 键盘 02: 准备工作以及设计配列",
+    
+    "abstract": "\u003cp\u003e你可以在我的仓库中找到我所使用的全部文件：\n\u003cdiv class=\u0022github-card-wrapper\u0022\u003e\u003ca id=\u0022github-191a0169c04950cb1bf16a7b0cbd4ec2\u0022 target=\u0022_blank\u0022 href=\u0022https:\/\/github.com\/Uberate\/diy_hhkb\u0022 class=\u0022cursor-pointer\u0022\u003e\n\n\n\n    \u003cdiv\n      class=\u0022w-full md:w-auto p-0 m-0 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl\u0022\u003e\u003cdiv class=\u0022w-full nozoom\u0022\u003e\n        \u003cimg src=\u0022https:\/\/opengraph.githubassets.com\/0\/Uberate\/diy_hhkb\u0022 alt=\u0022GitHub Repository Thumbnail\u0022\n          class=\u0022nozoom mt-0 mb-0 w-full h-full object-cover\u0022\u003e\n      \u003c\/div\u003e\u003cdiv\n        class=\u0022w-full md:w-auto pt-3 p-5\u0022\u003e\n\n        \u003cdiv class=\u0022flex items-center\u0022\u003e\n          \u003cspan class=\u0022text-2xl text-neutral-800 dark:text-neutral\u0022 style=\u0022margin-right:10px;\u0022\u003e\n            \n\n  \u003cspan class=\u0022relative block icon\u0022\u003e\n    \u003csvg xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022 viewBox=\u00220 0 496 512\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z\u0022\/\u003e\u003c\/svg\u003e\n\n  \u003c\/span\u003e\n\n\n          \u003c\/span\u003e\n          \u003cdiv id=\u0022github-191a0169c04950cb1bf16a7b0cbd4ec2-full_name\u0022\n            class=\u0022m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral\u0022\u003e\n            Uberate\/diy_hhkb\n          \u003c\/div\u003e\n        \u003c\/div\u003e\n\n        \u003cp id=\u0022github-191a0169c04950cb1bf16a7b0cbd4ec2-description\u0022 class=\u0022m-0 mt-2 text-md text-neutral-800 dark:text-neutral\u0022\u003e\n          DIY HHKB, maybe you need these.\n        \u003c\/p\u003e",
+    "inLanguage": "zh-cn",
+    "url" : "http:\/\/localhost:1313\/learn\/posts\/ln\/key_board\/diy_my_first_keyboard\/03_pcb_create\/",
+    "author" : {
+      "@type": "Person",
+      "name": "ub(s)erate"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-10-05T13:50:00\u002b08:00",
+    "datePublished": "2025-10-05T13:50:00\u002b08:00",
+    
+    "dateModified": "2025-10-05T13:50:00\u002b08:00",
+    
+    "keywords": ["学习","键盘","HHKB"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "341"
+  }]
+  </script>
+
 
   
   
@@ -697,11 +732,71 @@
       
 
 
- <header>
+<article>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Posts</h1>
-  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+  
+  
+  
+ 
+
+
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
     
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/learn/"
+      >努力做正确的事</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/learn/posts/"
+      >Posts</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/learn/posts/ln/key_board/diy_my_first_keyboard/03_pcb_create/"
+      >DIY 键盘 02: 准备工作以及设计配列</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      DIY 键盘 02: 准备工作以及设计配列
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
 
 
 
@@ -709,7 +804,17 @@
 
 
 
+  
 
+
+
+
+
+  
+
+
+
+  
 
 
 
@@ -726,1425 +831,476 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-</div>
-
-
-  </div>
-  
-  
-  </header>
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
-    
-    <div class="min-w-0 min-h-0 max-w-prose">
-      
-    </div>
-
-
-
-
-  </section>
+  <time datetime="2025-10-05T13:50:00&#43;08:00">October 5, 2025</time><span class="px-2 text-primary-500">&middot;</span><span>341 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
   
 
-    
-    
-    
-    
-    
-
-    
-
-    <section class="space-y-10 w-full">
-      
-        
-        
-        <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-          2025
-        </h2>
-        
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/music/staff/ba_he_jiu_yue/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/music/staff/ba_he_jiu_yue/">巴赫旧约</div>
-        
-        
-        <div class=" ltr:ml-2 rtl:mr-2">
-          <span class="flex" style="cursor: pointer;">
+  
+  
+  <span class="pl-2"><span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     草稿
   </span>
+</span></span>
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E6%8A%80%E6%9C%AF/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    技术
+  </span>
 </span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/%E5%AD%A6%E4%B9%A0/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    学习
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/%E9%94%AE%E7%9B%98/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    键盘
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/hhkb/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    HHKB
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+        
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="ub(s)erate" src="/learn/img/author_icon_hu_bddbf089040c5808.jpeg" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      作者
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      ub(s)erate
+    </div>
+    
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+
+         <details open id="TOCView" class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目录
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#开始">开始</a></li>
+        <li><a href="#绘制三明治类型的定位板">绘制三明治类型的定位板</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目录
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#开始">开始</a></li>
+        <li><a href="#绘制三明治类型的定位板">绘制三明治类型的定位板</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5" >
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        DIY 键盘 - 这篇文章属于一个选集。
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="/learn/posts/ln/key_board/diy_my_first_keyboard/01_plan/">
+            § 1: DIY 键盘 01: 开始
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="/learn/posts/ln/key_board/diy_my_first_keyboard/02_editor/">
+            § 2: DIY 键盘 02: 准备工作以及设计配列
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        § 2: 本文
+    </div>
+    
+    
+
+
+</details>
+
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>你可以在我的仓库中找到我所使用的全部文件：
+<div class="github-card-wrapper"><a id="github-191a0169c04950cb1bf16a7b0cbd4ec2" target="_blank" href="https://github.com/Uberate/diy_hhkb" class="cursor-pointer">
+
+
+
+    <div
+      class="w-full md:w-auto p-0 m-0 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl"><div class="w-full nozoom">
+        <img src="https://opengraph.githubassets.com/0/Uberate/diy_hhkb" alt="GitHub Repository Thumbnail"
+          class="nozoom mt-0 mb-0 w-full h-full object-cover">
+      </div><div
+        class="w-full md:w-auto pt-3 p-5">
+
+        <div class="flex items-center">
+          <span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+          </span>
+          <div id="github-191a0169c04950cb1bf16a7b0cbd4ec2-full_name"
+            class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+            Uberate/diy_hhkb
+          </div>
+        </div>
+
+        <p id="github-191a0169c04950cb1bf16a7b0cbd4ec2-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+          DIY HHKB, maybe you need these.
+        </p>
+
+        <div class="m-0 mt-2 flex items-center">
+
+          <span class="mr-1 inline-block h-3 w-3 rounded-full"
+            style="background-color:  #0077b6 "></span>
+          <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+             null 
+          </div>
+
+          <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/></svg>
+  </span>
+
+
+          </span>
+          <div id="github-191a0169c04950cb1bf16a7b0cbd4ec2-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+            0
+          </div>
+
+          <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/></svg>
+  </span>
+
+
+          </span>
+          <div id="github-191a0169c04950cb1bf16a7b0cbd4ec2-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+            0
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script>
+      fetch("https://api.github.com/repos/Uberate/diy_hhkb", {
+        headers: new Headers({
+          'User-agent': 'Mozilla/4.0 Custom User Agent'
+        })
+      })
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('github-191a0169c04950cb1bf16a7b0cbd4ec2-full_name').innerHTML = data.full_name;
+          document.getElementById('github-191a0169c04950cb1bf16a7b0cbd4ec2-description').innerHTML = data.description;
+          document.getElementById('github-191a0169c04950cb1bf16a7b0cbd4ec2-stargazers').innerHTML = data.stargazers_count;
+          document.getElementById('github-191a0169c04950cb1bf16a7b0cbd4ec2-forks').innerHTML = data.forks;
+        })
+        .catch(error => console.error(error))
+    </script>
+  </a></div></p>
+
+<h3 class="relative group">开始 
+    <div id="开始" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%bc%80%e5%a7%8b" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>这一章，
+我们要开始设计 PCB 的板材、定位板，
+同时为了简化设计，
+我决定使用三明治的堆叠方案。</p>
+<p>这一章不涉及电路板的绘制。</p>
+
+<h3 class="relative group">绘制三明治类型的定位板 
+    <div id="绘制三明治类型的定位板" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e7%bb%98%e5%88%b6%e4%b8%89%e6%98%8e%e6%b2%bb%e7%b1%bb%e5%9e%8b%e7%9a%84%e5%ae%9a%e4%bd%8d%e6%9d%bf" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>打开 <a href="http://builder.swillkb.com/" target="_blank">http://builder.swillkb.com/</a>,
+这里我们需要按照如下信息进行选择：
+
+
+
+
+
+
+<figure>
+    <img class="my-0 rounded-md" loading="lazy" alt="上传配列信息" src="/learn/img/ln/key_board/diy_my_first_keyboard/03_pcb_create/pcb_create.png" />
+
+  
+</figure>
+</p>
+<p>将我们从上篇文章中获取的 raw data 的内容直接粘贴到这个网站中。</p>
+<ol>
+<li>Switch Type: PCB 轴体开孔类型，这里选择 <code>MX</code>.</li>
+<li>Stabilizer Type: 卫星轴开口类型，建议选择 <code>Cherry Only</code>, 因为兼容 <code>Costar</code> 类型的开口会导致定位板无法卡主 Cherry 轴体，不太稳定。</li>
+<li>Case Type: 因为不想把外壳设计的过于复杂，所以我这里直接考虑使用 Sandwich 类型。其他类型需要自己绘制、外壳模型。</li>
+<li>USB Count: 因为不想搞蓝牙和电源，所以我这里仅考虑有线的类型，所以需要预留一个 USB 口。</li>
+<li>Mount Holes： 我需要保留 4 个 2 毫米的螺丝孔。</li>
+<li>Edge Padding: 边缘预留大小。</li>
+</ol>
+
+<h3 class="relative group">References 
+    <div id="references" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#references" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+
+<h4 class="relative group">绘制键盘定位板的网站 
+    <div id="绘制键盘定位板的网站" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e7%bb%98%e5%88%b6%e9%94%ae%e7%9b%98%e5%ae%9a%e4%bd%8d%e6%9d%bf%e7%9a%84%e7%bd%91%e7%ab%99" aria-label="锚点">#</a>
+    </span>        
+    
+</h4>
+<p><a href="http://builder.swillkb.com/" target="_blank">http://builder.swillkb.com/</a></p>
+
+          
+          
+          
         </div>
         
         
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+
         
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2025-06-07T00:52:13&#43;08:00">June 7, 2025</time><span class="px-2 text-primary-500">&middot;</span><span>93 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E9%9F%B3%E4%B9%90/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    音乐
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/%E6%B1%AA%E8%8B%8F%E6%B3%B7/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    汪苏泷
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/%E4%BA%94%E7%BA%BF%E8%B0%B1/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    五线谱
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        DIY 键盘 - 这篇文章属于一个选集。
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="/learn/posts/ln/key_board/diy_my_first_keyboard/01_plan/">
+            § 1: DIY 键盘 01: 开始
+        </a>
     </div>
-  </a>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/tech/ai/mcp/local_server_demo/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/tech/ai/mcp/local_server_demo/">学习 MCP - 本地 Server Demo</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2025-06-04T22:39:13&#43;08:00">June 4, 2025</time><span class="px-2 text-primary-500">&middot;</span><span>916 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E6%8A%80%E6%9C%AF/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    技术
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/ai/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    AI
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/mcp/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    MCP
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="/learn/posts/ln/key_board/diy_my_first_keyboard/02_editor/">
+            § 2: DIY 键盘 02: 准备工作以及设计配列
+        </a>
     </div>
-  </a>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/tech/network/container_network_iptables/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/tech/network/container_network_iptables/">容器网络 - IpTables</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2025-06-03T23:13:49&#43;08:00">June 3, 2025</time><span class="px-2 text-primary-500">&middot;</span><span>934 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E6%8A%80%E6%9C%AF/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    技术
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/%E7%BD%91%E7%BB%9C/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    网络
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/%E5%AE%B9%E5%99%A8/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    容器
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/iptables/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    IpTables
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        § 2: 本文
     </div>
-  </a>
+    
+    
+
+
+</details>
 
         
-        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/tech/network/base/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/tech/network/base/">网络基础</div>
-        
-        
-        
+          
       </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2025-06-03T22:38:02&#43;08:00">June 3, 2025</time><span class="px-2 text-primary-500">&middot;</span><span>341 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E6%8A%80%E6%9C%AF/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    技术
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/%E7%BD%91%E7%BB%9C/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    网络
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
+     
       
-    </div>
-  </a>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/ln/go/channel/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/ln/go/channel/">GO Channel 的空值特性</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2025-06-02T19:10:41&#43;08:00">June 2, 2025</time><span class="px-2 text-primary-500">&middot;</span><span>286 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E6%8A%80%E6%9C%AF/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    技术
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/ln/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Ln
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/tags/go/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Go
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
       
-    </div>
-  </a>
-
         
         
+          
+          
         
-        <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-          2019
-        </h2>
-        
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/stories/12/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/stories/12/">爱喝可乐</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2019-05-10T16:00:00&#43;08:00">May 10, 2019</time><span class="px-2 text-primary-500">&middot;</span><span>435 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    路遇故事集
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
+      <script>
+        var oid = "views_posts\/ln\/key_board\/diy_my_first_keyboard\/03_pcb_create\/index.md"
+        var oid_likes = "likes_posts\/ln\/key_board\/diy_my_first_keyboard\/03_pcb_create\/index.md"
+      </script>
       
-    </div>
-  </a>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/stories/11/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/stories/11/">小白</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2019-05-02T16:00:00&#43;08:00">May 2, 2019</time><span class="px-2 text-primary-500">&middot;</span><span>33 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    路遇故事集
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
       
-    </div>
-  </a>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/stories/10/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/stories/10/">虎子</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2019-04-30T16:00:00&#43;08:00">April 30, 2019</time><span class="px-2 text-primary-500">&middot;</span><span>70 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    路遇故事集
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
+      <script type="text/javascript" src="/learn/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
       
-    </div>
-  </a>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/stories/09/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/stories/09/">永远的 Wannable & Love</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
   
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2019-04-28T16:00:00&#43;08:00">April 28, 2019</time><span class="px-2 text-primary-500">&middot;</span><span>538 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    路遇故事集
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap md:flex-nowrap article " href="/learn/posts/stories/08/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/learn/posts/stories/08/">草草</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2019-04-26T16:00:00&#43;08:00">April 26, 2019</time><span class="px-2 text-primary-500">&middot;</span><span>768 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/learn/categories/%E8%B7%AF%E9%81%87%E6%95%85%E4%BA%8B%E9%9B%86/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    路遇故事集
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-
-        
-        
-      
     </section>
+  <footer class="pt-8 max-w-prose print:hidden">
 
     
 
-  
-
-    <ul class="flex flex-row mt-8 justify-center">
-    <li>
-      <a
-          href="/learn/posts/page/4/"
-          class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-          rel="prev"
-      >&larr;</a>
-    </li>
-    <li>
-          <a
-              href="/learn/posts/"
-              class=" mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-          >1</a>
-      </li><li class="page-item ">
-          <span class="page-link" aria-hidden="true">&hellip;</span>
-        </li><li>
-          <a
-              href="/learn/posts/page/3/"
-              class=" mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-          >3</a>
-      </li><li>
-          <a
-              href="/learn/posts/page/4/"
-              class=" mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-          >4</a>
-      </li><li>
-          <a
-              href="/learn/posts/page/5/"
-              class="
-          bg-primary-200 dark:bg-primary-400 dark:text-neutral-800
-         mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-          >5</a>
-      </li><li>
-          <a
-              href="/learn/posts/page/6/"
-              class=" mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-          >6</a>
-      </li>
-    <li>
-      <a
-          href="/learn/posts/page/6/"
-          class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-          rel="next"
-      >&rarr;</a>
-    </li>
     
-  </ul>
+  </footer>
+</article>
 
-  
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="返回顶部" title="返回顶部">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

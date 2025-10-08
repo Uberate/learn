@@ -1,6 +1,6 @@
 +++
 date = '2025-10-05T13:50:00+08:00'
-draft = false
+draft = true
 title = 'DIY 键盘 02: 准备工作以及设计配列'
 categories = ['技术']
 tags=['学习', '键盘', 'HHKB']
