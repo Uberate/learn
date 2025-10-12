@@ -14,7 +14,7 @@ Templates:
       > 原文 [Title](Url) -- Author
     NeedDir: true
     Dir: "content/posts/article/short"
-  - Name: s # hcli gen posts -ns numberd
+  - Name: s # hcli gen posts -ns s
     Categories: [ "路遇故事集" ]
     NeedDir: false
     Dir: "content/posts/stories"
@@ -30,7 +30,7 @@ Templates:
 
       {{"{{"}}< lead >{{"}}"}}
 
-      -- Author
+      -- {{.author}}
       {{"{{"}}< /lead >{{"}}"}}
   - Name: fm # hcli gen posts -n fm food-name
     Categories: ["菜谱"]
