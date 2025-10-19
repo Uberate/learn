@@ -7,7 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 ub(s)erate</copyright>
-    <lastBuildDate>Sun, 19 Oct 2025 17:37:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Oct 2025 18:12:06 +0800</lastBuildDate><atom:link href="http://localhost:1313/learn/tags/%E7%9F%AD%E7%AF%87%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>读《URL Design》</title>
+      <link>http://localhost:1313/learn/posts/article/short/15_url_design/</link>
+      <pubDate>Sun, 19 Oct 2025 18:12:06 +0800</pubDate>
+      
+      <guid>http://localhost:1313/learn/posts/article/short/15_url_design/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文 &lt;a href=&#34;https://warpspire.com/posts/url-design&#34; target=&#34;_blank&#34;&gt;URL Design&lt;/a&gt; &amp;ndash; Kneath&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;一开始以为是面向 OpenAPI 的设计，
+后来发现是面向网站的设计。
+这篇文章写在 2010 年，
+距今已有 15 年的时间了，
+15 年中，
+互联网飞速发展，
+URL 已经不再是网站的专属了。
+现在的大型服务，
+网站等，
+都在通过 URL 来快速交换信息。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>读《5 Things Managers Do That Leaders Never Would, According to Simon》</title>
@@ -216,6 +237,8 @@ and to create an environment where people can do their best work.&lt;/p&gt;</des
 
 
 
+  
+
 
 
   
@@ -239,7 +262,7 @@ and to create an environment where people can do their best work.&lt;/p&gt;</des
 &lt;div class=&#34;flex flex-row flex-wrap items-center&#34;&gt;
   
   
-  &lt;time datetime=&#34;2025-08-23T16:23:18&amp;#43;08:00&#34;&gt;August 23, 2025&lt;/time&gt;&lt;span class=&#34;px-2 text-primary-500&#34;&gt;&amp;middot;&lt;/span&gt;&lt;span&gt;1839 字&lt;/span&gt;&lt;span class=&#34;px-2 text-primary-500&#34;&gt;&amp;middot;&lt;/span&gt;&lt;span title=&#34;预计阅读&#34;&gt;4 分钟&lt;/span&gt;
+  &lt;time datetime=&#34;2025-08-23T16:23:18&amp;#43;08:00&#34;&gt;2025-08-23 16:23:18&lt;/time&gt;&lt;span class=&#34;px-2 text-primary-500&#34;&gt;&amp;middot;&lt;/span&gt;&lt;time datetime=&#34;2025-08-23T16:56:29&amp;#43;08:00&#34;&gt;更新于: 2025-08-23 16:56:29&lt;/time&gt;&lt;span class=&#34;px-2 text-primary-500&#34;&gt;&amp;middot;&lt;/span&gt;&lt;span&gt;1839 字&lt;/span&gt;&lt;span class=&#34;px-2 text-primary-500&#34;&gt;&amp;middot;&lt;/span&gt;&lt;span title=&#34;预计阅读&#34;&gt;4 分钟&lt;/span&gt;
   
 
   

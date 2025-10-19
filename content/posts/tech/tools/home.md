@@ -10,11 +10,12 @@ tags = ['工具']
 
 ## 视频、图片加工 & 处理
 
-|      名字      |        简述        | 链接                                                                                     |                        备注                         |
-|:------------:|:----------------:|:---------------------------------------------------------------------------------------|:-------------------------------------------------:|
-| Pixel Motion |  像素风作画、Gif 工具。   | [https://pixel-motion.yysuni.com/](https://pixel-motion.yysuni.com/)                   |                                                   |
-| videoeditor  |  浏览器版本的视频剪辑工具。   | [https://github.com/robinroy03/videoeditor](https://github.com/robinroy03/videoeditor) | 官网地址：[https://trykimu.com/](https://trykimu.com/) |
-|     人声抽离     | 从任何视频中获取清晰的语音内容。 | [https://elevenlabs.io/voice-isolator](https://elevenlabs.io/voice-isolator)           |
+|      名字       |        简述        | 链接                                                                                     |                        备注                         |
+|:-------------:|:----------------:|:---------------------------------------------------------------------------------------|:-------------------------------------------------:|
+| Pixel Motion  |  像素风作画、Gif 工具。   | [https://pixel-motion.yysuni.com/](https://pixel-motion.yysuni.com/)                   |                                                   |
+|  videoeditor  |  浏览器版本的视频剪辑工具。   | [https://github.com/robinroy03/videoeditor](https://github.com/robinroy03/videoeditor) | 官网地址：[https://trykimu.com/](https://trykimu.com/) |
+|     人声抽离      | 从任何视频中获取清晰的语音内容。 | [https://elevenlabs.io/voice-isolator](https://elevenlabs.io/voice-isolator)           |
+| 苹果 APP 手记截图制作 |  苹果 APP 手记截图制作   | https://www.appshots.top/editor                                                        |
 
 ## 虚拟化 & 容器
 

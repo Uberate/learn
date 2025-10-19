@@ -18,6 +18,9 @@ hasCJKLanguage=true
 
 [params]
 colorScheme="Ocean"
+dateFormat="2006-01-02 15:04:05"
+timeZone = "Asia/Shanghai"
+
 [params.article]
 heroStyle = "background"
 showHero = true
@@ -25,6 +28,7 @@ showBreadcrumbs = true
 showTaxonomies = true
 showTableOfContents = true
 showPagination = false
+showDateUpdated = true
 
 [params.homepage]
 layout = "card"

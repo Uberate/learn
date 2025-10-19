@@ -18,6 +18,7 @@ tags = ['GitRepos']
 | 未开始 | [Agent.md](https://github.com/openai/agents.md)                                               |                                                                 |
 | 未开始 | [语音转写](https://github.com/weynechen/intrascribe)                                              |                                                                 |
 | 完成  | [Claude code router](https://github.com/musistudio/claude-code-router/blob/main/README_zh.md) | {{< article link="/learn/posts/tech/ai/claude_code_router/" >}} |
+| 未开始 | https://github.com/looplj/axonhub                                                             |                                                                 |
 
 ### 模型
 
